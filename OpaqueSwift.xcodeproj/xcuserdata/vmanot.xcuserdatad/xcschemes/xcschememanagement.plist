@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OpaqueSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>OpaqueSwiftMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>OpaqueSwiftTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>OpaqueSwiftWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D46C14CC1C4FAC62006641D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D46C14E21C4FACB9006641D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D46C15021C4FAD3A006641D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D46C150F1C4FAD4E006641D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
