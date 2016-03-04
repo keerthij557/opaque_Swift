@@ -14,6 +14,25 @@ extension COpaquePointer: _Hashable
     
 }
 
+extension Double: _Hashable
+{
+    
+}
+
+extension Float: _Hashable
+{
+    
+}
+
+#if (arch(i386) || arch(x86_64))
+    
+extension Float80: _Hashable
+{
+    
+}
+    
+#endif
+
 extension Int: _Hashable
 {
     

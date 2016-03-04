@@ -9,6 +9,11 @@ extension Array: _RangeReplaceableCollectionType
     
 }
 
+extension ArraySlice: _RangeReplaceableCollectionType
+{
+    
+}
+
 extension ContiguousArray: _RangeReplaceableCollectionType
 {
     
