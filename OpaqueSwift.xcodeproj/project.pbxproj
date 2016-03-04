@@ -59,6 +59,10 @@
 		D468E6601C8A068C00553390 /* Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */; };
 		D468E6611C8A068C00553390 /* Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */; };
 		D468E6621C8A068C00553390 /* Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */; };
+		D468E6691C8A077200553390 /* Swift._Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E6681C8A077200553390 /* Swift._Strideable.swift */; };
+		D468E66A1C8A077200553390 /* Swift._Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E6681C8A077200553390 /* Swift._Strideable.swift */; };
+		D468E66B1C8A077200553390 /* Swift._Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E6681C8A077200553390 /* Swift._Strideable.swift */; };
+		D468E66C1C8A077200553390 /* Swift._Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E6681C8A077200553390 /* Swift._Strideable.swift */; };
 		D46C14D11C4FAC62006641D5 /* OpaqueSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C14D01C4FAC62006641D5 /* OpaqueSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46C14E61C4FACB9006641D5 /* OpaqueSwiftWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C14E51C4FACB9006641D5 /* OpaqueSwiftWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46C15061C4FAD3A006641D5 /* OpaqueSwiftTV.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C15051C4FAD3A006641D5 /* OpaqueSwiftTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -128,6 +132,7 @@
 		D447620E1C525D0100F1F811 /* Swift+Swift._Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._Hashable.swift"; sourceTree = "<group>"; };
 		D45782A81C52062D00864C6F /* Experiments (iOS).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Experiments (iOS).playground"; sourceTree = "<group>"; };
 		D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._FloatingPointType.swift; sourceTree = "<group>"; };
+		D468E6681C8A077200553390 /* Swift._Strideable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._Strideable.swift; sourceTree = "<group>"; };
 		D46C14CD1C4FAC62006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46C14D01C4FAC62006641D5 /* OpaqueSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwift.h; sourceTree = "<group>"; };
 		D46C14D21C4FAC62006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -443,6 +448,7 @@
 				D42447291C524A36007B9992 /* Swift._RandomAccessIndexType.swift */,
 				D4D1E1F81C4FB3560038BCD5 /* Swift._RangeReplaceableCollectionType.swift */,
 				D46C15371C4FADC4006641D5 /* Swift._SequenceType.swift */,
+				D468E6681C8A077200553390 /* Swift._Strideable.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -704,6 +710,7 @@
 				D46C15331C4FADB8006641D5 /* Swift._Hashable.swift in Sources */,
 				D4D1E2091C4FB5BB0038BCD5 /* Swift._BidirectionalIndexType.swift in Sources */,
 				D40C70081C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
+				D468E6691C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C15381C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
@@ -736,6 +743,7 @@
 				D46C15341C4FADB8006641D5 /* Swift._Hashable.swift in Sources */,
 				D4D1E20A1C4FB5BB0038BCD5 /* Swift._BidirectionalIndexType.swift in Sources */,
 				D40C70091C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
+				D468E66A1C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C15391C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
@@ -768,6 +776,7 @@
 				D46C15351C4FADB8006641D5 /* Swift._Hashable.swift in Sources */,
 				D4D1E20B1C4FB5BB0038BCD5 /* Swift._BidirectionalIndexType.swift in Sources */,
 				D40C700A1C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
+				D468E66B1C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C153A1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
@@ -800,6 +809,7 @@
 				D46C15361C4FADB8006641D5 /* Swift._Hashable.swift in Sources */,
 				D4D1E20C1C4FB5BB0038BCD5 /* Swift._BidirectionalIndexType.swift in Sources */,
 				D40C700B1C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
+				D468E66C1C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E1F21C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C153B1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
