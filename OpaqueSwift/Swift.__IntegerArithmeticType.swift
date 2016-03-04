@@ -24,9 +24,19 @@ extension __IntegerArithmeticType where Self: IntegerArithmeticType
         return (other as? Self).map({ self + $0 })
     }
     
+    public mutating func _add(other: Any) -> Void?
+    {
+        return (other as? Self).map({ self += $0 })
+    }
+    
     public func _subtracting(other: Any) -> Self?
     {
         return (other as? Self).map({ self - $0 })
+    }
+    
+    public mutating func _subtract(other: Any) -> Void?
+    {
+        return (other as? Self).map({ self -= $0 })
     }
     
     public func _multiplying(by other: Any) -> Self?
@@ -34,13 +44,28 @@ extension __IntegerArithmeticType where Self: IntegerArithmeticType
         return (other as? Self).map({ self * $0 })
     }
     
+    public mutating func _multiply(by other: Any) -> Void?
+    {
+        return (other as? Self).map({ self *= $0 })
+    }
+
     public func _dividing(by other: Any) -> Self?
     {
         return (other as? Self).map({ self / $0 })
     }
     
+    public mutating func _divide(by other: Any) -> Void?
+    {
+        return (other as? Self).map({ self /= $0 })
+    }
+
     public func _modulo(other: Any) -> Self?
     {
         return (other as? Self).map({ self % $0 })
+    }
+    
+    public mutating func _modulate(by other: Any) -> Void?
+    {
+        return (other as? Self).map({ self %= $0 })
     }
 }
