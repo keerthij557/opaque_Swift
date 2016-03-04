@@ -4,7 +4,9 @@
 
 import Swift
 
-public protocol _FloatingPointType
+public typealias FloatingPointType2 = protocol<_FloatingPointType, FloatingPointType>
+
+public protocol _FloatingPointType: _Strideable
 {
     init(_ value: UInt8)
     init(_ value: Int8)
