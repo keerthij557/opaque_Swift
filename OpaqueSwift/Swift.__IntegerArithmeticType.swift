@@ -4,6 +4,8 @@
 
 import Swift
 
+public typealias IntegerArithmeticType2 = protocol<__IntegerArithmeticType, IntegerArithmeticType>
+
 public protocol __IntegerArithmeticType
 {
     func toIntMax() -> IntMax

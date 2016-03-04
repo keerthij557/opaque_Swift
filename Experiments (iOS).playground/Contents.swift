@@ -3,6 +3,3 @@
 //
 
 import OpaqueSwift
-
-12 % 10
-
