@@ -59,6 +59,10 @@
 		D4608C6D1C8BF80800A443BD /* Swift._SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */; };
 		D4608C6E1C8BF80800A443BD /* Swift._SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */; };
 		D4608C6F1C8BF80800A443BD /* Swift._SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */; };
+		D4608C711C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */; };
+		D4608C721C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */; };
+		D4608C731C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */; };
+		D4608C741C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */; };
 		D468E65F1C8A068C00553390 /* Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */; };
 		D468E6601C8A068C00553390 /* Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */; };
 		D468E6611C8A068C00553390 /* Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */; };
@@ -140,6 +144,7 @@
 		D447620E1C525D0100F1F811 /* Swift+Swift._Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._Hashable.swift"; sourceTree = "<group>"; };
 		D45782A81C52062D00864C6F /* Experiments (iOS).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Experiments (iOS).playground"; sourceTree = "<group>"; };
 		D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._SignedNumberType.swift; sourceTree = "<group>"; };
+		D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._SignedNumberType.swift"; sourceTree = "<group>"; };
 		D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._FloatingPointType.swift; sourceTree = "<group>"; };
 		D468E6681C8A077200553390 /* Swift._Strideable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._Strideable.swift; sourceTree = "<group>"; };
 		D468E66D1C8A085100553390 /* Swift+Swift._FloatingPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._FloatingPointType.swift"; sourceTree = "<group>"; };
@@ -502,6 +507,7 @@
 				D42447241C524A25007B9992 /* Swift+Swift._IndexType.swift */,
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift._RangeReplaceableCollectionType.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */,
+				D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -712,6 +718,7 @@
 				D4D1E1F91C4FB3560038BCD5 /* Swift._RangeReplaceableCollectionType.swift in Sources */,
 				D424472A1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D424471E1C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4608C711C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E2131C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D40C70121C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
 				D4D1E1FE1C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift in Sources */,
@@ -747,6 +754,7 @@
 				D4D1E2141C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D424472B1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D424471F1C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4608C721C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E1FF1C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift in Sources */,
 				D40C70131C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
 				D42447101C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
@@ -782,6 +790,7 @@
 				D4D1E2151C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D424472C1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D42447201C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4608C731C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E2001C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift in Sources */,
 				D40C70141C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
 				D42447111C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
@@ -817,6 +826,7 @@
 				D4D1E2161C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D424472D1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D42447211C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4608C741C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E2011C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift in Sources */,
 				D40C70151C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
 				D42447121C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
