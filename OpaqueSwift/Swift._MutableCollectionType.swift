@@ -8,7 +8,7 @@ public protocol _MutableCollectionType: _CollectionType, _MutableIndexable
 {
     func _elementsWithinBounds(bounds: Any) -> _SequenceType?
     
-    mutating func _setElements(elements: _SequenceType, within bounds: Any) -> Void?
+    mutating func _setElements(elements: Any, within bounds: Any) -> Void?
 }
 
 extension _MutableCollectionType where Self: MutableCollectionType, Self.SubSequence: _SequenceType
@@ -18,7 +18,7 @@ extension _MutableCollectionType where Self: MutableCollectionType, Self.SubSequ
         return (bounds as? Range<Index>).map({ self[$0] })
     }
     
-    public mutating func _setElements(elements: _SequenceType, within bounds: Any) -> Void?
+    public mutating func _setElements(elements: Any, within bounds: Any) -> Void?
     {
         return (bounds as? Range<Index>).flatMap({ bounds in (elements as? SubSequence).map({ self[bounds] = $0 }) })
     }
