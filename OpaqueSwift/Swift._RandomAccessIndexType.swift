@@ -4,6 +4,8 @@
 
 import Swift
 
+public typealias RandomAccessIndexType2 = protocol<_RandomAccessIndexType, RandomAccessIndexType>
+
 public protocol _RandomAccessIndexType: _BidirectionalIndexType
 {
     func _distanceTo(other: Any) -> Any?

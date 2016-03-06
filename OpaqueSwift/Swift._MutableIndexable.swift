@@ -4,6 +4,8 @@
 
 import Swift
 
+public typealias MutableIndexable2 = protocol<_MutableIndexable, MutableIndexable>
+
 public protocol _MutableIndexable: _Indexable
 {
     mutating func _setElement(newElement: Any, at position: Any) -> Void?

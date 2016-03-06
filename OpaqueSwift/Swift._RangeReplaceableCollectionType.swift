@@ -4,6 +4,8 @@
 
 import Swift
 
+public typealias RangeReplaceableCollectionType2 = protocol<_RangeReplaceableCollectionType, RangeReplaceableCollectionType>
+
 public protocol _RangeReplaceableCollectionType: _CollectionType
 {
     init()

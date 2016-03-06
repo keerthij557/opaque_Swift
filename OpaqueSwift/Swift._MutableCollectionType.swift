@@ -4,6 +4,8 @@
 
 import Swift
 
+public typealias MutableCollectionType2 = protocol<_MutableCollectionType, MutableCollectionType>
+
 public protocol _MutableCollectionType: _CollectionType, _MutableIndexable
 {
     func _elementsWithinBounds(bounds: Any) -> _SequenceType?
