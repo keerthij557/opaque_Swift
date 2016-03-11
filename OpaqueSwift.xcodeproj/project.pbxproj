@@ -155,11 +155,11 @@
 		D46C14E51C4FACB9006641D5 /* OpaqueSwiftWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwiftWatch.h; sourceTree = "<group>"; };
 		D46C14E71C4FACB9006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C15031C4FAD3A006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D46C15051C4FAD3A006641D5 /* OpaqueSwiftTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpaqueSwiftTV.h; path = OpaqueSwiftTV/OpaqueSwiftTV.h; sourceTree = SOURCE_ROOT; };
-		D46C15071C4FAD3A006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = OpaqueSwiftTV/Info.plist; sourceTree = SOURCE_ROOT; };
+		D46C15051C4FAD3A006641D5 /* OpaqueSwiftTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwiftTV.h; sourceTree = "<group>"; };
+		D46C15071C4FAD3A006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C15101C4FAD4E006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D46C15121C4FAD4E006641D5 /* OpaqueSwiftMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpaqueSwiftMac.h; path = OpaqueSwiftMac/OpaqueSwiftMac.h; sourceTree = SOURCE_ROOT; };
-		D46C15141C4FAD4E006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = OpaqueSwiftMac/Info.plist; sourceTree = SOURCE_ROOT; };
+		D46C15121C4FAD4E006641D5 /* OpaqueSwiftMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwiftMac.h; sourceTree = "<group>"; };
+		D46C15141C4FAD4E006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._CollectionType.swift; sourceTree = "<group>"; };
 		D46C151F1C4FADB8006641D5 /* Swift._Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._Comparable.swift; sourceTree = "<group>"; };
 		D46C15201C4FADB8006641D5 /* Swift._Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._Equatable.swift; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 			children = (
 				D42447231C5248D3007B9992 /* Swift */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D42447231C5248D3007B9992 /* Swift */ = {
@@ -219,7 +219,7 @@
 			children = (
 				D424470E1C5248B2007B9992 /* Swift.Optional++.swift */,
 			);
-			name = Swift;
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		D46C14C31C4FAC62006641D5 = {
@@ -227,7 +227,7 @@
 			children = (
 				D45782A81C52062D00864C6F /* Experiments (iOS).playground */,
 				D46C14CE1C4FAC62006641D5 /* Products */,
-				D46C14CF1C4FAC62006641D5 /* Targets */,
+				D4D6CFF81C92E8FF00104B0F /* Targets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -242,19 +242,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D46C14CF1C4FAC62006641D5 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				D46C14D81C4FAC6D006641D5 /* Framework (Common) */,
-				D46C14D91C4FAC79006641D5 /* Framework (iOS) */,
-				D46C14EF1C4FACD6006641D5 /* Framework (Mac) */,
-				D46C14F01C4FACDD006641D5 /* Framework (TV) */,
-				D46C14E41C4FACB9006641D5 /* Framework (Watch) */,
-			);
-			name = Targets;
-			path = OpaqueSwift;
-			sourceTree = "<group>";
-		};
 		D46C14D81C4FAC6D006641D5 /* Framework (Common) */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +249,7 @@
 				D46C14F91C4FAD10006641D5 /* Supporting Files */,
 			);
 			name = "Framework (Common)";
+			path = "Targets/Framework (Common)";
 			sourceTree = "<group>";
 		};
 		D46C14D91C4FAC79006641D5 /* Framework (iOS) */ = {
@@ -271,13 +259,14 @@
 				D46C14DB1C4FAC80006641D5 /* Supporting Files */,
 			);
 			name = "Framework (iOS)";
+			path = "Targets/Framework (iOS)";
 			sourceTree = "<group>";
 		};
 		D46C14DA1C4FAC7E006641D5 /* Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Files;
+			path = Files;
 			sourceTree = "<group>";
 		};
 		D46C14DB1C4FAC80006641D5 /* Supporting Files */ = {
@@ -286,7 +275,7 @@
 				D46C14DD1C4FAC89006641D5 /* Bundle Resources */,
 				D46C14DC1C4FAC85006641D5 /* Headers */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D46C14DC1C4FAC85006641D5 /* Headers */ = {
@@ -294,7 +283,7 @@
 			children = (
 				D46C14D01C4FAC62006641D5 /* OpaqueSwift.h */,
 			);
-			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		D46C14DD1C4FAC89006641D5 /* Bundle Resources */ = {
@@ -302,7 +291,7 @@
 			children = (
 				D46C14D21C4FAC62006641D5 /* Info.plist */,
 			);
-			name = "Bundle Resources";
+			path = "Bundle Resources";
 			sourceTree = "<group>";
 		};
 		D46C14E41C4FACB9006641D5 /* Framework (Watch) */ = {
@@ -312,8 +301,8 @@
 				D46C14EC1C4FACCA006641D5 /* Supporting Files */,
 			);
 			name = "Framework (Watch)";
-			path = OpaqueSwiftWatch;
-			sourceTree = SOURCE_ROOT;
+			path = "Targets/Framework (Watch)";
+			sourceTree = "<group>";
 		};
 		D46C14EC1C4FACCA006641D5 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -321,7 +310,7 @@
 				D46C14EE1C4FACD2006641D5 /* Bundle Resources */,
 				D46C14ED1C4FACCF006641D5 /* Headers */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D46C14ED1C4FACCF006641D5 /* Headers */ = {
@@ -329,7 +318,7 @@
 			children = (
 				D46C14E51C4FACB9006641D5 /* OpaqueSwiftWatch.h */,
 			);
-			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		D46C14EE1C4FACD2006641D5 /* Bundle Resources */ = {
@@ -337,7 +326,7 @@
 			children = (
 				D46C14E71C4FACB9006641D5 /* Info.plist */,
 			);
-			name = "Bundle Resources";
+			path = "Bundle Resources";
 			sourceTree = "<group>";
 		};
 		D46C14EF1C4FACD6006641D5 /* Framework (Mac) */ = {
@@ -347,6 +336,7 @@
 				D46C14F71C4FAD06006641D5 /* Supporting Files */,
 			);
 			name = "Framework (Mac)";
+			path = "Targets/Framework (Mac)";
 			sourceTree = "<group>";
 		};
 		D46C14F01C4FACDD006641D5 /* Framework (TV) */ = {
@@ -356,13 +346,14 @@
 				D46C14F21C4FACE6006641D5 /* Supporting Files */,
 			);
 			name = "Framework (TV)";
+			path = "Targets/Framework (TV)";
 			sourceTree = "<group>";
 		};
 		D46C14F11C4FACE3006641D5 /* Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Files;
+			path = Files;
 			sourceTree = "<group>";
 		};
 		D46C14F21C4FACE6006641D5 /* Supporting Files */ = {
@@ -371,7 +362,7 @@
 				D46C14FB1C4FAD1B006641D5 /* Bundle Resources */,
 				D46C14F51C4FACFB006641D5 /* Headers */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D46C14F51C4FACFB006641D5 /* Headers */ = {
@@ -379,14 +370,14 @@
 			children = (
 				D46C15051C4FAD3A006641D5 /* OpaqueSwiftTV.h */,
 			);
-			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		D46C14F61C4FAD03006641D5 /* Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Files;
+			path = Files;
 			sourceTree = "<group>";
 		};
 		D46C14F71C4FAD06006641D5 /* Supporting Files */ = {
@@ -395,7 +386,7 @@
 				D46C14FC1C4FAD1D006641D5 /* Bundle Resources */,
 				D46C14F81C4FAD0A006641D5 /* Headers */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D46C14F81C4FAD0A006641D5 /* Headers */ = {
@@ -403,14 +394,14 @@
 			children = (
 				D46C15121C4FAD4E006641D5 /* OpaqueSwiftMac.h */,
 			);
-			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		D46C14F91C4FAD10006641D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D46C14FA1C4FAD14006641D5 /* Files */ = {
@@ -418,7 +409,7 @@
 			children = (
 				D4D1E1EA1C4FB1F30038BCD5 /* Module Extensions */,
 			);
-			name = Files;
+			path = Files;
 			sourceTree = "<group>";
 		};
 		D46C14FB1C4FAD1B006641D5 /* Bundle Resources */ = {
@@ -426,7 +417,7 @@
 			children = (
 				D46C15071C4FAD3A006641D5 /* Info.plist */,
 			);
-			name = "Bundle Resources";
+			path = "Bundle Resources";
 			sourceTree = "<group>";
 		};
 		D46C14FC1C4FAD1D006641D5 /* Bundle Resources */ = {
@@ -434,14 +425,14 @@
 			children = (
 				D46C15141C4FAD4E006641D5 /* Info.plist */,
 			);
-			name = "Bundle Resources";
+			path = "Bundle Resources";
 			sourceTree = "<group>";
 		};
 		D46C14FD1C4FAD29006641D5 /* Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Files;
+			path = Files;
 			sourceTree = "<group>";
 		};
 		D4D1E1E91C4FB1F10038BCD5 /* Swift */ = {
@@ -466,7 +457,7 @@
 				D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */,
 				D468E6681C8A077200553390 /* Swift._Strideable.swift */,
 			);
-			name = Swift;
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		D4D1E1EA1C4FB1F30038BCD5 /* Module Extensions */ = {
@@ -476,7 +467,7 @@
 				D4D1E1EB1C4FB1F70038BCD5 /* Helpers */,
 				D4D1E1EC1C4FB1FC0038BCD5 /* Protocol Implementations */,
 			);
-			name = "Module Extensions";
+			path = "Module Extensions";
 			sourceTree = "<group>";
 		};
 		D4D1E1EB1C4FB1F70038BCD5 /* Helpers */ = {
@@ -484,7 +475,7 @@
 			children = (
 				D4D1E1E91C4FB1F10038BCD5 /* Swift */,
 			);
-			name = Helpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D4D1E1EC1C4FB1FC0038BCD5 /* Protocol Implementations */ = {
@@ -492,7 +483,7 @@
 			children = (
 				D4D1E1ED1C4FB2090038BCD5 /* Swift */,
 			);
-			name = "Protocol Implementations";
+			path = "Protocol Implementations";
 			sourceTree = "<group>";
 		};
 		D4D1E1ED1C4FB2090038BCD5 /* Swift */ = {
@@ -509,7 +500,27 @@
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */,
 				D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */,
 			);
-			name = Swift;
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		D4D6CFF71C92E8F700104B0F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		D4D6CFF81C92E8FF00104B0F /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				D46C14D81C4FAC6D006641D5 /* Framework (Common) */,
+				D46C14D91C4FAC79006641D5 /* Framework (iOS) */,
+				D46C14EF1C4FACD6006641D5 /* Framework (Mac) */,
+				D46C14F01C4FACDD006641D5 /* Framework (TV) */,
+				D46C14E41C4FACB9006641D5 /* Framework (Watch) */,
+				D4D6CFF71C92E8F700104B0F /* Vendors */,
+			);
+			name = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -550,9 +561,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D46C14CC1C4FAC62006641D5 /* OpaqueSwift */ = {
+		D46C14CC1C4FAC62006641D5 /* OpaqueSwift-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D46C14D51C4FAC62006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift" */;
+			buildConfigurationList = D46C14D51C4FAC62006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-iOS" */;
 			buildPhases = (
 				D46C14C81C4FAC62006641D5 /* Sources */,
 				D46C14C91C4FAC62006641D5 /* Frameworks */,
@@ -563,14 +574,14 @@
 			);
 			dependencies = (
 			);
-			name = OpaqueSwift;
+			name = "OpaqueSwift-iOS";
 			productName = OpaqueSwift;
 			productReference = D46C14CD1C4FAC62006641D5 /* OpaqueSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D46C14E21C4FACB9006641D5 /* OpaqueSwiftWatch */ = {
+		D46C14E21C4FACB9006641D5 /* OpaqueSwift-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D46C14E81C4FACB9006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwiftWatch" */;
+			buildConfigurationList = D46C14E81C4FACB9006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-watchOS" */;
 			buildPhases = (
 				D46C14DE1C4FACB9006641D5 /* Sources */,
 				D46C14DF1C4FACB9006641D5 /* Frameworks */,
@@ -581,14 +592,14 @@
 			);
 			dependencies = (
 			);
-			name = OpaqueSwiftWatch;
+			name = "OpaqueSwift-watchOS";
 			productName = OpaqueSwiftWatch;
 			productReference = D46C14E31C4FACB9006641D5 /* OpaqueSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D46C15021C4FAD3A006641D5 /* OpaqueSwiftTV */ = {
+		D46C15021C4FAD3A006641D5 /* OpaqueSwift-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D46C15081C4FAD3A006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwiftTV" */;
+			buildConfigurationList = D46C15081C4FAD3A006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-tvOS" */;
 			buildPhases = (
 				D46C14FE1C4FAD3A006641D5 /* Sources */,
 				D46C14FF1C4FAD3A006641D5 /* Frameworks */,
@@ -599,14 +610,14 @@
 			);
 			dependencies = (
 			);
-			name = OpaqueSwiftTV;
+			name = "OpaqueSwift-tvOS";
 			productName = OpaqueSwiftTV;
 			productReference = D46C15031C4FAD3A006641D5 /* OpaqueSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D46C150F1C4FAD4E006641D5 /* OpaqueSwiftMac */ = {
+		D46C150F1C4FAD4E006641D5 /* OpaqueSwift-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D46C15151C4FAD4E006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwiftMac" */;
+			buildConfigurationList = D46C15151C4FAD4E006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-OSX" */;
 			buildPhases = (
 				D46C150B1C4FAD4E006641D5 /* Sources */,
 				D46C150C1C4FAD4E006641D5 /* Frameworks */,
@@ -617,7 +628,7 @@
 			);
 			dependencies = (
 			);
-			name = OpaqueSwiftMac;
+			name = "OpaqueSwift-OSX";
 			productName = OpaqueSwiftMac;
 			productReference = D46C15101C4FAD4E006641D5 /* OpaqueSwift.framework */;
 			productType = "com.apple.product-type.framework";
@@ -661,10 +672,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D46C14CC1C4FAC62006641D5 /* OpaqueSwift */,
-				D46C14E21C4FACB9006641D5 /* OpaqueSwiftWatch */,
-				D46C15021C4FAD3A006641D5 /* OpaqueSwiftTV */,
-				D46C150F1C4FAD4E006641D5 /* OpaqueSwiftMac */,
+				D46C14CC1C4FAC62006641D5 /* OpaqueSwift-iOS */,
+				D46C150F1C4FAD4E006641D5 /* OpaqueSwift-OSX */,
+				D46C15021C4FAD3A006641D5 /* OpaqueSwift-tvOS */,
+				D46C14E21C4FACB9006641D5 /* OpaqueSwift-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -947,11 +958,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OpaqueSwift/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (iOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -965,11 +976,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OpaqueSwift/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (iOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -983,7 +994,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OpaqueSwiftWatch/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (Watch)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftWatch;
@@ -1005,7 +1016,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OpaqueSwiftWatch/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (Watch)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftWatch;
@@ -1115,7 +1126,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D46C14D51C4FAC62006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift" */ = {
+		D46C14D51C4FAC62006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46C14D61C4FAC62006641D5 /* Debug */,
@@ -1124,7 +1135,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D46C14E81C4FACB9006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwiftWatch" */ = {
+		D46C14E81C4FACB9006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46C14E91C4FACB9006641D5 /* Debug */,
@@ -1133,7 +1144,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D46C15081C4FAD3A006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwiftTV" */ = {
+		D46C15081C4FAD3A006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46C15091C4FAD3A006641D5 /* Debug */,
@@ -1142,7 +1153,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D46C15151C4FAD4E006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwiftMac" */ = {
+		D46C15151C4FAD4E006641D5 /* Build configuration list for PBXNativeTarget "OpaqueSwift-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46C15161C4FAD4E006641D5 /* Debug */,

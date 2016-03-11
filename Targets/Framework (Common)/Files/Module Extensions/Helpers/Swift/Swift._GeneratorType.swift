@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias Generator2 = protocol<_GeneratorType, GeneratorType>
+public typealias GeneratorType2 = protocol<_GeneratorType, GeneratorType>
 
 public protocol _GeneratorType
 {

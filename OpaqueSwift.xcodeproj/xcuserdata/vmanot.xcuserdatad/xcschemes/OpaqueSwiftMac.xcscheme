@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D46C150F1C4FAD4E006641D5"
                BuildableName = "OpaqueSwift.framework"
-               BlueprintName = "OpaqueSwiftMac"
+               BlueprintName = "OpaqueSwift-OSX"
                ReferencedContainer = "container:OpaqueSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D46C150F1C4FAD4E006641D5"
             BuildableName = "OpaqueSwift.framework"
-            BlueprintName = "OpaqueSwiftMac"
+            BlueprintName = "OpaqueSwift-OSX"
             ReferencedContainer = "container:OpaqueSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D46C150F1C4FAD4E006641D5"
             BuildableName = "OpaqueSwift.framework"
-            BlueprintName = "OpaqueSwiftMac"
+            BlueprintName = "OpaqueSwift-OSX"
             ReferencedContainer = "container:OpaqueSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
