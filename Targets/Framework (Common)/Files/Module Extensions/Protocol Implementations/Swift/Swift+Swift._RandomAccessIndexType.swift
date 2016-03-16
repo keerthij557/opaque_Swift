@@ -4,22 +4,7 @@
 
 import Swift
 
-extension AnyBidirectionalIndex: _BidirectionalIndexType
-{
-    
-}
-
-extension AnyForwardIndex: _ForwardIndexType
-{
-    
-}
-
 extension AnyRandomAccessIndex: _RandomAccessIndexType
-{
-    
-}
-
-extension DictionaryIndex: _ForwardIndexType
 {
     
 }
@@ -45,26 +30,6 @@ extension Int32: _RandomAccessIndexType
 }
 
 extension Int64: _RandomAccessIndexType
-{
-    
-}
-
-extension LazyFilterIndex: _ForwardIndexType
-{
-    
-}
-
-extension SetIndex: _ForwardIndexType
-{
-    
-}
-
-extension String.CharacterView.Index: _BidirectionalIndexType
-{
-    
-}
-
-extension String.UnicodeScalarView.Index: _BidirectionalIndexType
 {
     
 }

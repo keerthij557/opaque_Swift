@@ -6,7 +6,7 @@ import Swift
 
 public typealias ForwardIndexType2 = protocol<_ForwardIndexType, ForwardIndexType>
 
-public protocol _ForwardIndexType: _IndexType
+public protocol _ForwardIndexType
 {
     func successor() -> Self
     
