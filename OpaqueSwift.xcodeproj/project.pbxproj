@@ -75,10 +75,6 @@
 		D468E66F1C8A085100553390 /* Swift+Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift._FloatingPointType.swift */; };
 		D468E6701C8A085100553390 /* Swift+Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift._FloatingPointType.swift */; };
 		D468E6711C8A085100553390 /* Swift+Swift._FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift._FloatingPointType.swift */; };
-		D46C14D11C4FAC62006641D5 /* OpaqueSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C14D01C4FAC62006641D5 /* OpaqueSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D46C14E61C4FACB9006641D5 /* OpaqueSwiftWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C14E51C4FACB9006641D5 /* OpaqueSwiftWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D46C15061C4FAD3A006641D5 /* OpaqueSwiftTV.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C15051C4FAD3A006641D5 /* OpaqueSwiftTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D46C15131C4FAD4E006641D5 /* OpaqueSwiftMac.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C15121C4FAD4E006641D5 /* OpaqueSwiftMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46C15231C4FADB8006641D5 /* Swift._CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */; };
 		D46C15241C4FADB8006641D5 /* Swift._CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */; };
 		D46C15251C4FADB8006641D5 /* Swift._CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */; };
@@ -149,16 +145,12 @@
 		D468E6681C8A077200553390 /* Swift._Strideable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._Strideable.swift; sourceTree = "<group>"; };
 		D468E66D1C8A085100553390 /* Swift+Swift._FloatingPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._FloatingPointType.swift"; sourceTree = "<group>"; };
 		D46C14CD1C4FAC62006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D46C14D01C4FAC62006641D5 /* OpaqueSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwift.h; sourceTree = "<group>"; };
 		D46C14D21C4FAC62006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C14E31C4FACB9006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D46C14E51C4FACB9006641D5 /* OpaqueSwiftWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwiftWatch.h; sourceTree = "<group>"; };
 		D46C14E71C4FACB9006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C15031C4FAD3A006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D46C15051C4FAD3A006641D5 /* OpaqueSwiftTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwiftTV.h; sourceTree = "<group>"; };
 		D46C15071C4FAD3A006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C15101C4FAD4E006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D46C15121C4FAD4E006641D5 /* OpaqueSwiftMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpaqueSwiftMac.h; sourceTree = "<group>"; };
 		D46C15141C4FAD4E006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._CollectionType.swift; sourceTree = "<group>"; };
 		D46C151F1C4FADB8006641D5 /* Swift._Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._Comparable.swift; sourceTree = "<group>"; };
@@ -225,9 +217,9 @@
 		D46C14C31C4FAC62006641D5 = {
 			isa = PBXGroup;
 			children = (
-				D45782A81C52062D00864C6F /* Experiments (iOS).playground */,
 				D46C14CE1C4FAC62006641D5 /* Products */,
 				D4D6CFF81C92E8FF00104B0F /* Targets */,
+				D45782A81C52062D00864C6F /* Experiments (iOS).playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,8 +240,7 @@
 				D46C14FA1C4FAD14006641D5 /* Files */,
 				D46C14F91C4FAD10006641D5 /* Supporting Files */,
 			);
-			name = "Framework (Common)";
-			path = "Targets/Framework (Common)";
+			path = "Framework (Common)";
 			sourceTree = "<group>";
 		};
 		D46C14D91C4FAC79006641D5 /* Framework (iOS) */ = {
@@ -258,8 +249,7 @@
 				D46C14DA1C4FAC7E006641D5 /* Files */,
 				D46C14DB1C4FAC80006641D5 /* Supporting Files */,
 			);
-			name = "Framework (iOS)";
-			path = "Targets/Framework (iOS)";
+			path = "Framework (iOS)";
 			sourceTree = "<group>";
 		};
 		D46C14DA1C4FAC7E006641D5 /* Files */ = {
@@ -281,7 +271,6 @@
 		D46C14DC1C4FAC85006641D5 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				D46C14D01C4FAC62006641D5 /* OpaqueSwift.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -294,14 +283,13 @@
 			path = "Bundle Resources";
 			sourceTree = "<group>";
 		};
-		D46C14E41C4FACB9006641D5 /* Framework (Watch) */ = {
+		D46C14E41C4FACB9006641D5 /* Framework (watchOS) */ = {
 			isa = PBXGroup;
 			children = (
 				D46C14FD1C4FAD29006641D5 /* Files */,
 				D46C14EC1C4FACCA006641D5 /* Supporting Files */,
 			);
-			name = "Framework (Watch)";
-			path = "Targets/Framework (Watch)";
+			path = "Framework (watchOS)";
 			sourceTree = "<group>";
 		};
 		D46C14EC1C4FACCA006641D5 /* Supporting Files */ = {
@@ -316,7 +304,6 @@
 		D46C14ED1C4FACCF006641D5 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				D46C14E51C4FACB9006641D5 /* OpaqueSwiftWatch.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -329,24 +316,22 @@
 			path = "Bundle Resources";
 			sourceTree = "<group>";
 		};
-		D46C14EF1C4FACD6006641D5 /* Framework (Mac) */ = {
+		D46C14EF1C4FACD6006641D5 /* Framework (OSX) */ = {
 			isa = PBXGroup;
 			children = (
 				D46C14F61C4FAD03006641D5 /* Files */,
 				D46C14F71C4FAD06006641D5 /* Supporting Files */,
 			);
-			name = "Framework (Mac)";
-			path = "Targets/Framework (Mac)";
+			path = "Framework (OSX)";
 			sourceTree = "<group>";
 		};
-		D46C14F01C4FACDD006641D5 /* Framework (TV) */ = {
+		D46C14F01C4FACDD006641D5 /* Framework (tvOS) */ = {
 			isa = PBXGroup;
 			children = (
 				D46C14F11C4FACE3006641D5 /* Files */,
 				D46C14F21C4FACE6006641D5 /* Supporting Files */,
 			);
-			name = "Framework (TV)";
-			path = "Targets/Framework (TV)";
+			path = "Framework (tvOS)";
 			sourceTree = "<group>";
 		};
 		D46C14F11C4FACE3006641D5 /* Files */ = {
@@ -368,7 +353,6 @@
 		D46C14F51C4FACFB006641D5 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				D46C15051C4FAD3A006641D5 /* OpaqueSwiftTV.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -392,7 +376,6 @@
 		D46C14F81C4FAD0A006641D5 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				D46C15121C4FAD4E006641D5 /* OpaqueSwiftMac.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -438,7 +421,6 @@
 		D4D1E1E91C4FB1F10038BCD5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D40C70071C89D43700CB104B /* Swift.__IntegerArithmeticType.swift */,
 				D4D1E2081C4FB5BB0038BCD5 /* Swift._BidirectionalIndexType.swift */,
 				D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */,
 				D46C151F1C4FADB8006641D5 /* Swift._Comparable.swift */,
@@ -447,8 +429,8 @@
 				D4D1E1FD1C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift */,
 				D46C15211C4FADB8006641D5 /* Swift._GeneratorType.swift */,
 				D46C15221C4FADB8006641D5 /* Swift._Hashable.swift */,
-				D42447151C5248C3007B9992 /* Swift._Indexable.swift */,
 				D424472E1C524A90007B9992 /* Swift._IndexType.swift */,
+				D42447151C5248C3007B9992 /* Swift._Indexable.swift */,
 				D42447141C5248C3007B9992 /* Swift._MutableCollectionType.swift */,
 				D42447131C5248C3007B9992 /* Swift._MutableIndexable.swift */,
 				D42447291C524A36007B9992 /* Swift._RandomAccessIndexType.swift */,
@@ -456,6 +438,7 @@
 				D46C15371C4FADC4006641D5 /* Swift._SequenceType.swift */,
 				D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */,
 				D468E6681C8A077200553390 /* Swift._Strideable.swift */,
+				D40C70071C89D43700CB104B /* Swift.__IntegerArithmeticType.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -489,7 +472,6 @@
 		D4D1E1ED1C4FB2090038BCD5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D40C700C1C89D5EE00CB104B /* Swift+Swift.__IntegerArithmeticType.swift */,
 				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift */,
 				D40C70111C89E72100CB104B /* Swift+Swift._Equatable.swift */,
 				D468E66D1C8A085100553390 /* Swift+Swift._FloatingPointType.swift */,
@@ -499,6 +481,7 @@
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift._RangeReplaceableCollectionType.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */,
 				D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */,
+				D40C700C1C89D5EE00CB104B /* Swift+Swift.__IntegerArithmeticType.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -507,20 +490,20 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Vendors;
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 		D4D6CFF81C92E8FF00104B0F /* Targets */ = {
 			isa = PBXGroup;
 			children = (
 				D46C14D81C4FAC6D006641D5 /* Framework (Common) */,
+				D46C14EF1C4FACD6006641D5 /* Framework (OSX) */,
 				D46C14D91C4FAC79006641D5 /* Framework (iOS) */,
-				D46C14EF1C4FACD6006641D5 /* Framework (Mac) */,
-				D46C14F01C4FACDD006641D5 /* Framework (TV) */,
-				D46C14E41C4FACB9006641D5 /* Framework (Watch) */,
+				D46C14F01C4FACDD006641D5 /* Framework (tvOS) */,
+				D46C14E41C4FACB9006641D5 /* Framework (watchOS) */,
 				D4D6CFF71C92E8F700104B0F /* Vendors */,
 			);
-			name = Targets;
+			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -530,7 +513,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46C14D11C4FAC62006641D5 /* OpaqueSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +520,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46C14E61C4FACB9006641D5 /* OpaqueSwiftWatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +527,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46C15061C4FAD3A006641D5 /* OpaqueSwiftTV.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,7 +534,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46C15131C4FAD4E006641D5 /* OpaqueSwiftMac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -961,7 +940,7 @@
 				INFOPLIST_FILE = "Targets/Framework (iOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-iOS";
 				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -979,7 +958,7 @@
 				INFOPLIST_FILE = "Targets/Framework (iOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-iOS";
 				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
 			};
@@ -994,10 +973,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Targets/Framework (Watch)/Supporting Files/Bundle Resources/Info.plist";
+				INFOPLIST_FILE = "Targets/Framework (watchOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-watchOS";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1016,10 +995,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Targets/Framework (Watch)/Supporting Files/Bundle Resources/Info.plist";
+				INFOPLIST_FILE = "Targets/Framework (watchOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-watchOS";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1036,10 +1015,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OpaqueSwiftTV/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (tvOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftTV;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-tvOS";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1057,10 +1036,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OpaqueSwiftTV/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (tvOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftTV;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-tvOS";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1080,11 +1059,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = OpaqueSwiftMac/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (OSX)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftMac;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-OSX";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1103,11 +1082,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = OpaqueSwiftMac/Info.plist;
+				INFOPLIST_FILE = "Targets/Framework (OSX)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vmanot.OpaqueSwiftMac;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.OpaqueSwift-OSX";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
