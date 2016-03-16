@@ -4,6 +4,16 @@
 
 import Swift
 
+extension _ArrayBuffer: _CollectionType
+{
+    
+}
+
+extension _ContiguousArrayBuffer: _CollectionType
+{
+    
+}
+
 extension AnyBidirectionalCollection: _CollectionType
 {
     
