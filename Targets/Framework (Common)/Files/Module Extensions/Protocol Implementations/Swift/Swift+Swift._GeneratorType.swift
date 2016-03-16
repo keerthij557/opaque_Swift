@@ -24,12 +24,12 @@ extension EnumerateGenerator: _GeneratorType
     
 }
 
-extension GeneratorOfOne: _GeneratorType
+extension FlattenGenerator: _GeneratorType
 {
     
 }
 
-extension FlattenGenerator: _GeneratorType
+extension GeneratorOfOne: _GeneratorType
 {
     
 }
@@ -55,6 +55,16 @@ extension LazyFilterGenerator: _GeneratorType
 }
 
 extension LazyMapGenerator: _GeneratorType
+{
+    
+}
+
+extension NSFastGenerator: _GeneratorType
+{
+    
+}
+
+extension NSIndexSetGenerator: _GeneratorType
 {
     
 }
