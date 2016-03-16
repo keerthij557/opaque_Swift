@@ -8,11 +8,18 @@ public typealias GeneratorType2 = protocol<_GeneratorType, GeneratorType>
 
 public protocol _GeneratorType
 {
+    static var _Element: Any.Type { get }
+    
     mutating func _next() -> Any?
 }
 
 extension _GeneratorType where Self: GeneratorType
 {
+    public static var _Element: Any.Type
+    {
+        return Element.self
+    }
+    
     public mutating func _next() -> Any?
     {
         return next().map({ $0 })
