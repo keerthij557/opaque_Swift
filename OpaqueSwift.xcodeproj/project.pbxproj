@@ -138,7 +138,6 @@
 		D424472E1C524A90007B9992 /* Swift._IndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._IndexType.swift; sourceTree = "<group>"; };
 		D42447331C525277007B9992 /* Swift+Swift._GeneratorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._GeneratorType.swift"; sourceTree = "<group>"; };
 		D447620E1C525D0100F1F811 /* Swift+Swift._Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._Hashable.swift"; sourceTree = "<group>"; };
-		D45782A81C52062D00864C6F /* Experiments (iOS).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Experiments (iOS).playground"; sourceTree = "<group>"; };
 		D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._SignedNumberType.swift; sourceTree = "<group>"; };
 		D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._SignedNumberType.swift"; sourceTree = "<group>"; };
 		D468E65E1C8A068C00553390 /* Swift._FloatingPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._FloatingPointType.swift; sourceTree = "<group>"; };
@@ -219,7 +218,6 @@
 			children = (
 				D46C14CE1C4FAC62006641D5 /* Products */,
 				D4D6CFF81C92E8FF00104B0F /* Targets */,
-				D45782A81C52062D00864C6F /* Experiments (iOS).playground */,
 			);
 			sourceTree = "<group>";
 		};
