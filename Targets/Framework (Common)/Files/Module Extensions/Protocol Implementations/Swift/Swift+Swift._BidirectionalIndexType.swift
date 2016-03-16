@@ -9,6 +9,11 @@ extension AnyBidirectionalIndex: _BidirectionalIndexType
     
 }
 
+extension FlattenBidirectionalCollectionIndex: _BidirectionalIndexType
+{
+    
+}
+
 extension String.CharacterView.Index: _BidirectionalIndexType
 {
     

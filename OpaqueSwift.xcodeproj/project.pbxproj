@@ -127,6 +127,18 @@
 		D4D1E75A1C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7581C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift */; };
 		D4D1E75B1C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7581C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift */; };
 		D4D1E75C1C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7581C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift */; };
+		D4D1E75E1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */; };
+		D4D1E75F1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */; };
+		D4D1E7601C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */; };
+		D4D1E7611C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */; };
+		D4D1E7631C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */; };
+		D4D1E7641C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */; };
+		D4D1E7651C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */; };
+		D4D1E7661C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */; };
+		D4D1E7681C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */; };
+		D4D1E7691C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */; };
+		D4D1E76A1C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */; };
+		D4D1E76B1C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -168,6 +180,9 @@
 		D4D1E2121C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._CollectionType.swift"; sourceTree = "<group>"; };
 		D4D1E7531C9991DC00A23F95 /* Swift+Swift._RandomAccessIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._RandomAccessIndexType.swift"; sourceTree = "<group>"; };
 		D4D1E7581C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._BidirectionalIndexType.swift"; sourceTree = "<group>"; };
+		D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.__IntegerType.swift"; sourceTree = "<group>"; };
+		D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.__IntegerType.swift; sourceTree = "<group>"; };
+		D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.__Incrementable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,7 +439,9 @@
 		D4D1E1E91C4FB1F10038BCD5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */,
 				D40C70071C89D43700CB104B /* Swift.__IntegerArithmeticType.swift */,
+				D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */,
 				D4D1E2081C4FB5BB0038BCD5 /* Swift._BidirectionalIndexType.swift */,
 				D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */,
 				D46C151F1C4FADB8006641D5 /* Swift._Comparable.swift */,
@@ -475,6 +492,7 @@
 			isa = PBXGroup;
 			children = (
 				D40C700C1C89D5EE00CB104B /* Swift+Swift.__IntegerArithmeticType.swift */,
+				D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */,
 				D4D1E7581C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift */,
 				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift */,
 				D40C70111C89E72100CB104B /* Swift+Swift._Equatable.swift */,
@@ -702,6 +720,7 @@
 				D447620F1C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
 				D42447341C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D424470F1C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
+				D4D1E75E1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
 				D424471A1C5248C3007B9992 /* Swift._MutableCollectionType.swift in Sources */,
 				D46C152F1C4FADB8006641D5 /* Swift._GeneratorType.swift in Sources */,
 				D42447251C524A25007B9992 /* Swift+Swift._ForwardIndexType.swift in Sources */,
@@ -712,6 +731,7 @@
 				D4D1E1F91C4FB3560038BCD5 /* Swift._RangeReplaceableCollectionType.swift in Sources */,
 				D424472A1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D424471E1C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4D1E7681C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */,
 				D4608C711C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E2131C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D40C70121C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
@@ -727,6 +747,7 @@
 				D40C70081C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
 				D468E66E1C8A085100553390 /* Swift+Swift._FloatingPointType.swift in Sources */,
 				D468E6691C8A077200553390 /* Swift._Strideable.swift in Sources */,
+				D4D1E7631C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C15381C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
@@ -739,6 +760,7 @@
 				D44762101C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
 				D42447351C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D46C15301C4FADB8006641D5 /* Swift._GeneratorType.swift in Sources */,
+				D4D1E7611C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
 				D424471B1C5248C3007B9992 /* Swift._MutableCollectionType.swift in Sources */,
 				D46C15281C4FADB8006641D5 /* Swift._Comparable.swift in Sources */,
 				D42447261C524A25007B9992 /* Swift+Swift._ForwardIndexType.swift in Sources */,
@@ -749,6 +771,7 @@
 				D4D1E2141C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D424472B1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D424471F1C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4D1E76B1C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */,
 				D4608C721C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E1FF1C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift in Sources */,
 				D40C70131C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
@@ -764,6 +787,7 @@
 				D40C70091C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
 				D468E66F1C8A085100553390 /* Swift+Swift._FloatingPointType.swift in Sources */,
 				D468E66A1C8A077200553390 /* Swift._Strideable.swift in Sources */,
+				D4D1E7661C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C15391C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
@@ -776,6 +800,7 @@
 				D44762111C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
 				D42447361C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D46C15311C4FADB8006641D5 /* Swift._GeneratorType.swift in Sources */,
+				D4D1E7601C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
 				D424471C1C5248C3007B9992 /* Swift._MutableCollectionType.swift in Sources */,
 				D46C15291C4FADB8006641D5 /* Swift._Comparable.swift in Sources */,
 				D42447271C524A25007B9992 /* Swift+Swift._ForwardIndexType.swift in Sources */,
@@ -786,6 +811,7 @@
 				D4D1E2151C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D424472C1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D42447201C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4D1E76A1C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */,
 				D4608C731C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E2001C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift in Sources */,
 				D40C70141C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
@@ -801,6 +827,7 @@
 				D40C700A1C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
 				D468E6701C8A085100553390 /* Swift+Swift._FloatingPointType.swift in Sources */,
 				D468E66B1C8A077200553390 /* Swift._Strideable.swift in Sources */,
+				D4D1E7651C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C153A1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
@@ -813,6 +840,7 @@
 				D44762121C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
 				D42447371C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D46C15321C4FADB8006641D5 /* Swift._GeneratorType.swift in Sources */,
+				D4D1E75F1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
 				D424471D1C5248C3007B9992 /* Swift._MutableCollectionType.swift in Sources */,
 				D46C152A1C4FADB8006641D5 /* Swift._Comparable.swift in Sources */,
 				D42447281C524A25007B9992 /* Swift+Swift._ForwardIndexType.swift in Sources */,
@@ -823,6 +851,7 @@
 				D4D1E2161C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift in Sources */,
 				D424472D1C524A36007B9992 /* Swift._RandomAccessIndexType.swift in Sources */,
 				D42447211C5248C3007B9992 /* Swift._Indexable.swift in Sources */,
+				D4D1E7691C999AD500A23F95 /* Swift.__Incrementable.swift in Sources */,
 				D4608C741C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift in Sources */,
 				D4D1E2011C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift in Sources */,
 				D40C70151C89E72100CB104B /* Swift+Swift._Equatable.swift in Sources */,
@@ -838,6 +867,7 @@
 				D40C700B1C89D43700CB104B /* Swift.__IntegerArithmeticType.swift in Sources */,
 				D468E6711C8A085100553390 /* Swift+Swift._FloatingPointType.swift in Sources */,
 				D468E66C1C8A077200553390 /* Swift._Strideable.swift in Sources */,
+				D4D1E7641C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1F21C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
 				D46C153B1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);

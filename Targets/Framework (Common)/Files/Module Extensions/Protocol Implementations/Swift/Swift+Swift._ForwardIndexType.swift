@@ -14,6 +14,11 @@ extension DictionaryIndex: _ForwardIndexType
     
 }
 
+extension FlattenCollectionIndex: _ForwardIndexType
+{
+    
+}
+
 extension LazyFilterIndex: _ForwardIndexType
 {
     
