@@ -9,7 +9,8 @@ public typealias Indexable2 = protocol<_Indexable, Indexable>
 public protocol _Indexable
 {
     static var __Element: Any.Type { get }
-    
+    static var _Index: Any.Type { get }
+
     var _startIndex: _ForwardIndexType { get }
     var _endIndex: _ForwardIndexType { get }
     
@@ -21,6 +22,11 @@ extension _Indexable where Self: Indexable
     public static var __Element: Any.Type
     {
         return _Element.self
+    }
+    
+    public static var _Index: Any.Type
+    {
+        return Index.self
     }
     
     public var _startIndex: _ForwardIndexType
