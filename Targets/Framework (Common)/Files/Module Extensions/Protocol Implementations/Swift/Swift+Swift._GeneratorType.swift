@@ -2,7 +2,6 @@
 // Copyright (c) Vatsal Manot
 //
 
-import Foundation
 import Swift
 
 extension AnyGenerator: _GeneratorType
@@ -56,16 +55,6 @@ extension LazyFilterGenerator: _GeneratorType
 }
 
 extension LazyMapGenerator: _GeneratorType
-{
-    
-}
-
-extension NSFastGenerator: _GeneratorType
-{
-    
-}
-
-extension NSIndexSetGenerator: _GeneratorType
 {
     
 }

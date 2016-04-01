@@ -8,6 +8,6 @@ extension Optional
 {
     public func toOpaque() -> Any?
     {
-        return map(Optional.init)
+        return flatMap(Optional<Any>.init)
     }
 }
