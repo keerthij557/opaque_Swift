@@ -13,9 +13,9 @@ public protocol _SequenceType
     
     func _generate() -> _GeneratorType
     
-    func toOpaque() -> AnySequence<Any>
-    
     func _toAnySequence() -> Any
+    
+    func toOpaque() -> AnySequence<Any>
 }
 
 extension _SequenceType where Self: SequenceType
@@ -34,15 +34,15 @@ extension _SequenceType where Self: SequenceType
     {
         return generate() as! _GeneratorType
     }
-
-    public func toOpaque() -> AnySequence<Any>
-    {
-        return AnySequence(lazy.map({ $0 }))
-    }
     
     public func _toAnySequence() -> Any
     {
         return AnySequence({ self.generate() })
+    }
+    
+    public func toOpaque() -> AnySequence<Any>
+    {
+        return AnySequence(lazy.map({ $0 }))
     }
 }
 
@@ -51,5 +51,13 @@ extension _SequenceType where Self: SequenceType, Self.Generator: _GeneratorType
     public func _generate() -> _GeneratorType
     {
         return generate()
+    }
+}
+
+extension Guess: SequenceType
+{
+    public func generate() -> AnyGenerator<Any>
+    {
+        return forcetype(_SequenceType)._generate().toOpaque()
     }
 }

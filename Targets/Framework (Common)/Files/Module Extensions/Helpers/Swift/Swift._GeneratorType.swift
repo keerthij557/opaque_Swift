@@ -13,6 +13,8 @@ public protocol _GeneratorType
     mutating func _next() -> Any?
     
     func _toAnyGenerator() -> Any
+    
+    func toOpaque() -> AnyGenerator<Any>
 }
 
 extension _GeneratorType where Self: GeneratorType
@@ -30,5 +32,20 @@ extension _GeneratorType where Self: GeneratorType
     public func _toAnyGenerator() -> Any
     {
         return AnyGenerator(self)
+    }
+    
+    public func toOpaque() -> AnyGenerator<Any>
+    {
+        var copyOfSelf = self
+        
+        return .init(body: { copyOfSelf.next() })
+    }
+}
+
+extension Guess: GeneratorType
+{
+    public mutating func next() -> Any?
+    {
+        return forcetype(_GeneratorType.self, { $0._next() })
     }
 }

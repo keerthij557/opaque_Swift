@@ -15,6 +15,7 @@ public protocol _Indexable
     var _endIndex: _ForwardIndexType { get }
     
     func _elementAtPosition(position: Any) -> Any?
+    func _elementAtPosition(position: _ForwardIndexType) -> Any
 }
 
 extension _Indexable where Self: Indexable
@@ -42,6 +43,11 @@ extension _Indexable where Self: Indexable
     public func _elementAtPosition(position: Any) -> Any?
     {
         return (position as? Index).map({ self[$0] }).toOpaque()
+    }
+    
+    public func _elementAtPosition(position: _ForwardIndexType) -> Any
+    {
+        return self[startIndex.advancedBy(Index.Distance(position.toOpaque().distanceTo(AnyForwardIndex(0)).toIntMax()))]
     }
 }
 
