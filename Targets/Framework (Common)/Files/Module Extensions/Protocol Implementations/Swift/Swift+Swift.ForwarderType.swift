@@ -4,7 +4,7 @@
 
 import Swift
 
-extension AnyBidirectionalCollection: ForwarderType
+extension AnyBidirectionalCollection: MutableForwarderType
 {
     public typealias Forwarded = _CollectionType
     
@@ -27,7 +27,7 @@ extension AnyBidirectionalCollection: ForwarderType
     }
 }
 
-extension AnyBidirectionalIndex: ForwarderType
+extension AnyBidirectionalIndex: MutableForwarderType
 {
     public typealias Forwarded = _BidirectionalIndexType
     
@@ -50,7 +50,7 @@ extension AnyBidirectionalIndex: ForwarderType
     }
 }
 
-extension AnyForwardCollection: ForwarderType
+extension AnyForwardCollection: MutableForwarderType
 {
     public typealias Forwarded = _CollectionType
     
@@ -73,7 +73,7 @@ extension AnyForwardCollection: ForwarderType
     }
 }
 
-extension AnyForwardIndex: ForwarderType
+extension AnyForwardIndex: MutableForwarderType
 {
     public typealias Forwarded = _ForwardIndexType
     
@@ -96,7 +96,7 @@ extension AnyForwardIndex: ForwarderType
     }
 }
 
-extension AnyGenerator: ForwarderType
+extension AnyGenerator: MutableForwarderType
 {
     public typealias Forwarded = _GeneratorType
     
@@ -119,7 +119,7 @@ extension AnyGenerator: ForwarderType
     }
 }
 
-extension AnyRandomAccessCollection: ForwarderType
+extension AnyRandomAccessCollection: MutableForwarderType
 {
     public typealias Forwarded = _CollectionType
     
@@ -142,7 +142,7 @@ extension AnyRandomAccessCollection: ForwarderType
     }
 }
 
-extension AnyRandomAccessIndex: ForwarderType
+extension AnyRandomAccessIndex: MutableForwarderType
 {
     public typealias Forwarded = _RandomAccessIndexType
     
@@ -165,7 +165,7 @@ extension AnyRandomAccessIndex: ForwarderType
     }
 }
 
-extension AnySequence: ForwarderType
+extension AnySequence: MutableForwarderType
 {
     public typealias Forwarded = _SequenceType
     
