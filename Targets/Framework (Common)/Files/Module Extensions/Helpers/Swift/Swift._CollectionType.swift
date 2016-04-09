@@ -15,6 +15,8 @@ public protocol _CollectionType: _Indexable, _SequenceType
     func toOpaque() -> AnySequence<(Any, Any)>
     
     func _toAnyForwardCollection() -> Any
+    func _toAnyBidirectionalCollection() -> Any?
+    func _toAnyRandomAccessCollection() -> Any?
 }
 
 extension _CollectionType where Self: CollectionType
@@ -27,5 +29,15 @@ extension _CollectionType where Self: CollectionType
     public func _toAnyForwardCollection() -> Any
     {
         return AnyForwardCollection(self)
+    }
+    
+    public func _toAnyBidirectionalCollection() -> Any?
+    {
+        return AnyBidirectionalCollection(AnyForwardCollection(self))
+    }
+
+    public func _toAnyRandomAccessCollection() -> Any?
+    {
+        return AnyRandomAccessCollection(AnyForwardCollection(self))
     }
 }

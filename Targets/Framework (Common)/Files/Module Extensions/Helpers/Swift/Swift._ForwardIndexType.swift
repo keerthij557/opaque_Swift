@@ -17,6 +17,6 @@ extension _ForwardIndexType where Self: ForwardIndexType
 {
     public func toOpaque() -> AnyForwardIndex
     {
-        return AnyForwardIndex(self)
+        return .init(self)
     }
 }

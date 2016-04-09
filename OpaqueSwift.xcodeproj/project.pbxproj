@@ -103,6 +103,14 @@
 		D46C15391C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift._SequenceType.swift */; };
 		D46C153A1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift._SequenceType.swift */; };
 		D46C153B1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift._SequenceType.swift */; };
+		D4C9B9A31CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
+		D4C9B9A41CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
+		D4C9B9A51CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
+		D4C9B9A61CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
+		D4C9B9A81CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
+		D4C9B9A91CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
+		D4C9B9AA1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
+		D4C9B9AB1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
 		D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */; };
 		D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */; };
 		D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */; };
@@ -182,6 +190,8 @@
 		D46C15211C4FADB8006641D5 /* Swift._GeneratorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._GeneratorType.swift; sourceTree = "<group>"; };
 		D46C15221C4FADB8006641D5 /* Swift._Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._Hashable.swift; sourceTree = "<group>"; };
 		D46C15371C4FADC4006641D5 /* Swift._SequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._SequenceType.swift; sourceTree = "<group>"; };
+		D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.ForwarderType.swift; sourceTree = "<group>"; };
+		D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.ForwarderType.swift"; sourceTree = "<group>"; };
 		D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift._SequenceType.swift"; sourceTree = "<group>"; };
 		D4D1E1F81C4FB3560038BCD5 /* Swift._RangeReplaceableCollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._RangeReplaceableCollectionType.swift; sourceTree = "<group>"; };
 		D4D1E1FD1C4FB3A20038BCD5 /* Swift._ForwardIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift._ForwardIndexType.swift; sourceTree = "<group>"; };
@@ -458,6 +468,9 @@
 		D4D1E1E91C4FB1F10038BCD5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */,
+				D40C70071C89D43700CB104B /* Swift.__IntegerArithmeticType.swift */,
+				D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */,
 				D4D1E2081C4FB5BB0038BCD5 /* Swift._BidirectionalIndexType.swift */,
 				D46C151E1C4FADB8006641D5 /* Swift._CollectionType.swift */,
 				D46C151F1C4FADB8006641D5 /* Swift._Comparable.swift */,
@@ -474,9 +487,7 @@
 				D46C15371C4FADC4006641D5 /* Swift._SequenceType.swift */,
 				D4608C6B1C8BF80800A443BD /* Swift._SignedNumberType.swift */,
 				D468E6681C8A077200553390 /* Swift._Strideable.swift */,
-				D4D1E7671C999AD500A23F95 /* Swift.__Incrementable.swift */,
-				D40C70071C89D43700CB104B /* Swift.__IntegerArithmeticType.swift */,
-				D4D1E7621C999A0200A23F95 /* Swift.__IntegerType.swift */,
+				D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -511,6 +522,9 @@
 		D4D1E1ED1C4FB2090038BCD5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */,
+				D40C700C1C89D5EE00CB104B /* Swift+Swift.__IntegerArithmeticType.swift */,
+				D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */,
 				D4D1E7581C9991F700A23F95 /* Swift+Swift._BidirectionalIndexType.swift */,
 				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift._CollectionType.swift */,
 				D40C70111C89E72100CB104B /* Swift+Swift._Equatable.swift */,
@@ -522,8 +536,6 @@
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift._RangeReplaceableCollectionType.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift */,
 				D4608C701C8BF8D200A443BD /* Swift+Swift._SignedNumberType.swift */,
-				D40C700C1C89D5EE00CB104B /* Swift+Swift.__IntegerArithmeticType.swift */,
-				D4D1E75D1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -738,6 +750,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D447620F1C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
+				D4C9B9A31CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
 				D42447341C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D424470F1C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
 				D4D1E75E1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
@@ -771,6 +784,7 @@
 				D468E6691C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E7631C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
+				D4C9B9A81CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
 				D46C15381C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -780,6 +794,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44762101C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
+				D4C9B9A61CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
 				D42447351C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D46C15301C4FADB8006641D5 /* Swift._GeneratorType.swift in Sources */,
 				D4D1E7611C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
@@ -813,6 +828,7 @@
 				D468E66A1C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E7661C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
+				D4C9B9AB1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
 				D46C15391C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -822,6 +838,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44762111C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
+				D4C9B9A51CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
 				D42447361C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D46C15311C4FADB8006641D5 /* Swift._GeneratorType.swift in Sources */,
 				D4D1E7601C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
@@ -855,6 +872,7 @@
 				D468E66B1C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E7651C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
+				D4C9B9AA1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
 				D46C153A1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -864,6 +882,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44762121C525D0100F1F811 /* Swift+Swift._Hashable.swift in Sources */,
+				D4C9B9A41CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
 				D42447371C525277007B9992 /* Swift+Swift._GeneratorType.swift in Sources */,
 				D46C15321C4FADB8006641D5 /* Swift._GeneratorType.swift in Sources */,
 				D4D1E75F1C9999E400A23F95 /* Swift+Swift.__IntegerType.swift in Sources */,
@@ -897,6 +916,7 @@
 				D468E66C1C8A077200553390 /* Swift._Strideable.swift in Sources */,
 				D4D1E7641C999A0200A23F95 /* Swift.__IntegerType.swift in Sources */,
 				D4D1E1F21C4FB22E0038BCD5 /* Swift+Swift._SequenceType.swift in Sources */,
+				D4C9B9A91CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
 				D46C153B1C4FADC4006641D5 /* Swift._SequenceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

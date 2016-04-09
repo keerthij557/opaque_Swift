@@ -11,6 +11,8 @@ public protocol _RandomAccessIndexType: _BidirectionalIndexType
     func _distanceTo(other: Any) -> Any?
     func _advancedBy(n: Any) -> Self?
     func _advancedBy(n: Any, limit: Any) -> Any?
+
+    func toOpaque() -> AnyRandomAccessIndex
 }
 
 extension _RandomAccessIndexType where Self: RandomAccessIndexType
@@ -28,5 +30,10 @@ extension _RandomAccessIndexType where Self: RandomAccessIndexType
     public func _advancedBy(n: Any, limit: Any) -> Any?
     {
         return (n as? Distance).flatMap({ n in (limit as? Self).map({ self.advancedBy(n, limit: $0) }) })
+    }
+    
+    public func toOpaque() -> AnyRandomAccessIndex
+    {
+        return .init(self)
     }
 }

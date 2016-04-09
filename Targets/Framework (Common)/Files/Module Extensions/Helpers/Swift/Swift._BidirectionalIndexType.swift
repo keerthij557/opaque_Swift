@@ -17,6 +17,6 @@ extension _BidirectionalIndexType where Self: BidirectionalIndexType
 {
     public func toOpaque() -> AnyBidirectionalIndex
     {
-        return AnyBidirectionalIndex(self)
+        return .init(self)
     }
 }
