@@ -455,8 +455,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Foundation</string>
 			<key>path</key>
 			<string>Foundation</string>
 			<key>sourceTree</key>
@@ -914,6 +912,7 @@
 				<string>D4608C711C8BF8D200A443BD</string>
 				<string>D4D1E2131C4FBBD40038BCD5</string>
 				<string>D40C70121C89E72100CB104B</string>
+				<string>D4C9B9B21CB972D70023E9C2</string>
 				<string>D4D1E1FE1C4FB3A20038BCD5</string>
 				<string>D40C700D1C89D5EE00CB104B</string>
 				<string>D4D1E20E1C4FBB110038BCD5</string>
@@ -1394,6 +1393,7 @@
 				<string>D4608C721C8BF8D200A443BD</string>
 				<string>D4D1E1FF1C4FB3A20038BCD5</string>
 				<string>D40C70131C89E72100CB104B</string>
+				<string>D4C9B9B51CB972D70023E9C2</string>
 				<string>D42447101C5248B2007B9992</string>
 				<string>D40C700E1C89D5EE00CB104B</string>
 				<string>D4D1E20F1C4FBB110038BCD5</string>
@@ -1835,6 +1835,7 @@
 				<string>D4608C731C8BF8D200A443BD</string>
 				<string>D4D1E2001C4FB3A20038BCD5</string>
 				<string>D40C70141C89E72100CB104B</string>
+				<string>D4C9B9B41CB972D70023E9C2</string>
 				<string>D42447111C5248B2007B9992</string>
 				<string>D40C700F1C89D5EE00CB104B</string>
 				<string>D4D1E2101C4FBB110038BCD5</string>
@@ -2059,6 +2060,7 @@
 				<string>D4608C741C8BF8D200A443BD</string>
 				<string>D4D1E2011C4FB3A20038BCD5</string>
 				<string>D40C70151C89E72100CB104B</string>
+				<string>D4C9B9B31CB972D70023E9C2</string>
 				<string>D42447121C5248B2007B9992</string>
 				<string>D40C70101C89D5EE00CB104B</string>
 				<string>D4D1E2111C4FBB110038BCD5</string>
@@ -2593,11 +2595,53 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>D4C9B9B11CB972D70023E9C2</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Swift.Guess.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D4C9B9B21CB972D70023E9C2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4C9B9B11CB972D70023E9C2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D4C9B9B31CB972D70023E9C2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4C9B9B11CB972D70023E9C2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D4C9B9B41CB972D70023E9C2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4C9B9B11CB972D70023E9C2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D4C9B9B51CB972D70023E9C2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4C9B9B11CB972D70023E9C2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D4D1E1E91C4FB1F10038BCD5</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>D4C9B9A21CB96B150023E9C2</string>
+				<string>D4C9B9B11CB972D70023E9C2</string>
 				<string>D4D1E2081C4FB5BB0038BCD5</string>
 				<string>D46C151E1C4FADB8006641D5</string>
 				<string>D46C151F1C4FADB8006641D5</string>
