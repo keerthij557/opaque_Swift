@@ -6,6 +6,7 @@ import Swift
 
 extension Optional
 {
+    @_transparent
     public func toOpaque() -> Any?
     {
         return flatMap(Optional<Any>.init)

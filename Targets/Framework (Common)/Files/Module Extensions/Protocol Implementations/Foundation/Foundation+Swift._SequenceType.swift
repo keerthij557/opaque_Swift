@@ -5,32 +5,32 @@
 import Foundation
 import Swift
 
-extension NSArray: _SequenceType
+extension NSArray: opaque_SequenceType
 {
     
 }
 
-extension NSDictionary: _SequenceType
+extension NSDictionary: opaque_SequenceType
 {
     
 }
 
-extension NSEnumerator: _SequenceType
+extension NSEnumerator: opaque_SequenceType
 {
     
 }
 
-extension NSIndexSet: _SequenceType
+extension NSIndexSet: opaque_SequenceType
 {
     
 }
 
-extension NSOrderedSet: _SequenceType
+extension NSOrderedSet: opaque_SequenceType
 {
     
 }
 
-extension NSSet: _SequenceType
+extension NSSet: opaque_SequenceType
 {
     
 }

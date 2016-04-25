@@ -5,12 +5,12 @@
 import Foundation
 import Swift
 
-extension NSFastGenerator: _GeneratorType
+extension NSFastGenerator: opaque_GeneratorType
 {
     
 }
 
-extension NSIndexSetGenerator: _GeneratorType
+extension NSIndexSetGenerator: opaque_GeneratorType
 {
     
 }

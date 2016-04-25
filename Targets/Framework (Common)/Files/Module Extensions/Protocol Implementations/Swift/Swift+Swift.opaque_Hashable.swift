@@ -1,0 +1,127 @@
+//
+// Copyright (c) Vatsal Manot
+//
+
+import Swift
+
+extension Character: opaque_Hashable
+{
+    
+}
+
+extension COpaquePointer: opaque_Hashable
+{
+    
+}
+
+extension Double: opaque_Hashable
+{
+    
+}
+
+extension Float: opaque_Hashable
+{
+    
+}
+
+#if (arch(i386) || arch(x86_64))
+    
+extension Float80: opaque_Hashable
+{
+    
+}
+    
+#endif
+
+extension Int: opaque_Hashable
+{
+    
+}
+
+extension Int8: opaque_Hashable
+{
+    
+}
+
+extension Int16: opaque_Hashable
+{
+    
+}
+
+extension Int32: opaque_Hashable
+{
+    
+}
+
+extension Int64: opaque_Hashable
+{
+    
+}
+
+extension ObjectIdentifier: opaque_Hashable
+{
+    
+}
+
+extension Set: opaque_Hashable
+{
+    
+}
+
+extension String: opaque_Hashable
+{
+    
+}
+
+extension StaticString: opaque_Hashable, Hashable
+{
+    public var hashValue: Int
+    {
+        return stringValue.hashValue
+    }
+}
+
+public func == (lhs: StaticString, rhs: StaticString) -> Bool
+{
+    return lhs.hashValue == rhs.hashValue
+}
+
+extension UInt: opaque_Hashable
+{
+    
+}
+
+extension UInt8: opaque_Hashable
+{
+    
+}
+
+extension UInt16: opaque_Hashable
+{
+    
+}
+
+extension UInt32: opaque_Hashable
+{
+    
+}
+
+extension UInt64: opaque_Hashable
+{
+    
+}
+
+extension UnicodeScalar: opaque_Hashable
+{
+    
+}
+
+extension UnsafeMutablePointer: opaque_Hashable
+{
+    
+}
+
+extension UnsafePointer: opaque_Hashable
+{
+    
+}

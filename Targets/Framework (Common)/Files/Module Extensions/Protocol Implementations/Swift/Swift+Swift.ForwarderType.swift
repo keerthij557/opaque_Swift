@@ -6,7 +6,7 @@ import Swift
 
 extension AnyBidirectionalCollection: MutableForwarderType
 {
-    public typealias Forwarded = _CollectionType
+    public typealias Forwarded = opaque_CollectionType
     
     public var forwarded: Forwarded
     {
@@ -23,13 +23,13 @@ extension AnyBidirectionalCollection: MutableForwarderType
     
     public static func forward(forwarded: Forwarded) -> AnyBidirectionalCollection
     {
-        return forwarded._toAnyBidirectionalCollection() as! AnyBidirectionalCollection
+        return forwarded.opaque_CollectionType_toAnyBidirectionalCollection() as! AnyBidirectionalCollection
     }
 }
 
 extension AnyBidirectionalIndex: MutableForwarderType
 {
-    public typealias Forwarded = _BidirectionalIndexType
+    public typealias Forwarded = opaque_BidirectionalIndexType
     
     public var forwarded: Forwarded
     {
@@ -52,7 +52,7 @@ extension AnyBidirectionalIndex: MutableForwarderType
 
 extension AnyForwardCollection: MutableForwarderType
 {
-    public typealias Forwarded = _CollectionType
+    public typealias Forwarded = opaque_CollectionType
     
     public var forwarded: Forwarded
     {
@@ -69,13 +69,13 @@ extension AnyForwardCollection: MutableForwarderType
     
     public static func forward(forwarded: Forwarded) -> AnyForwardCollection
     {
-        return forwarded._toAnyRandomAccessCollection() as! AnyForwardCollection
+        return forwarded.opaque_CollectionType_toAnyRandomAccessCollection() as! AnyForwardCollection
     }
 }
 
 extension AnyForwardIndex: MutableForwarderType
 {
-    public typealias Forwarded = _ForwardIndexType
+    public typealias Forwarded = opaque_ForwardIndexType
     
     public var forwarded: Forwarded
     {
@@ -98,7 +98,7 @@ extension AnyForwardIndex: MutableForwarderType
 
 extension AnyGenerator: MutableForwarderType
 {
-    public typealias Forwarded = _GeneratorType
+    public typealias Forwarded = opaque_GeneratorType
     
     public var forwarded: Forwarded
     {
@@ -115,13 +115,13 @@ extension AnyGenerator: MutableForwarderType
     
     public static func forward(forwarded: Forwarded) -> AnyGenerator
     {
-        return forwarded._toAnyGenerator() as! AnyGenerator
+        return forwarded.opaque_GeneratorType_toAnyGenerator() as! AnyGenerator
     }
 }
 
 extension AnyRandomAccessCollection: MutableForwarderType
 {
-    public typealias Forwarded = _CollectionType
+    public typealias Forwarded = opaque_CollectionType
     
     public var forwarded: Forwarded
     {
@@ -138,13 +138,13 @@ extension AnyRandomAccessCollection: MutableForwarderType
     
     public static func forward(forwarded: Forwarded) -> AnyRandomAccessCollection
     {
-        return forwarded._toAnyRandomAccessCollection() as! AnyRandomAccessCollection
+        return forwarded.opaque_CollectionType_toAnyRandomAccessCollection() as! AnyRandomAccessCollection
     }
 }
 
 extension AnyRandomAccessIndex: MutableForwarderType
 {
-    public typealias Forwarded = _RandomAccessIndexType
+    public typealias Forwarded = opaque_RandomAccessIndexType
     
     public var forwarded: Forwarded
     {
@@ -167,7 +167,7 @@ extension AnyRandomAccessIndex: MutableForwarderType
 
 extension AnySequence: MutableForwarderType
 {
-    public typealias Forwarded = _SequenceType
+    public typealias Forwarded = opaque_SequenceType
     
     public var forwarded: Forwarded
     {
@@ -184,6 +184,6 @@ extension AnySequence: MutableForwarderType
     
     public static func forward(forwarded: Forwarded) -> AnySequence
     {
-        return forwarded._toAnySequence() as! AnySequence
+        return forwarded.opaque_SequenceType_toAnySequence() as! AnySequence
     }
 }
