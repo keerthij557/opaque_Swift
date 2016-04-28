@@ -4,7 +4,7 @@
 
 import Swift
 
-public protocol opaque_IntegerType: opaque__Incrementable, opaque__IntegerArithmeticType, opaque_Hashable, opaque_RandomAccessIndexType, CustomStringConvertible
+public protocol opaque_IntegerType: opaque__Incrementable, opaque_IntegerArithmeticType, opaque_Hashable, opaque_RandomAccessIndexType, CustomStringConvertible
 {
     
 }

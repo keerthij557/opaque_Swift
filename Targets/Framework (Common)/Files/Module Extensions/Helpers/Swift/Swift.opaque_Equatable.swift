@@ -19,7 +19,7 @@ extension opaque_Equatable where Self: Equatable
     }
 }
 
-public func _equate<T, U>(lhs: T, _ rhs: U) -> Bool?
+public func opaque_Equatable_equate<T, U>(lhs: T, _ rhs: U) -> Bool?
 {
     if let lhs = (lhs as? opaque_Equatable), let rhs = (rhs as? opaque_Equatable), let predicate = lhs.opaque_Equatable_isEqualTo(rhs)
     {

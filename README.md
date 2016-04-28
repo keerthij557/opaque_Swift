@@ -9,19 +9,19 @@ For example:
 var floats: [Float] = [1.0, 2.0, 3.0]
 var integers: [Int] = [3, 2, 1]
 
-var collection: _RangeReplaceableCollectionType
+var collection: opaque_RangeReplaceableCollectionType
 
 collection = floats
 
-collection._append(1) // returns nil (i.e. fails), because 1 is an integer
-collection._append(1.0) // returns () (i.e. succeeds)
-collection._removeFirst() // returns () 
+collection.opaque_RangeReplaceableCollectionType_append(1) // returns nil (i.e. fails), because 1 is an integer
+collection.opaque_RangeReplaceableCollectionType_append(1.0) // returns () (i.e. succeeds)
+collection.opaque_RangeReplaceableCollectionType_removeFirst() // returns ()
 
 collection = integers
 
-collection._append(1) // returns ()
-collection._append(1.0) // returns nil, because 1.0 is a Float
-collection._removeFirst()
+collection.opaque_RangeReplaceableCollectionType_append(1) // returns ()
+collection.opaque_RangeReplaceableCollectionType_append(1.0) // returns nil, because 1.0 is a Float
+collection.opaque_RangeReplaceableCollectionType_removeFirst()
 ```
 
 or:
@@ -30,11 +30,11 @@ or:
 var float: Float = 1.0
 var integer: Int = 1
 
-var equatable: _Equatable
+var equatable: opaque_Equatable
 
 equatable = integer
 
-equatable._isEqualTo(float) // returns nil, because Int.Type != Float.Type
-equatable._isEqualTo(1) // returns true
-equatable._isEqualTo(2) // returns false
+equatable.opaque_Equatable_isEqualTo(float) // returns nil, because Int.Type != Float.Type
+equatable.opaque_Equatable_isEqualTo(1) // returns true
+equatable.opaque_Equatable_isEqualTo(2) // returns false
 ```

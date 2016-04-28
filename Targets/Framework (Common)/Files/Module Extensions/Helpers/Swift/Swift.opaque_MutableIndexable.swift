@@ -8,8 +8,8 @@ public typealias MutableIndexable2 = protocol<opaque_MutableIndexable, MutableIn
 
 public protocol opaque_MutableIndexable: opaque_Indexable
 {
-    mutating func opaque_MutableIndexable_setElement(newElement: Any, at position: Any) -> Void?
-    mutating func opaque_MutableIndexable_setElement(newElement: Any, at position: opaque_ForwardIndexType) -> Void?
+    mutating func opaque_MutableIndexable_setElement(_: Any, at _: Any) -> Void?
+    mutating func opaque_MutableIndexable_setElement(_: Any, at _: opaque_ForwardIndexType) -> Void?
 }
 
 extension opaque_MutableIndexable where Self: MutableIndexable

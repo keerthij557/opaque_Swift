@@ -8,8 +8,8 @@ public typealias SequenceType2 = protocol<opaque_SequenceType, SequenceType>
 
 public protocol opaque_SequenceType
 {
-    static var _Generator: Any.Type { get }
-    static var _Generator_Element: Any.Type { get }
+    static var opaque_SequenceType_Generator: Any.Type { get }
+    static var opaque_SequenceType_Generator_Element: Any.Type { get }
     
     func opaque_SequenceType_generate() -> opaque_GeneratorType
     
@@ -20,12 +20,12 @@ public protocol opaque_SequenceType
 
 extension opaque_SequenceType where Self: SequenceType
 {
-    public static var _Generator: Any.Type
+    public static var opaque_SequenceType_Generator: Any.Type
     {
         return Generator.self
     }
     
-    public static var _Generator_Element: Any.Type
+    public static var opaque_SequenceType_Generator_Element: Any.Type
     {
         return Generator.Element.self
     }
