@@ -39,7 +39,7 @@ equatable._isEqualTo(1) // returns true
 equatable._isEqualTo(2) // returns false
 ```
 
-Here is a more complex example of how you can flatten a recursive sequence of arbitrary depth (provided that the sequence and it's subsequences' generators conform to `_GeneratorType`)
+Here is a more complex example of how you can flatten a recursive sequence of arbitrary depth (provided that the sequence and it's subsequences' generators conform to `_GeneratorType`):
 
 ```
 public struct GeneratorOnly<G: GeneratorType>: _GeneratorType, GeneratorType
