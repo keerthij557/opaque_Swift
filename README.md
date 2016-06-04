@@ -30,13 +30,13 @@ or:
 var float: Float = 1.0
 var integer: Int = 1
 
-var equatable: _Equatable
+var equatable: opaque_Equatable
 
 equatable = integer
 
-equatable.opaque_RangeReplaceableCollectionType_isEqualTo(float) // returns nil, because Int.Type != Float.Type
-equatable.opaque_RangeReplaceableCollectionType_isEqualTo(1) // returns true
-equatable.opaque_RangeReplaceableCollectionType_isEqualTo(2) // returns false
+equatable.opaque_Equatable_isEqualTo(float) // returns nil, because Int.Type != Float.Type
+equatable.opaque_Equatable_isEqualTo(1) // returns true
+equatable.opaque_Equatable_isEqualTo(2) // returns false
 ```
 
 Here is a more complex example of how you can flatten a recursive sequence of arbitrary depth (provided that the sequence and it's subsequences' generators conform to `_GeneratorType`):
