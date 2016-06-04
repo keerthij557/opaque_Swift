@@ -41,7 +41,8 @@ equatable._isEqualTo(2) // returns false
 
 Here is a more complex example of how you can flatten a recursive sequence of arbitrary depth (provided that the sequence and it's subsequences' generators conform to `_GeneratorType`)
 
-```public struct GeneratorOnly<G: GeneratorType>: _GeneratorType, GeneratorType
+```
+public struct GeneratorOnly<G: GeneratorType>: _GeneratorType, GeneratorType
 {
     public typealias Value = G
     
@@ -138,4 +139,5 @@ extension NSFastGenerator: _GeneratorType
 
 var x = [1, 2, [3, 4, [5, 6, [7, [8, [9]], [10], 11], 12], 13], [14, 15, [16]]]
 
-Array(FlatSequence<[NSObject], Int>(x)) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]```
+Array(FlatSequence<[NSObject], Int>(x)) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+```
