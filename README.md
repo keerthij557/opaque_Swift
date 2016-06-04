@@ -15,13 +15,12 @@ collection = floats
 
 collection.opaque_RangeReplaceableCollectionType_append(1) // returns nil (i.e. fails), because 1 is an integer
 collection.opaque_RangeReplaceableCollectionType_append(1.0) // returns () (i.e. succeeds)
-collection.opaque_RangeReplaceableCollectionType_removeFirst() // returns () 
-
+collection.opaque_RangeReplaceableCollectionType_removeFirst() // returns 1
 collection = integers
 
 collection.opaque_RangeReplaceableCollectionType_append(1) // returns ()
 collection.opaque_RangeReplaceableCollectionType_append(1.0) // returns nil, because 1.0 is a Float
-collection.opaque_RangeReplaceableCollectionType_removeFirst()
+collection.opaque_RangeReplaceableCollectionType_removeFirst() // returns 3
 ```
 
 or:
