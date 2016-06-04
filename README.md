@@ -9,19 +9,19 @@ For example:
 var floats: [Float] = [1.0, 2.0, 3.0]
 var integers: [Int] = [3, 2, 1]
 
-var collection: _RangeReplaceableCollectionType
+var collection: opaque_RangeReplaceableCollectionType
 
 collection = floats
 
-collection._append(1) // returns nil (i.e. fails), because 1 is an integer
-collection._append(1.0) // returns () (i.e. succeeds)
-collection._removeFirst() // returns () 
+collection.opaque_RangeReplaceableCollectionType_append(1) // returns nil (i.e. fails), because 1 is an integer
+collection.opaque_RangeReplaceableCollectionType_append(1.0) // returns () (i.e. succeeds)
+collection.opaque_RangeReplaceableCollectionType_removeFirst() // returns () 
 
 collection = integers
 
-collection._append(1) // returns ()
-collection._append(1.0) // returns nil, because 1.0 is a Float
-collection._removeFirst()
+collection.opaque_RangeReplaceableCollectionType_append(1) // returns ()
+collection.opaque_RangeReplaceableCollectionType_append(1.0) // returns nil, because 1.0 is a Float
+collection.opaque_RangeReplaceableCollectionType_removeFirst()
 ```
 
 or:
@@ -34,15 +34,15 @@ var equatable: _Equatable
 
 equatable = integer
 
-equatable._isEqualTo(float) // returns nil, because Int.Type != Float.Type
-equatable._isEqualTo(1) // returns true
-equatable._isEqualTo(2) // returns false
+equatable.opaque_RangeReplaceableCollectionType_isEqualTo(float) // returns nil, because Int.Type != Float.Type
+equatable.opaque_RangeReplaceableCollectionType_isEqualTo(1) // returns true
+equatable.opaque_RangeReplaceableCollectionType_isEqualTo(2) // returns false
 ```
 
 Here is a more complex example of how you can flatten a recursive sequence of arbitrary depth (provided that the sequence and it's subsequences' generators conform to `_GeneratorType`):
 
 ```
-public struct GeneratorOnly<G: GeneratorType>: _GeneratorType, GeneratorType
+public struct GeneratorOnly<G: GeneratorType>: GeneratorType2
 {
     public typealias Value = G
     
@@ -59,7 +59,7 @@ public struct GeneratorOnly<G: GeneratorType>: _GeneratorType, GeneratorType
     }
 }
 
-public struct FlatSequenceGenerator<G: GeneratorType, T>: _GeneratorType, GeneratorType
+public struct FlatSequenceGenerator<G: GeneratorType, T>: GeneratorType2
 {
     public var value: G
     {
@@ -71,19 +71,19 @@ public struct FlatSequenceGenerator<G: GeneratorType, T>: _GeneratorType, Genera
         self.workstack = [GeneratorOnly(value)]
     }
     
-    private var workstack: [_GeneratorType] = []
+    private var workstack: [opaque_GeneratorType] = []
     
     public mutating func next() -> T?
     {
         workstackLoop: while !workstack.isEmpty
         {
-            while let element = workstack[workstack.endIndex - 1]._next()
+            while let element = workstack[workstack.endIndex - 1].opaque_GeneratorType_next()
             {
                 if element.dynamicType != T.self
                 {
-                    if let element = element as? _SequenceType
+                    if let element = element as? opaque_SequenceType
                     {
-                        workstack.append(element._generate())
+                        workstack.append(element.opaque_SequenceType_generate())
                         
                         continue workstackLoop
                     }
@@ -112,7 +112,7 @@ public struct FlatSequenceGenerator<G: GeneratorType, T>: _GeneratorType, Genera
     }
 }
 
-public struct FlatSequence<S: SequenceType, T>: _SequenceType, SequenceType
+public struct FlatSequence<S: SequenceType, T>: SequenceType2
 {
     public private(set) var value: S
     
@@ -127,15 +127,6 @@ public struct FlatSequence<S: SequenceType, T>: _SequenceType, SequenceType
     }
 }
 
-extension NSArray: _SequenceType
-{
-    
-}
-
-extension NSFastGenerator: _GeneratorType
-{
-    
-}
 
 var x = [1, 2, [3, 4, [5, 6, [7, [8, [9]], [10], 11], 12], 13], [14, 15, [16]]]
 
