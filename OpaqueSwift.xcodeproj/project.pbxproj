@@ -11,10 +11,10 @@
 		D40C70091C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift */; };
 		D40C700A1C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift */; };
 		D40C700B1C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift */; };
-		D40C700D1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift */; };
-		D40C700E1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift */; };
-		D40C700F1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift */; };
-		D40C70101C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift */; };
+		D40C700D1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */; };
+		D40C700E1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */; };
+		D40C700F1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */; };
+		D40C70101C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */; };
 		D40C70121C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70111C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift */; };
 		D40C70131C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70111C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift */; };
 		D40C70141C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70111C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift */; };
@@ -27,46 +27,38 @@
 		D42447171C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447131C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift */; };
 		D42447181C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447131C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift */; };
 		D42447191C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447131C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift */; };
-		D424471A1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift */; };
-		D424471B1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift */; };
-		D424471C1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift */; };
-		D424471D1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift */; };
+		D424471A1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */; };
+		D424471B1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */; };
+		D424471C1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */; };
+		D424471D1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */; };
 		D424471E1C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447151C5248C3007B9992 /* Swift.opaque_Indexable.swift */; };
 		D424471F1C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447151C5248C3007B9992 /* Swift.opaque_Indexable.swift */; };
 		D42447201C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447151C5248C3007B9992 /* Swift.opaque_Indexable.swift */; };
 		D42447211C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447151C5248C3007B9992 /* Swift.opaque_Indexable.swift */; };
-		D42447251C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447241C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift */; };
-		D42447261C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447241C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift */; };
-		D42447271C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447241C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift */; };
-		D42447281C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447241C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift */; };
-		D424472A1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447291C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift */; };
-		D424472B1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447291C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift */; };
-		D424472C1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447291C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift */; };
-		D424472D1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447291C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift */; };
-		D42447341C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift */; };
-		D42447351C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift */; };
-		D42447361C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift */; };
-		D42447371C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift */; };
-		D43D27B81C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift */; };
-		D43D27B91C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift */; };
-		D43D27BA1C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift */; };
-		D43D27BB1C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift */; };
-		D43D27BD1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift */; };
-		D43D27BE1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift */; };
-		D43D27BF1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift */; };
-		D43D27C01C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift */; };
+		D42447341C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
+		D42447351C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
+		D42447361C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
+		D42447371C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
+		D43D27B81C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */; };
+		D43D27B91C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */; };
+		D43D27BA1C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */; };
+		D43D27BB1C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */; };
+		D43D27BD1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */; };
+		D43D27BE1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */; };
+		D43D27BF1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */; };
+		D43D27C01C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */; };
 		D447620F1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */; };
 		D44762101C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */; };
 		D44762111C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */; };
 		D44762121C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */; };
-		D4608C6C1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift */; };
-		D4608C6D1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift */; };
-		D4608C6E1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift */; };
-		D4608C6F1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift */; };
-		D4608C711C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift */; };
-		D4608C721C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift */; };
-		D4608C731C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift */; };
-		D4608C741C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift */; };
+		D4608C6C1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */; };
+		D4608C6D1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */; };
+		D4608C6E1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */; };
+		D4608C6F1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */; };
+		D4608C711C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */; };
+		D4608C721C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */; };
+		D4608C731C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */; };
+		D4608C741C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */; };
 		D468E65F1C8A068C00553390 /* Swift.opaque_FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift.opaque_FloatingPointType.swift */; };
 		D468E6601C8A068C00553390 /* Swift.opaque_FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift.opaque_FloatingPointType.swift */; };
 		D468E6611C8A068C00553390 /* Swift.opaque_FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E65E1C8A068C00553390 /* Swift.opaque_FloatingPointType.swift */; };
@@ -75,14 +67,14 @@
 		D468E66A1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */; };
 		D468E66B1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */; };
 		D468E66C1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */; };
-		D468E66E1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift */; };
-		D468E66F1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift */; };
-		D468E6701C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift */; };
-		D468E6711C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift */; };
-		D46C15231C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_CollectionType.swift */; };
-		D46C15241C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_CollectionType.swift */; };
-		D46C15251C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_CollectionType.swift */; };
-		D46C15261C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_CollectionType.swift */; };
+		D468E66E1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift */; };
+		D468E66F1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift */; };
+		D468E6701C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift */; };
+		D468E6711C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift */; };
+		D46C15231C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_Collection.swift */; };
+		D46C15241C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_Collection.swift */; };
+		D46C15251C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_Collection.swift */; };
+		D46C15261C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151E1C4FADB8006641D5 /* Swift.opaque_Collection.swift */; };
 		D46C15271C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151F1C4FADB8006641D5 /* Swift.opaque_Comparable.swift */; };
 		D46C15281C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151F1C4FADB8006641D5 /* Swift.opaque_Comparable.swift */; };
 		D46C15291C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C151F1C4FADB8006641D5 /* Swift.opaque_Comparable.swift */; };
@@ -91,95 +83,73 @@
 		D46C152C1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15201C4FADB8006641D5 /* Swift.opaque_Equatable.swift */; };
 		D46C152D1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15201C4FADB8006641D5 /* Swift.opaque_Equatable.swift */; };
 		D46C152E1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15201C4FADB8006641D5 /* Swift.opaque_Equatable.swift */; };
-		D46C152F1C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift */; };
-		D46C15301C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift */; };
-		D46C15311C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift */; };
-		D46C15321C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift */; };
+		D46C152F1C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */; };
+		D46C15301C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */; };
+		D46C15311C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */; };
+		D46C15321C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */; };
 		D46C15331C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15221C4FADB8006641D5 /* Swift.opaque_Hashable.swift */; };
 		D46C15341C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15221C4FADB8006641D5 /* Swift.opaque_Hashable.swift */; };
 		D46C15351C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15221C4FADB8006641D5 /* Swift.opaque_Hashable.swift */; };
 		D46C15361C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15221C4FADB8006641D5 /* Swift.opaque_Hashable.swift */; };
-		D46C15381C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_SequenceType.swift */; };
-		D46C15391C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_SequenceType.swift */; };
-		D46C153A1C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_SequenceType.swift */; };
-		D46C153B1C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_SequenceType.swift */; };
-		D4C9B9A31CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
-		D4C9B9A41CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
-		D4C9B9A51CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
-		D4C9B9A61CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */; };
-		D4C9B9A81CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
-		D4C9B9A91CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
-		D4C9B9AA1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
-		D4C9B9AB1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */; };
+		D46C15381C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_Sequence.swift */; };
+		D46C15391C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_Sequence.swift */; };
+		D46C153A1C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_Sequence.swift */; };
+		D46C153B1C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C15371C4FADC4006641D5 /* Swift.opaque_Sequence.swift */; };
+		D4C9B9A31CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.Forwarder.swift */; };
+		D4C9B9A41CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.Forwarder.swift */; };
+		D4C9B9A51CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.Forwarder.swift */; };
+		D4C9B9A61CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A21CB96B150023E9C2 /* Swift.Forwarder.swift */; };
+		D4C9B9A81CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */; };
+		D4C9B9A91CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */; };
+		D4C9B9AA1CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */; };
+		D4C9B9AB1CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */; };
 		D4C9B9B21CB972D70023E9C2 /* Swift.Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9B11CB972D70023E9C2 /* Swift.Guess.swift */; };
 		D4C9B9B31CB972D70023E9C2 /* Swift.Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9B11CB972D70023E9C2 /* Swift.Guess.swift */; };
 		D4C9B9B41CB972D70023E9C2 /* Swift.Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9B11CB972D70023E9C2 /* Swift.Guess.swift */; };
 		D4C9B9B51CB972D70023E9C2 /* Swift.Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9B9B11CB972D70023E9C2 /* Swift.Guess.swift */; };
-		D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift */; };
-		D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift */; };
-		D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift */; };
-		D4D1E1F21C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift */; };
-		D4D1E1F91C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E1FA1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E1FB1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E1FC1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E1FE1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1FD1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift */; };
-		D4D1E1FF1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1FD1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift */; };
-		D4D1E2001C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1FD1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift */; };
-		D4D1E2011C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1FD1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift */; };
-		D4D1E2091C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2081C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E20A1C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2081C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E20B1C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2081C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E20C1C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2081C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E20E1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E20F1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E2101C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E2111C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift */; };
-		D4D1E2131C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift */; };
-		D4D1E2141C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift */; };
-		D4D1E2151C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift */; };
-		D4D1E2161C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift */; };
-		D4D1E7541C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7531C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift */; };
-		D4D1E7551C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7531C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift */; };
-		D4D1E7561C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7531C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift */; };
-		D4D1E7571C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7531C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift */; };
-		D4D1E7591C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7581C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E75A1C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7581C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E75B1C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7581C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E75C1C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7581C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift */; };
-		D4D1E75E1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift */; };
-		D4D1E75F1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift */; };
-		D4D1E7601C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift */; };
-		D4D1E7611C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift */; };
-		D4D1E7631C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_IntegerType.swift */; };
-		D4D1E7641C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_IntegerType.swift */; };
-		D4D1E7651C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_IntegerType.swift */; };
-		D4D1E7661C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_IntegerType.swift */; };
-		D4D1E7681C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.opaque__Incrementable.swift */; };
-		D4D1E7691C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.opaque__Incrementable.swift */; };
-		D4D1E76A1C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.opaque__Incrementable.swift */; };
-		D4D1E76B1C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7671C999AD500A23F95 /* Swift.opaque__Incrementable.swift */; };
+		D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */; };
+		D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */; };
+		D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */; };
+		D4D1E1F21C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */; };
+		D4D1E1F91C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E1FA1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E1FB1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E1FC1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E20E1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E20F1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E2101C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E2111C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */; };
+		D4D1E2131C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */; };
+		D4D1E2141C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */; };
+		D4D1E2151C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */; };
+		D4D1E2161C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */; };
+		D4D1E75E1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */; };
+		D4D1E75F1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */; };
+		D4D1E7601C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */; };
+		D4D1E7611C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */; };
+		D4D1E7631C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */; };
+		D4D1E7641C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */; };
+		D4D1E7651C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */; };
+		D4D1E7661C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_IntegerArithmeticType.swift; sourceTree = "<group>"; };
-		D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IntegerArithmeticType.swift"; sourceTree = "<group>"; };
+		D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IntegerArithmetic.swift"; sourceTree = "<group>"; };
 		D40C70111C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Equatable.swift"; sourceTree = "<group>"; };
 		D424470E1C5248B2007B9992 /* Swift.Optional++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.Optional++.swift"; sourceTree = "<group>"; };
 		D42447131C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_MutableIndexable.swift; sourceTree = "<group>"; };
-		D42447141C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_MutableCollectionType.swift; sourceTree = "<group>"; };
+		D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_MutableCollection.swift; sourceTree = "<group>"; };
 		D42447151C5248C3007B9992 /* Swift.opaque_Indexable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Indexable.swift; sourceTree = "<group>"; };
-		D42447241C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_ForwardIndexType.swift"; sourceTree = "<group>"; };
-		D42447291C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_RandomAccessIndexType.swift; sourceTree = "<group>"; };
-		D42447331C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_GeneratorType.swift"; sourceTree = "<group>"; };
-		D43D27B71C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift._GeneratorType.swift"; sourceTree = "<group>"; };
-		D43D27BC1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift._SequenceType.swift"; sourceTree = "<group>"; };
+		D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IteratorProtocol.swift"; sourceTree = "<group>"; };
+		D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift.opaque_IteratorProtocol.swift"; sourceTree = "<group>"; };
+		D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift.opaque_Sequence.swift"; sourceTree = "<group>"; };
 		D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Hashable.swift"; sourceTree = "<group>"; };
-		D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SignedNumberType.swift; sourceTree = "<group>"; };
-		D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_SignedNumberType.swift"; sourceTree = "<group>"; };
+		D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SignedNumber.swift; sourceTree = "<group>"; };
+		D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_SignedNumber.swift"; sourceTree = "<group>"; };
 		D468E65E1C8A068C00553390 /* Swift.opaque_FloatingPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_FloatingPointType.swift; sourceTree = "<group>"; };
 		D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Strideable.swift; sourceTree = "<group>"; };
-		D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_FloatingPointType.swift"; sourceTree = "<group>"; };
+		D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_FloatingPoint.swift"; sourceTree = "<group>"; };
 		D46C14CD1C4FAC62006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46C14D21C4FAC62006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C14E31C4FACB9006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,27 +158,22 @@
 		D46C15071C4FAD3A006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46C15101C4FAD4E006641D5 /* OpaqueSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpaqueSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46C15141C4FAD4E006641D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D46C151E1C4FADB8006641D5 /* Swift.opaque_CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_CollectionType.swift; sourceTree = "<group>"; };
+		D46C151E1C4FADB8006641D5 /* Swift.opaque_Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Collection.swift; sourceTree = "<group>"; };
 		D46C151F1C4FADB8006641D5 /* Swift.opaque_Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Comparable.swift; sourceTree = "<group>"; };
 		D46C15201C4FADB8006641D5 /* Swift.opaque_Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Equatable.swift; sourceTree = "<group>"; };
-		D46C15211C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_GeneratorType.swift; sourceTree = "<group>"; };
+		D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_IteratorProtocol.swift; sourceTree = "<group>"; };
 		D46C15221C4FADB8006641D5 /* Swift.opaque_Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Hashable.swift; sourceTree = "<group>"; };
-		D46C15371C4FADC4006641D5 /* Swift.opaque_SequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SequenceType.swift; sourceTree = "<group>"; };
-		D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.ForwarderType.swift; sourceTree = "<group>"; };
-		D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.ForwarderType.swift"; sourceTree = "<group>"; };
+		D46C15371C4FADC4006641D5 /* Swift.opaque_Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Sequence.swift; sourceTree = "<group>"; };
+		D4C9B9A21CB96B150023E9C2 /* Swift.Forwarder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.Forwarder.swift; sourceTree = "<group>"; };
+		D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.Forwarder.swift"; sourceTree = "<group>"; };
 		D4C9B9B11CB972D70023E9C2 /* Swift.Guess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.Guess.swift; sourceTree = "<group>"; };
 		D4C9B9B61CB97A130023E9C2 /* Experiments (iOS).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Experiments (iOS).playground"; sourceTree = "<group>"; };
-		D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_SequenceType.swift"; sourceTree = "<group>"; };
-		D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_RangeReplaceableCollectionType.swift; sourceTree = "<group>"; };
-		D4D1E1FD1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_ForwardIndexType.swift; sourceTree = "<group>"; };
-		D4D1E2081C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_BidirectionalIndexType.swift; sourceTree = "<group>"; };
-		D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_RangeReplaceableCollectionType.swift"; sourceTree = "<group>"; };
-		D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_CollectionType.swift"; sourceTree = "<group>"; };
-		D4D1E7531C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_RandomAccessIndexType.swift"; sourceTree = "<group>"; };
-		D4D1E7581C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_BidirectionalIndexType.swift"; sourceTree = "<group>"; };
-		D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IntegerType.swift"; sourceTree = "<group>"; };
-		D4D1E7621C999A0200A23F95 /* Swift.opaque_IntegerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_IntegerType.swift; sourceTree = "<group>"; };
-		D4D1E7671C999AD500A23F95 /* Swift.opaque__Incrementable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque__Incrementable.swift; sourceTree = "<group>"; };
+		D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Sequence.swift"; sourceTree = "<group>"; };
+		D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_RangeReplaceableCollection.swift; sourceTree = "<group>"; };
+		D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_RangeReplaceableCollection.swift"; sourceTree = "<group>"; };
+		D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Collection.swift"; sourceTree = "<group>"; };
+		D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Integer.swift"; sourceTree = "<group>"; };
+		D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Integer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,8 +227,8 @@
 		D43D27B61C9AC75800DE9256 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				D43D27B71C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift */,
-				D43D27BC1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift */,
+				D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */,
+				D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -370,13 +335,13 @@
 			path = "Bundle Resources";
 			sourceTree = "<group>";
 		};
-		D46C14EF1C4FACD6006641D5 /* Framework (OSX) */ = {
+		D46C14EF1C4FACD6006641D5 /* Framework (macOS) */ = {
 			isa = PBXGroup;
 			children = (
 				D46C14F61C4FAD03006641D5 /* Files */,
 				D46C14F71C4FAD06006641D5 /* Supporting Files */,
 			);
-			path = "Framework (OSX)";
+			path = "Framework (macOS)";
 			sourceTree = "<group>";
 		};
 		D46C14F01C4FACDD006641D5 /* Framework (tvOS) */ = {
@@ -475,26 +440,22 @@
 		D4D1E1E91C4FB1F10038BCD5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D4C9B9A21CB96B150023E9C2 /* Swift.ForwarderType.swift */,
+				D4C9B9A21CB96B150023E9C2 /* Swift.Forwarder.swift */,
 				D4C9B9B11CB972D70023E9C2 /* Swift.Guess.swift */,
-				D4D1E7671C999AD500A23F95 /* Swift.opaque__Incrementable.swift */,
-				D4D1E2081C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift */,
-				D46C151E1C4FADB8006641D5 /* Swift.opaque_CollectionType.swift */,
+				D46C151E1C4FADB8006641D5 /* Swift.opaque_Collection.swift */,
 				D46C151F1C4FADB8006641D5 /* Swift.opaque_Comparable.swift */,
 				D46C15201C4FADB8006641D5 /* Swift.opaque_Equatable.swift */,
 				D468E65E1C8A068C00553390 /* Swift.opaque_FloatingPointType.swift */,
-				D4D1E1FD1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift */,
-				D46C15211C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift */,
+				D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */,
 				D46C15221C4FADB8006641D5 /* Swift.opaque_Hashable.swift */,
 				D42447151C5248C3007B9992 /* Swift.opaque_Indexable.swift */,
 				D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift */,
-				D4D1E7621C999A0200A23F95 /* Swift.opaque_IntegerType.swift */,
-				D42447141C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift */,
+				D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */,
+				D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */,
 				D42447131C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift */,
-				D42447291C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift */,
-				D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift */,
-				D46C15371C4FADC4006641D5 /* Swift.opaque_SequenceType.swift */,
-				D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift */,
+				D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */,
+				D46C15371C4FADC4006641D5 /* Swift.opaque_Sequence.swift */,
+				D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */,
 				D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */,
 			);
 			path = Swift;
@@ -530,20 +491,17 @@
 		D4D1E1ED1C4FB2090038BCD5 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D4C9B9A71CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift */,
-				D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift */,
-				D4D1E7581C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift */,
-				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift */,
+				D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */,
+				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */,
 				D40C70111C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift */,
-				D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift */,
-				D42447241C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift */,
-				D42447331C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift */,
+				D468E66D1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift */,
+				D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */,
 				D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */,
-				D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift */,
-				D4D1E7531C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift */,
-				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift */,
-				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift */,
-				D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift */,
+				D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */,
+				D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */,
+				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */,
+				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */,
+				D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -559,8 +517,8 @@
 			isa = PBXGroup;
 			children = (
 				D46C14D81C4FAC6D006641D5 /* Framework (Common) */,
-				D46C14EF1C4FACD6006641D5 /* Framework (OSX) */,
 				D46C14D91C4FAC79006641D5 /* Framework (iOS) */,
+				D46C14EF1C4FACD6006641D5 /* Framework (macOS) */,
 				D46C14F01C4FACDD006641D5 /* Framework (tvOS) */,
 				D46C14E41C4FACB9006641D5 /* Framework (watchOS) */,
 				D4D6CFF71C92E8F700104B0F /* Vendors */,
@@ -681,12 +639,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Vatsal Manot";
 				TargetAttributes = {
 					D46C14CC1C4FAC62006641D5 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 4PWQ7VFGWM;
+						LastSwiftMigration = 0800;
 					};
 					D46C14E21C4FACB9006641D5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -758,43 +717,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D447620F1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */,
-				D4C9B9A31CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
-				D42447341C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */,
+				D4C9B9A31CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */,
+				D42447341C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */,
 				D424470F1C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
-				D4D1E75E1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */,
-				D424471A1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */,
-				D46C152F1C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */,
-				D42447251C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */,
+				D4D1E75E1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
+				D424471A1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
+				D46C152F1C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
 				D42447161C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift in Sources */,
 				D46C15271C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
 				D46C152B1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
 				D468E65F1C8A068C00553390 /* Swift.opaque_FloatingPointType.swift in Sources */,
-				D4D1E1F91C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
-				D424472A1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */,
+				D4D1E1F91C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D424471E1C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */,
-				D4D1E7681C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */,
-				D43D27B81C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */,
-				D4608C711C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */,
-				D4D1E2131C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */,
+				D43D27B81C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
+				D4608C711C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
+				D4D1E2131C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D40C70121C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D4C9B9B21CB972D70023E9C2 /* Swift.Guess.swift in Sources */,
-				D4D1E1FE1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */,
-				D40C700D1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D4D1E20E1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
-				D4D1E7541C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */,
-				D4608C6C1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */,
-				D46C15231C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */,
+				D40C700D1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
+				D4D1E20E1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
+				D4608C6C1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */,
+				D46C15231C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */,
 				D46C15331C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */,
-				D4D1E7591C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */,
-				D4D1E2091C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */,
 				D40C70081C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D43D27BD1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */,
-				D468E66E1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */,
+				D43D27BD1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D468E66E1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D468E6691C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
-				D4D1E7631C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */,
-				D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */,
-				D4C9B9A81CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
-				D46C15381C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */,
+				D4D1E7631C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
+				D4D1E1EF1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */,
+				D4C9B9A81CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */,
+				D46C15381C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,43 +755,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44762101C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */,
-				D4C9B9A61CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
-				D42447351C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */,
-				D46C15301C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */,
-				D4D1E7611C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */,
-				D424471B1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */,
+				D4C9B9A61CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */,
+				D42447351C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */,
+				D46C15301C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
+				D4D1E7611C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
+				D424471B1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
 				D46C15281C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
-				D42447261C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */,
 				D42447171C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift in Sources */,
 				D46C152C1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
-				D4D1E1FA1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
+				D4D1E1FA1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6601C8A068C00553390 /* Swift.opaque_FloatingPointType.swift in Sources */,
-				D4D1E2141C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */,
-				D424472B1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */,
+				D4D1E2141C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D424471F1C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */,
-				D4D1E76B1C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */,
-				D43D27BB1C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */,
-				D4608C721C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */,
-				D4D1E1FF1C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */,
+				D43D27BB1C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
+				D4608C721C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
 				D40C70131C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D4C9B9B51CB972D70023E9C2 /* Swift.Guess.swift in Sources */,
 				D42447101C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
-				D40C700E1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D4D1E20F1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
-				D4D1E7571C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */,
-				D4608C6D1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */,
-				D46C15241C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */,
+				D40C700E1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
+				D4D1E20F1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
+				D4608C6D1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */,
+				D46C15241C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */,
 				D46C15341C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */,
-				D4D1E75C1C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */,
-				D4D1E20A1C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */,
 				D40C70091C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D43D27C01C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */,
-				D468E66F1C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */,
+				D43D27C01C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D468E66F1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D468E66A1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
-				D4D1E7661C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */,
-				D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */,
-				D4C9B9AB1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
-				D46C15391C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */,
+				D4D1E7661C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
+				D4D1E1F01C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */,
+				D4C9B9AB1CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */,
+				D46C15391C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,43 +793,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44762111C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */,
-				D4C9B9A51CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
-				D42447361C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */,
-				D46C15311C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */,
-				D4D1E7601C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */,
-				D424471C1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */,
+				D4C9B9A51CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */,
+				D42447361C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */,
+				D46C15311C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
+				D4D1E7601C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
+				D424471C1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
 				D46C15291C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
-				D42447271C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */,
 				D42447181C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift in Sources */,
 				D46C152D1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
-				D4D1E1FB1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
+				D4D1E1FB1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6611C8A068C00553390 /* Swift.opaque_FloatingPointType.swift in Sources */,
-				D4D1E2151C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */,
-				D424472C1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */,
+				D4D1E2151C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D42447201C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */,
-				D4D1E76A1C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */,
-				D43D27BA1C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */,
-				D4608C731C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */,
-				D4D1E2001C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */,
+				D43D27BA1C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
+				D4608C731C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
 				D40C70141C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D4C9B9B41CB972D70023E9C2 /* Swift.Guess.swift in Sources */,
 				D42447111C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
-				D40C700F1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D4D1E2101C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
-				D4D1E7561C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */,
-				D4608C6E1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */,
-				D46C15251C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */,
+				D40C700F1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
+				D4D1E2101C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
+				D4608C6E1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */,
+				D46C15251C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */,
 				D46C15351C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */,
-				D4D1E75B1C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */,
-				D4D1E20B1C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */,
 				D40C700A1C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D43D27BF1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */,
-				D468E6701C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */,
+				D43D27BF1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D468E6701C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D468E66B1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
-				D4D1E7651C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */,
-				D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */,
-				D4C9B9AA1CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
-				D46C153A1C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */,
+				D4D1E7651C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
+				D4D1E1F11C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */,
+				D4C9B9AA1CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */,
+				D46C153A1C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -893,43 +831,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44762121C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */,
-				D4C9B9A41CB96B150023E9C2 /* Swift.ForwarderType.swift in Sources */,
-				D42447371C525277007B9992 /* Swift+Swift.opaque_GeneratorType.swift in Sources */,
-				D46C15321C4FADB8006641D5 /* Swift.opaque_GeneratorType.swift in Sources */,
-				D4D1E75F1C9999E400A23F95 /* Swift+Swift.opaque_IntegerType.swift in Sources */,
-				D424471D1C5248C3007B9992 /* Swift.opaque_MutableCollectionType.swift in Sources */,
+				D4C9B9A41CB96B150023E9C2 /* Swift.Forwarder.swift in Sources */,
+				D42447371C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */,
+				D46C15321C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
+				D4D1E75F1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
+				D424471D1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
 				D46C152A1C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
-				D42447281C524A25007B9992 /* Swift+Swift.opaque_ForwardIndexType.swift in Sources */,
 				D42447191C5248C3007B9992 /* Swift.opaque_MutableIndexable.swift in Sources */,
 				D46C152E1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
-				D4D1E1FC1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
+				D4D1E1FC1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6621C8A068C00553390 /* Swift.opaque_FloatingPointType.swift in Sources */,
-				D4D1E2161C4FBBD40038BCD5 /* Swift+Swift.opaque_CollectionType.swift in Sources */,
-				D424472D1C524A36007B9992 /* Swift.opaque_RandomAccessIndexType.swift in Sources */,
+				D4D1E2161C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D42447211C5248C3007B9992 /* Swift.opaque_Indexable.swift in Sources */,
-				D4D1E7691C999AD500A23F95 /* Swift.opaque__Incrementable.swift in Sources */,
-				D43D27B91C9AC76A00DE9256 /* Foundation+Swift._GeneratorType.swift in Sources */,
-				D4608C741C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumberType.swift in Sources */,
-				D4D1E2011C4FB3A20038BCD5 /* Swift.opaque_ForwardIndexType.swift in Sources */,
+				D43D27B91C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
+				D4608C741C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
 				D40C70151C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D4C9B9B31CB972D70023E9C2 /* Swift.Guess.swift in Sources */,
 				D42447121C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
-				D40C70101C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D4D1E2111C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollectionType.swift in Sources */,
-				D4D1E7551C9991DC00A23F95 /* Swift+Swift.opaque_RandomAccessIndexType.swift in Sources */,
-				D4608C6F1C8BF80800A443BD /* Swift.opaque_SignedNumberType.swift in Sources */,
-				D46C15261C4FADB8006641D5 /* Swift.opaque_CollectionType.swift in Sources */,
+				D40C70101C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
+				D4D1E2111C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
+				D4608C6F1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */,
+				D46C15261C4FADB8006641D5 /* Swift.opaque_Collection.swift in Sources */,
 				D46C15361C4FADB8006641D5 /* Swift.opaque_Hashable.swift in Sources */,
-				D4D1E75A1C9991F700A23F95 /* Swift+Swift.opaque_BidirectionalIndexType.swift in Sources */,
-				D4D1E20C1C4FB5BB0038BCD5 /* Swift.opaque_BidirectionalIndexType.swift in Sources */,
 				D40C700B1C89D43700CB104B /* Swift.opaque_IntegerArithmeticType.swift in Sources */,
-				D43D27BE1C9AC78100DE9256 /* Foundation+Swift._SequenceType.swift in Sources */,
-				D468E6711C8A085100553390 /* Swift+Swift.opaque_FloatingPointType.swift in Sources */,
+				D43D27BE1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D468E6711C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D468E66C1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
-				D4D1E7641C999A0200A23F95 /* Swift.opaque_IntegerType.swift in Sources */,
-				D4D1E1F21C4FB22E0038BCD5 /* Swift+Swift.opaque_SequenceType.swift in Sources */,
-				D4C9B9A91CB96D570023E9C2 /* Swift+Swift.ForwarderType.swift in Sources */,
-				D46C153B1C4FADC4006641D5 /* Swift.opaque_SequenceType.swift in Sources */,
+				D4D1E7641C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
+				D4D1E1F21C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift in Sources */,
+				D4C9B9A91CB96D570023E9C2 /* Swift+Swift.Forwarder.swift in Sources */,
+				D46C153B1C4FADC4006641D5 /* Swift.opaque_Sequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1042,6 +973,7 @@
 				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1059,6 +991,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.framework.$(PRODUCT_NAME)";
 				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1100,6 +1034,7 @@
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -1141,6 +1076,7 @@
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
@@ -1157,7 +1093,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Targets/Framework (OSX)/Supporting Files/Bundle Resources/Info.plist";
+				INFOPLIST_FILE = "Targets/Framework (macOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -1180,7 +1116,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Targets/Framework (OSX)/Supporting Files/Bundle Resources/Info.plist";
+				INFOPLIST_FILE = "Targets/Framework (macOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -1188,6 +1124,7 @@
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};

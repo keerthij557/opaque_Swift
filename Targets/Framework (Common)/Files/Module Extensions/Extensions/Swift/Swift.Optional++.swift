@@ -6,9 +6,8 @@ import Swift
 
 extension Optional
 {
-    @_transparent
-    public func toOpaque() -> Any?
+    @_transparent public func toOpaque() -> Any?
     {
-        return flatMap(Optional<Any>.init)
+        return flatMap((Any?).init)
     }
 }

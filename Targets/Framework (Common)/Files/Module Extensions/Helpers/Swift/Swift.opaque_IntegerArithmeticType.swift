@@ -4,76 +4,76 @@
 
 import Swift
 
-public typealias IntegerArithmeticType2 = protocol<opaque_IntegerArithmeticType, IntegerArithmeticType>
+public typealias IntegerArithmetic2 = protocol<opaque_IntegerArithmetic, IntegerArithmetic>
 
-public protocol opaque_IntegerArithmeticType
+public protocol opaque_IntegerArithmetic
 {
     func toIntMax() -> IntMax
 
-    func opaque_IntegerArithmeticType_adding(other: Any) -> Self?
-    mutating func opaque_IntegerArithmeticType_add(other: Any) -> Void?
+    func opaque_IntegerArithmetic_adding(_ other: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_add(_ other: Any) -> Void?
     
-    func opaque_IntegerArithmeticType_subtracting(other: Any) -> Self?
-    mutating func opaque_IntegerArithmeticType_subtract(other: Any) -> Void?
+    func opaque_IntegerArithmetic_subtracting(_ other: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_subtract(_ other: Any) -> Void?
 
-    func opaque_IntegerArithmeticType_multiplyingBy(other: Any) -> Self?
-    mutating func opaque_IntegerArithmeticType_multiplyBy(other: Any) -> Void?
+    func opaque_IntegerArithmetic_multiplyingBy(_ other: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_multiplyBy(_ other: Any) -> Void?
 
-    func opaque_IntegerArithmeticType_dividingBy(other: Any) -> Self?
-    mutating func opaque_IntegerArithmeticType_divideBy(other: Any) -> Void?
+    func opaque_IntegerArithmetic_dividingBy(_ other: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_divideBy(_ other: Any) -> Void?
 
-    func opaque_IntegerArithmeticType_modulo(other: Any) -> Self?
-    mutating func opaque_IntegerArithmeticType_modulateBy(other: Any) -> Void?
+    func opaque_IntegerArithmetic_modulo(_ other: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_modulateBy(_ other: Any) -> Void?
 }
 
-extension opaque_IntegerArithmeticType where Self: IntegerArithmeticType
+extension opaque_IntegerArithmetic where Self: IntegerArithmetic
 {
-    public func opaque_IntegerArithmeticType_adding(other: Any) -> Self?
+    public func opaque_IntegerArithmetic_adding(_ other: Any) -> Self?
     {
         return (other as? Self).map({ self + $0 })
     }
     
-    public mutating func opaque_IntegerArithmeticType_add(other: Any) -> Void?
+    public mutating func opaque_IntegerArithmetic_add(_ other: Any) -> Void?
     {
         return (other as? Self).map({ self += $0 })
     }
     
-    public func opaque_IntegerArithmeticType_subtracting(other: Any) -> Self?
+    public func opaque_IntegerArithmetic_subtracting(_ other: Any) -> Self?
     {
         return (other as? Self).map({ self - $0 })
     }
     
-    public mutating func opaque_IntegerArithmeticType_subtract(other: Any) -> Void?
+    public mutating func opaque_IntegerArithmetic_subtract(_ other: Any) -> Void?
     {
         return (other as? Self).map({ self -= $0 })
     }
     
-    public func opaque_IntegerArithmeticType_multiplyingBy(other: Any) -> Self?
+    public func opaque_IntegerArithmetic_multiplyingBy(_ other: Any) -> Self?
     {
         return (other as? Self).map({ self * $0 })
     }
     
-    public mutating func opaque_IntegerArithmeticType_multiplyBy(other: Any) -> Void?
+    public mutating func opaque_IntegerArithmetic_multiplyBy(_ other: Any) -> Void?
     {
         return (other as? Self).map({ self *= $0 })
     }
 
-    public func opaque_IntegerArithmeticType_dividingBy(other: Any) -> Self?
+    public func opaque_IntegerArithmetic_dividingBy(_ other: Any) -> Self?
     {
         return (other as? Self).map({ self / $0 })
     }
     
-    public mutating func opaque_IntegerArithmeticType_divideBy(other: Any) -> Void?
+    public mutating func opaque_IntegerArithmetic_divideBy(_ other: Any) -> Void?
     {
         return (other as? Self).map({ self /= $0 })
     }
 
-    public func opaque_IntegerArithmeticType_modulo(other: Any) -> Self?
+    public func opaque_IntegerArithmetic_modulo(_ other: Any) -> Self?
     {
         return (other as? Self).map({ self % $0 })
     }
     
-    public mutating func opaque_IntegerArithmeticType_modulateBy(other: Any) -> Void?
+    public mutating func opaque_IntegerArithmetic_modulateBy(_ other: Any) -> Void?
     {
         return (other as? Self).map({ self %= $0 })
     }

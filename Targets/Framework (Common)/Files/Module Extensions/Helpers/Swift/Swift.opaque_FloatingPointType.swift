@@ -4,9 +4,9 @@
 
 import Swift
 
-public typealias FloatingPointType2 = protocol<opaque_FloatingPointType, FloatingPointType>
+public typealias FloatingPoint2 = protocol<opaque_FloatingPoint, FloatingPoint>
 
-public protocol opaque_FloatingPointType: opaque_Strideable
+public protocol opaque_FloatingPoint: opaque_Strideable
 {
     var floatingPointClass: FloatingPointClassification { get }
     var isSignMinus: Bool { get }

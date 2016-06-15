@@ -9,7 +9,7 @@ extension Character: opaque_Hashable
     
 }
 
-extension COpaquePointer: opaque_Hashable
+extension OpaquePointer: opaque_Hashable
 {
     
 }
@@ -77,7 +77,7 @@ extension StaticString: opaque_Hashable, Hashable
 {
     public var hashValue: Int
     {
-        return stringValue.hashValue
+        return String(self).hashValue
     }
 }
 

@@ -4,22 +4,22 @@
 
 import Swift
 
-extension AnySequence: opaque_SequenceType
+extension AnySequence: opaque_Sequence
 {
 
 }
 
-extension GeneratorSequence: opaque_SequenceType
+extension IteratorSequence: opaque_Sequence
 {
     
 }
 
-extension LazySequence: opaque_SequenceType
+extension LazySequence: opaque_Sequence
 {
 
 }
 
-extension Zip2Sequence: opaque_SequenceType
+extension Zip2Sequence: opaque_Sequence
 {
     public func toOpaque() -> AnySequence<(Any, Any)>
     {

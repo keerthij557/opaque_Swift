@@ -4,7 +4,7 @@
 
 import Swift
 
-public struct Guess: ErrorType
+public struct Guess: ErrorProtocol
 {
     public var some: Any
     

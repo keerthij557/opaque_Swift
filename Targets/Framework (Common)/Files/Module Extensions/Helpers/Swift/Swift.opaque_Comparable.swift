@@ -6,7 +6,7 @@ import Swift
 
 public typealias Comparable2 = protocol<opaque_Comparable, Comparable>
 
-public protocol opaque_Comparable
+public protocol opaque_Comparable: opaque_Equatable
 {
     func opaque_Comparable_isLessThan(_: Any) -> Bool?
     func opaque_Comparable_isLessThanOrEqualTo(_: Any) -> Bool?
@@ -16,22 +16,22 @@ public protocol opaque_Comparable
 
 extension opaque_Comparable where Self: Comparable
 {
-    public func opaque_Comparable_isLessThan(other: Any) -> Bool?
+    public func opaque_Comparable_isLessThan(_ other: Any) -> Bool?
     {
         return (other as? Self).map({ self < $0 })
     }
     
-    public func opaque_Comparable_isLessThanOrEqualTo(other: Any) -> Bool?
+    public func opaque_Comparable_isLessThanOrEqualTo(_ other: Any) -> Bool?
     {
         return (other as? Self).map({ self <= $0 })
     }
     
-    public func opaque_Comparable_isMoreThan(other: Any) -> Bool?
+    public func opaque_Comparable_isMoreThan(_ other: Any) -> Bool?
     {
         return (other as? Self).map({ self > $0 })
     }
     
-    public func opaque_Comparable_isMoreThanOrEqualTo(other: Any) -> Bool?
+    public func opaque_Comparable_isMoreThanOrEqualTo(_ other: Any) -> Bool?
     {
         return (other as? Self).map({ self >= $0 })
     }
