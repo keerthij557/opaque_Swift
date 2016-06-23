@@ -46,7 +46,7 @@ extension AnyIterator: MutableForwarder
     
     public static func forward(_ forwarded: Forwarded) -> AnyIterator
     {
-        return forwarded.opaque_IteratorProtocol_toAnyGenerator() as! AnyIterator
+        return forwarded.opaque_IteratorProtocol_toAnyIterator() as! AnyIterator
     }
 }
 

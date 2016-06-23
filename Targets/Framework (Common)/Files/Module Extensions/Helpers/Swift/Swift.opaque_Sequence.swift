@@ -8,10 +8,10 @@ public typealias Sequence2 = protocol<opaque_Sequence, Sequence>
 
 public protocol opaque_Sequence
 {
-    static var opaque_Sequence_Generator: Any.Type { get }
-    static var opaque_Sequence_Generator_Element: Any.Type { get }
+    static var opaque_Sequence_Iterator: Any.Type { get }
+    static var opaque_Sequence_Iterator_Element: Any.Type { get }
     
-    func opaque_Sequence_generate() -> opaque_IteratorProtocol
+    func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     
     func opaque_Sequence_toAnySequence() -> Any
     
@@ -20,17 +20,17 @@ public protocol opaque_Sequence
 
 extension opaque_Sequence where Self: Sequence
 {
-    public static var opaque_Sequence_Generator: Any.Type
+    public static var opaque_Sequence_Iterator: Any.Type
     {
         return Iterator.self
     }
     
-    public static var opaque_Sequence_Generator_Element: Any.Type
+    public static var opaque_Sequence_Iterator_Element: Any.Type
     {
         return Iterator.Element.self
     }
     
-    public func opaque_Sequence_generate() -> opaque_IteratorProtocol
+    public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     {
         return makeIterator() as! opaque_IteratorProtocol
     }
@@ -48,7 +48,7 @@ extension opaque_Sequence where Self: Sequence
 
 extension opaque_Sequence where Self: Sequence, Self.Iterator: opaque_IteratorProtocol
 {
-    public func opaque_Sequence_generate() -> opaque_IteratorProtocol
+    public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     {
         return makeIterator()
     }
@@ -58,6 +58,6 @@ extension Guess: Sequence
 {
     public func makeIterator() -> AnyIterator<Any>
     {
-        return forcetype(opaque_Sequence).opaque_Sequence_generate().toOpaque()
+        return forcetype(opaque_Sequence).opaque_Sequence_makeIterator().toOpaque()
     }
 }

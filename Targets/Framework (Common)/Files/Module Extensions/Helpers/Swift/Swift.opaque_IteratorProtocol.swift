@@ -12,7 +12,7 @@ public protocol opaque_IteratorProtocol
     
     mutating func opaque_IteratorProtocol_next() -> Any?
     
-    func opaque_IteratorProtocol_toAnyGenerator() -> Any
+    func opaque_IteratorProtocol_toAnyIterator() -> Any
     
     func toOpaque() -> AnyIterator<Any>
 }
@@ -29,7 +29,7 @@ extension opaque_IteratorProtocol where Self: IteratorProtocol
         return next().map({ $0 })
     }
     
-    public func opaque_IteratorProtocol_toAnyGenerator() -> Any
+    public func opaque_IteratorProtocol_toAnyIterator() -> Any
     {
         return AnyIterator(self)
     }
