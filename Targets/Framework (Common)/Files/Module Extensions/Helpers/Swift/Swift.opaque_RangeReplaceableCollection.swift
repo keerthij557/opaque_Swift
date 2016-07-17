@@ -25,7 +25,7 @@ extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollecti
 {
     public mutating func opaque_RangeReplaceableCollection_reserveCapacity(_ n: Any) -> Void?
     {
-        return (n as? IndexDistance).map({ self.reserveCapacity($0) })
+        return (-?>n).map({ self.reserveCapacity($0) })
     }
     
     public mutating func opaque_RangeReplaceableCollection_replaceRange(_ subRange: Any, with newElements: Any) -> Void?

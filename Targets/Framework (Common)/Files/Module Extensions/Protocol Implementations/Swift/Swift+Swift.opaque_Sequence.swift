@@ -4,9 +4,19 @@
 
 import Swift
 
+extension _SliceBuffer: opaque_Sequence
+{
+    
+}
+
 extension AnySequence: opaque_Sequence
 {
 
+}
+
+extension EnumeratedSequence: opaque_Sequence
+{
+    
 }
 
 extension IteratorSequence: opaque_Sequence
@@ -14,15 +24,33 @@ extension IteratorSequence: opaque_Sequence
     
 }
 
+extension JoinedSequence: opaque_Sequence
+{
+    
+}
+
 extension LazySequence: opaque_Sequence
 {
+    public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
+    {
+        return makeIterator() as! opaque_IteratorProtocol
+    }
+}
 
+extension Slice: opaque_Sequence
+{
+    
+}
+
+extension UnfoldSequence: opaque_Sequence
+{
+    
 }
 
 extension Zip2Sequence: opaque_Sequence
 {
-    public func toOpaque() -> AnySequence<(Any, Any)>
+    public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     {
-        return AnySequence(lazy.map({ (($0.0 as Any), ($0.1 as Any)) }))
+        return makeIterator() as! opaque_IteratorProtocol
     }
 }

@@ -33,7 +33,7 @@ extension Guess
     
     public mutating func forcetype<T, U>(_: T.Type = T.self, file: StaticString = #file, line: UInt = #line, _ f: ((inout T) -> U)) -> U
     {
-        var `self` = forcetype(T)
+        var `self` = forcetype(T.self)
         
         let result = f(&`self`)
         
@@ -45,7 +45,9 @@ extension Guess
 
 extension Guess: ArrayLiteralConvertible
 {
-    public init(arrayLiteral elements: [Any]...)
+    public typealias Element = Any
+    
+    public init(arrayLiteral elements: Any...)
     {
         self.init(elements)
     }
@@ -75,7 +77,7 @@ extension Guess: FloatLiteralConvertible
     }
 }
 
-extension Guess: IntegerLiteralConvertible
+extension Guess: IntegerLiteralConvertible2
 {
     public init(integerLiteral value: Int)
     {

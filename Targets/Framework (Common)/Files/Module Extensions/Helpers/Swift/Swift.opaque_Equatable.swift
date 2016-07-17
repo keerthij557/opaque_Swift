@@ -6,16 +6,16 @@ import Swift
 
 public typealias Equatable2 = protocol<opaque_Equatable, Equatable>
 
-public protocol opaque_Equatable
+public protocol opaque_Equatable: CommonProtocol
 {
-    func opaque_Equatable_isEqualTo(_: Any) -> Bool?
+    func opaque_Equatable_isEqualTo(_ other: Any) -> Bool?
 }
 
 extension opaque_Equatable where Self: Equatable
 {
     public func opaque_Equatable_isEqualTo(_ other: Any) -> Bool?
     {
-        return (other as? Self).map({ self == $0 })
+        return (-?>other).map({ self == $0 })
     }
 }
 
@@ -25,6 +25,6 @@ public func opaque_Equatable_equate<T, U>(_ lhs: T, _ rhs: U) -> Bool?
     {
         return predicate
     }
-        
+    
     return nil
 }

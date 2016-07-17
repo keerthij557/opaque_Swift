@@ -6,14 +6,13 @@ import Swift
 
 public typealias IteratorProtocol2 = protocol<opaque_IteratorProtocol, IteratorProtocol>
 
-public protocol opaque_IteratorProtocol
+public protocol opaque_IteratorProtocol: CommonProtocol
 {
     static var opaque_IteratorProtocol_Element: Any.Type { get }
     
     mutating func opaque_IteratorProtocol_next() -> Any?
     
     func opaque_IteratorProtocol_toAnyIterator() -> Any
-    
     func toOpaque() -> AnyIterator<Any>
 }
 

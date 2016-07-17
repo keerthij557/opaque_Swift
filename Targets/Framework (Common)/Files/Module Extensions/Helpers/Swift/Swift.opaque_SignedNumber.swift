@@ -8,12 +8,12 @@ public typealias SignedNumber2 = protocol<opaque_SignedNumber, SignedNumber>
 
 public protocol opaque_SignedNumber: opaque_Comparable
 {
-    var inverselySigned: Self { get }
+    var opaque_SignedNumber_inverselySigned: opaque_SignedNumber { get }
 }
 
 extension opaque_SignedNumber where Self: SignedNumber
 {
-    public var inverselySigned: Self
+    public var opaque_SignedNumber_inverselySigned: opaque_SignedNumber
     {
         return -self
     }

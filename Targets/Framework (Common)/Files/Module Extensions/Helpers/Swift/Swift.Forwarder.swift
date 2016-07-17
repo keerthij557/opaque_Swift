@@ -4,7 +4,7 @@
 
 import Swift
 
-public protocol Forwarder
+public protocol Forwarder: CommonProtocol
 {
     associatedtype Forwarded
     
@@ -16,12 +16,4 @@ public protocol Forwarder
 public protocol MutableForwarder: Forwarder
 {
     var forwarded: Forwarded { get set }
-}
-
-extension Forwarder
-{
-    public static func forward(_ forwarded: Forwarded) -> Self
-    {
-        return unsafeBitCast(forwarded, to: Self.self)
-    }
 }

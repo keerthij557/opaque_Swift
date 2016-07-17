@@ -73,17 +73,12 @@ extension String: opaque_Hashable
     
 }
 
-extension StaticString: opaque_Hashable, Hashable
+extension StaticString: Hashable2
 {
     public var hashValue: Int
     {
         return String(self).hashValue
     }
-}
-
-public func == (lhs: StaticString, rhs: StaticString) -> Bool
-{
-    return lhs.hashValue == rhs.hashValue
 }
 
 extension UInt: opaque_Hashable

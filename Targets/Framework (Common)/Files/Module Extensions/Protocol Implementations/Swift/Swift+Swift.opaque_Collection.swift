@@ -43,13 +43,3 @@ extension Dictionary: opaque_Collection
 {
     
 }
-
-extension MutableSlice: opaque_MutableCollection
-{
-    
-}
-
-extension Slice: opaque_Collection
-{
-    
-}

@@ -9,6 +9,11 @@ extension AnyIterator: opaque_IteratorProtocol
     
 }
 
+extension DictionaryIterator: opaque_IteratorProtocol
+{
+    
+}
+
 extension EmptyIterator: opaque_IteratorProtocol
 {
     
@@ -60,6 +65,11 @@ extension StrideThroughIterator: opaque_IteratorProtocol
 }
 
 extension String.UnicodeScalarView.Iterator: opaque_IteratorProtocol
+{
+    
+}
+
+extension UnfoldSequence: opaque_IteratorProtocol
 {
     
 }

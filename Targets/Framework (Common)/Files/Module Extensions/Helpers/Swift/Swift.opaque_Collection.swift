@@ -11,11 +11,9 @@ public protocol opaque_Collection: opaque_IndexableBase, opaque_Sequence
     var isEmpty: Bool { get }
     
     func underestimateCount() -> Int
-    
     func toOpaque() -> AnySequence<(Any, Any)>
     
-    func opaque_Collection_elements(within _: Any) -> opaque_Sequence?
-
+    func opaque_Collection_elements(within: Any) -> opaque_Sequence?
     func opaque_Collection_toAnyCollection() -> Any
     func opaque_Collection_toAnyBidirectionalCollection() -> Any?
     func opaque_Collection_toAnyRandomAccessCollection() -> Any?
@@ -43,11 +41,11 @@ extension opaque_Collection where Self: Collection, Self.Iterator.Element == Sel
     
     public func opaque_Collection_toAnyBidirectionalCollection() -> Any?
     {
-        return AnyBidirectionalCollection(AnyCollection(self))
+        return AnyBidirectionalCollection(.init(self))
     }
     
     public func opaque_Collection_toAnyRandomAccessCollection() -> Any?
     {
-        return AnyRandomAccessCollection(AnyCollection(self))
+        return AnyRandomAccessCollection(.init(self))
     }
 }

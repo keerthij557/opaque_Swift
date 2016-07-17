@@ -23,7 +23,7 @@ extension AnyBidirectionalCollection: MutableForwarder
     
     public static func forward(_ forwarded: Forwarded) -> AnyBidirectionalCollection
     {
-        return forwarded.opaque_Collection_toAnyBidirectionalCollection() as! AnyBidirectionalCollection
+        return -!>forwarded.opaque_Collection_toAnyBidirectionalCollection()
     }
 }
 
@@ -46,7 +46,7 @@ extension AnyIterator: MutableForwarder
     
     public static func forward(_ forwarded: Forwarded) -> AnyIterator
     {
-        return forwarded.opaque_IteratorProtocol_toAnyIterator() as! AnyIterator
+        return -!>forwarded.opaque_IteratorProtocol_toAnyIterator()
     }
 }
 
@@ -69,7 +69,7 @@ extension AnyRandomAccessCollection: MutableForwarder
     
     public static func forward(_ forwarded: Forwarded) -> AnyRandomAccessCollection
     {
-        return forwarded.opaque_Collection_toAnyRandomAccessCollection() as! AnyRandomAccessCollection
+        return -!>forwarded.opaque_Collection_toAnyRandomAccessCollection()
     }
 }
 
@@ -92,6 +92,6 @@ extension AnySequence: MutableForwarder
     
     public static func forward(_ forwarded: Forwarded) -> AnySequence
     {
-        return forwarded.opaque_Sequence_toAnySequence() as! AnySequence
+        return -!>forwarded.opaque_Sequence_toAnySequence()
     }
 }
