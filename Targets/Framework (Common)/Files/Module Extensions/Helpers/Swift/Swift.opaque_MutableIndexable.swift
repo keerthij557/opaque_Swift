@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias MutableIndexable2 = protocol<opaque_MutableIndexable, MutableIndexable>
+public typealias MutableIndexable2 = opaque_MutableIndexable & MutableIndexable
 
 public protocol opaque_MutableIndexable: opaque_IndexableBase
 {

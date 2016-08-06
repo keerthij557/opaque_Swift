@@ -5,9 +5,6 @@
 import Swift
 
 prefix operator -!>
-{
-    
-}
 
 public prefix func -!> <T, U>(rhs: T) -> U
 {

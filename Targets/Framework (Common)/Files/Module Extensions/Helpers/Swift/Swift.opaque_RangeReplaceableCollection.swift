@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias RangeReplaceableCollection2 = protocol<opaque_RangeReplaceableCollection, RangeReplaceableCollection>
+public typealias RangeReplaceableCollection2 = opaque_RangeReplaceableCollection & RangeReplaceableCollection
 
 public protocol opaque_RangeReplaceableCollection: opaque_Collection
 {
@@ -30,7 +30,7 @@ extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollecti
     
     public mutating func opaque_RangeReplaceableCollection_replaceRange(_ subRange: Any, with newElements: Any) -> Void?
     {
-        if let subRange = subRange as? Range<Index>, newElements = (newElements as? opaque_Collection)?.opaque_Collection_toAnyCollection() as? AnyCollection<Iterator.Element>
+        if let subRange = subRange as? Range<Index>, let newElements = (newElements as? opaque_Collection)?.opaque_Collection_toAnyCollection() as? AnyCollection<Iterator.Element>
         {
             replaceSubrange(subRange, with: newElements)
         }
@@ -50,7 +50,7 @@ extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollecti
     
     public mutating func opaque_RangeReplaceableCollection_insert(_ newElement: Any, atIndex i: Any) -> Void?
     {
-        if let newElement = newElement as? Iterator.Element, i = i as? Index
+        if let newElement = newElement as? Iterator.Element, let i = i as? Index
         {
             insert(newElement, at: i)
         }

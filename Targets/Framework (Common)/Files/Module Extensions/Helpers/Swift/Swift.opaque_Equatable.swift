@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias Equatable2 = protocol<opaque_Equatable, Equatable>
+public typealias Equatable2 = opaque_Equatable & Equatable
 
 public protocol opaque_Equatable: CommonProtocol
 {

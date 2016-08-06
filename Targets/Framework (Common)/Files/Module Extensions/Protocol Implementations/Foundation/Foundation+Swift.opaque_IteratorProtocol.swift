@@ -5,6 +5,11 @@
 import Foundation
 import Swift
 
+extension Data.Iterator: opaque_IteratorProtocol
+{
+    
+}
+
 extension NSDictionary.Iterator: opaque_IteratorProtocol
 {
     

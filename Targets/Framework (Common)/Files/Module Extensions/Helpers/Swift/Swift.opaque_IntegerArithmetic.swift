@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias IntegerArithmetic2 = protocol<opaque_IntegerArithmetic, IntegerArithmetic>
+public typealias IntegerArithmetic2 = opaque_IntegerArithmetic & IntegerArithmetic
 
 public protocol opaque_IntegerArithmetic: opaque_Comparable
 {

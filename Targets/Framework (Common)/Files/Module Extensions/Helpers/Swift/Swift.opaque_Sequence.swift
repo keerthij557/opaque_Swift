@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias Sequence2 = protocol<opaque_Sequence, Sequence>
+public typealias Sequence2 = opaque_Sequence & Sequence
 
 public protocol opaque_Sequence: CommonProtocol
 {

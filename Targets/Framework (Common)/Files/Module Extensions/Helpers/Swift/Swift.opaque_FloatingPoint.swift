@@ -4,9 +4,9 @@
 
 import Swift
 
-public typealias FloatingPoint2 = protocol<opaque_FloatingPoint, FloatingPoint>
+public typealias FloatingPoint2 = opaque_FloatingPoint & FloatingPoint
 
-public protocol opaque_FloatingPoint: opaque_AbsoluteValuable, opaque_IntegerLiteralConvertible, opaque_SignedNumber, opaque_Strideable
+public protocol opaque_FloatingPoint: opaque_ExpressibleByIntegerLiteral, opaque_SignedNumber, opaque_Strideable
 {
     init()
     

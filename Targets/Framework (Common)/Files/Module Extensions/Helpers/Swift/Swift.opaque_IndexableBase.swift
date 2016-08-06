@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias IndexableBase2 = protocol<opaque_IndexableBase, IndexableBase>
+public typealias IndexableBase2 = opaque_IndexableBase & IndexableBase
 
 public protocol opaque_IndexableBase: CommonProtocol
 {

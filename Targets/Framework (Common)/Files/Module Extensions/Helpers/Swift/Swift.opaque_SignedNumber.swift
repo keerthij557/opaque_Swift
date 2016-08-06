@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias SignedNumber2 = protocol<opaque_SignedNumber, SignedNumber>
+public typealias SignedNumber2 = opaque_SignedNumber & SignedNumber
 
 public protocol opaque_SignedNumber: opaque_Comparable
 {

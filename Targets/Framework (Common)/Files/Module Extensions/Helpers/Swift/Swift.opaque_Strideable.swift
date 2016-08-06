@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias Strideable2 = protocol<opaque_Strideable, Strideable>
+public typealias Strideable2 = opaque_Strideable & Strideable
 
 public protocol opaque_Strideable: opaque_Comparable
 {

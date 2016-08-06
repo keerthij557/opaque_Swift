@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias Collection2 = protocol<opaque_Collection, Collection>
+public typealias Collection2 = opaque_Collection & Collection
 
 public protocol opaque_Collection: opaque_IndexableBase, opaque_Sequence
 {

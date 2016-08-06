@@ -77,7 +77,7 @@ extension StaticString: Hashable2
 {
     public var hashValue: Int
     {
-        return String(self).hashValue
+        return String(cString: utf8Start).hashValue
     }
 }
 

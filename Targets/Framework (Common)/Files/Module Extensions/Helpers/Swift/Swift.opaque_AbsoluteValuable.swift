@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias AbsoluteValuable2 = protocol<opaque_AbsoluteValuable, AbsoluteValuable>
+public typealias AbsoluteValuable2 = opaque_AbsoluteValuable & AbsoluteValuable
 
 public protocol opaque_AbsoluteValuable: opaque_SignedNumber
 {

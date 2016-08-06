@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias IteratorProtocol2 = protocol<opaque_IteratorProtocol, IteratorProtocol>
+public typealias IteratorProtocol2 = opaque_IteratorProtocol & IteratorProtocol
 
 public protocol opaque_IteratorProtocol: CommonProtocol
 {

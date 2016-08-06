@@ -4,7 +4,7 @@
 
 import Swift
 
-public typealias Hashable2 = protocol<opaque_Hashable, Hashable>
+public typealias Hashable2 = opaque_Hashable & Hashable
 
 public protocol opaque_Hashable: opaque_Equatable
 {

@@ -40,7 +40,7 @@ extension NSSet: opaque_Sequence
     
 }
 
-extension OrderedSet: opaque_Sequence
+extension NSOrderedSet: opaque_Sequence
 {
     
 }

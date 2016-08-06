@@ -4,7 +4,7 @@
 
 import Swift
 
-public struct Guess: ErrorProtocol
+public struct Guess: Error
 {
     public var some: Any
     
@@ -43,7 +43,7 @@ extension Guess
     }
 }
 
-extension Guess: ArrayLiteralConvertible
+extension Guess: ExpressibleByArrayLiteral
 {
     public typealias Element = Any
     
@@ -53,7 +53,7 @@ extension Guess: ArrayLiteralConvertible
     }
 }
 
-extension Guess: BooleanLiteralConvertible
+extension Guess: ExpressibleByBooleanLiteral
 {
     public init(booleanLiteral value: Bool)
     {
@@ -61,7 +61,7 @@ extension Guess: BooleanLiteralConvertible
     }
 }
 
-extension Guess: DictionaryLiteralConvertible
+extension Guess: ExpressibleByDictionaryLiteral
 {
     public init(dictionaryLiteral elements: (Any, Any)...)
     {
@@ -69,7 +69,7 @@ extension Guess: DictionaryLiteralConvertible
     }
 }
 
-extension Guess: FloatLiteralConvertible
+extension Guess: ExpressibleByFloatLiteral
 {
     public init(floatLiteral value: Float)
     {
@@ -77,7 +77,7 @@ extension Guess: FloatLiteralConvertible
     }
 }
 
-extension Guess: IntegerLiteralConvertible2
+extension Guess: ExpressibleByIntegerLiteral2
 {
     public init(integerLiteral value: Int)
     {
@@ -85,7 +85,7 @@ extension Guess: IntegerLiteralConvertible2
     }
 }
 
-extension Guess: StringLiteralConvertible
+extension Guess: ExpressibleByStringLiteral
 {
     public init(unicodeScalarLiteral value: String)
     {
