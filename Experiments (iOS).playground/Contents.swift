@@ -43,7 +43,7 @@ public struct FlatSequenceIterator<I: IteratorProtocol2, T>: IteratorProtocol2
         {
             while let element = workstack[workstack.endIndex - 1].opaque_IteratorProtocol_next()
             {
-                if element.dynamicType != T.self
+                if type(of: element) != T.self
                 {
                     if let element = element as? opaque_Sequence
                     {
@@ -91,6 +91,6 @@ public struct FlatSequence<S: Sequence2, T>: Sequence2 where S.Iterator: Iterato
     }
 }
 
-var x = [1, 2, [3, 4, [5, 6, [7, [8, [9]], [10], 11], 12], 13], [14, 15, [16]]]
+var x = [1, 2, [3, 4, [5, 6, [7, [8, [9]], [10], 11], 12], 13], [14, 15, [16]]] as [Any]
 
-Array(FlatSequence<[NSObject], Int>(x)) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Array(FlatSequence<[Any], Int>(x)) // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]

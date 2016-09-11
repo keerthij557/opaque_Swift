@@ -6,7 +6,7 @@ import Swift
 
 public typealias MutableCollection2 = opaque_MutableCollection & MutableCollection
 
-public protocol opaque_MutableCollection: opaque_Collection, opaque_MutableIndexable
+public protocol opaque_MutableCollection: opaque_Collection
 {
     mutating func opaque_MutableCollection_setElements(_: Any, within _: Any) -> Void?
 }

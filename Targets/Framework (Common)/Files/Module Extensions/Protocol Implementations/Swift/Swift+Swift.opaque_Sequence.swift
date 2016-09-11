@@ -4,11 +4,6 @@
 
 import Swift
 
-extension _SliceBuffer: opaque_Sequence
-{
-    
-}
-
 extension AnySequence: opaque_Sequence
 {
 
