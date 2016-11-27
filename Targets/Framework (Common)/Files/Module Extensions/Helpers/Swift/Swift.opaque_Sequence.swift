@@ -29,6 +29,11 @@ extension opaque_Sequence where Self: Sequence
         return Iterator.Element.self
     }
     
+    public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
+    {
+        return -!>makeIterator()
+    }
+
     public func opaque_Sequence_toAnySequence() -> Any
     {
         return AnySequence({ self.makeIterator() })
