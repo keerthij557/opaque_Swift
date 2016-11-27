@@ -32,6 +32,11 @@ extension LazySequence: opaque_Sequence
     }
 }
 
+extension Set: opaque_Sequence
+{
+    
+}
+
 extension Slice: opaque_Sequence
 {
     

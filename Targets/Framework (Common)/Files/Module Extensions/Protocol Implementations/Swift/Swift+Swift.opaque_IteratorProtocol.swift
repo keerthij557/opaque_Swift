@@ -59,6 +59,11 @@ extension LazyMapIterator: opaque_IteratorProtocol
     
 }
 
+extension SetIterator: opaque_IteratorProtocol
+{
+    
+}
+
 extension StrideThroughIterator: opaque_IteratorProtocol
 {
     

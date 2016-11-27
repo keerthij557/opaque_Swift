@@ -13,9 +13,9 @@ public protocol opaque_RangeReplaceableCollection: opaque_Collection
     mutating func opaque_RangeReplaceableCollection_reserveCapacity(_ n: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_replaceRange(_ subRange: Any, with newElements: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_append(_ x: Any) -> Void?
-    mutating func opaque_RangeReplaceableCollection_appendContentsOf(_ newElements: Any) -> Void?
+    mutating func opaque_RangeReplaceableCollection_append(contentsOf newElements: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_insert(_ newElement: Any, atIndex i: Any) -> Void?
-    mutating func opaque_RangeReplaceableCollection_insertContentsOf(_ newElements: Any, at i: Any) -> Void?
+    mutating func opaque_RangeReplaceableCollection_insert(contentsOf newElements: Any, at i: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_removeAtIndex(_ i: Any) -> Any?
     mutating func opaque_RangeReplaceableCollection_removeFirst() -> Any
     mutating func opaque_RangeReplaceableCollection_removeRange(_ subRange: Any) -> Void?
@@ -43,7 +43,7 @@ extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollecti
         return (x as? Iterator.Element).map({ self.append($0) })
     }
     
-    public mutating func opaque_RangeReplaceableCollection_appendContentsOf(_ newElements: Any) -> Void?
+    public mutating func opaque_RangeReplaceableCollection_append(contentsOf newElements: Any) -> Void?
     {
         return ((newElements as? opaque_Sequence)?.opaque_Sequence_toAnySequence() as? AnySequence).map({ self.append(contentsOf: $0) })
     }
@@ -58,7 +58,7 @@ extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollecti
         return nil
     }
     
-    public mutating func opaque_RangeReplaceableCollection_insertContentsOf(_ newElements: Any, at i: Any) -> Void?
+    public mutating func opaque_RangeReplaceableCollection_insert(contentsOf newElements: Any, at i: Any) -> Void?
     {
         if let newElements = (newElements as? opaque_Collection)?.opaque_Collection_toAnyCollection() as? AnyCollection<Iterator.Element>, let i = i as? Index
         {
