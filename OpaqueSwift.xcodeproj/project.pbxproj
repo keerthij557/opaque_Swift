@@ -187,6 +187,10 @@
 		D4D1E7641C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */; };
 		D4D1E7651C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */; };
 		D4D1E7661C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */; };
+		D4F08CD41DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */; };
+		D4F08CD51DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */; };
+		D4F08CD61DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */; };
+		D4F08CD71DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -244,6 +248,7 @@
 		D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Collection.swift"; sourceTree = "<group>"; };
 		D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Integer.swift"; sourceTree = "<group>"; };
 		D4D1E7621C999A0200A23F95 /* Swift.opaque_Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Integer.swift; sourceTree = "<group>"; };
+		D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_BidirectionalCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -540,6 +545,7 @@
 				D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */,
 				D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */,
 				D4C9145D1DF1C0BD0063F457 /* Swift.CollectionOnly.swift */,
+				D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -839,6 +845,7 @@
 				D4C9145E1DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BD1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D468E66E1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
+				D4F08CD41DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2331D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,
 				D468E6691C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
 				D4D1E7631C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
@@ -891,6 +898,7 @@
 				D4C914611DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27C01C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D468E66F1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
+				D4F08CD71DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2361D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,
 				D468E66A1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
 				D4D1E7661C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
@@ -943,6 +951,7 @@
 				D4C914601DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BF1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D468E6701C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
+				D4F08CD61DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2351D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,
 				D468E66B1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
 				D4D1E7651C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
@@ -995,6 +1004,7 @@
 				D4C9145F1DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BE1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D468E6711C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
+				D4F08CD51DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2341D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,
 				D468E66C1C8A077200553390 /* Swift.opaque_Strideable.swift in Sources */,
 				D4D1E7641C999A0200A23F95 /* Swift.opaque_Integer.swift in Sources */,
