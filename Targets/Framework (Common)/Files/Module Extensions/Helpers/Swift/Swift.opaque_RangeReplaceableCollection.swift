@@ -11,7 +11,7 @@ public protocol opaque_RangeReplaceableCollection: opaque_Collection
     init()
     
     mutating func opaque_RangeReplaceableCollection_reserveCapacity(_ n: Any) -> Void?
-    mutating func opaque_RangeReplaceableCollection_replaceRange(_ subRange: Any, with newElements: Any) -> Void?
+    mutating func opaque_RangeReplaceableCollection_replaceSubrange(_ subRange: Any, with newElements: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_append(_ x: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_append(contentsOf newElements: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_insert(_ newElement: Any, atIndex i: Any) -> Void?
@@ -28,11 +28,11 @@ extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollecti
         return (-?>n).map({ self.reserveCapacity($0) })
     }
     
-    public mutating func opaque_RangeReplaceableCollection_replaceRange(_ subRange: Any, with newElements: Any) -> Void?
+    public mutating func opaque_RangeReplaceableCollection_replaceSubrange(_ bounds: Any, with newElements: Any) -> Void?
     {
-        if let subRange = subRange as? Range<Index>, let newElements = (newElements as? opaque_Collection)?.opaque_Collection_toAnyCollection() as? AnyCollection<Iterator.Element>
+        if let bounds = bounds as? Range<Index>, let newElements = (newElements as? opaque_Collection)?.opaque_Collection_toAnyCollection() as? AnyCollection<Iterator.Element>
         {
-            replaceSubrange(subRange, with: newElements)
+            replaceSubrange(bounds, with: newElements)
         }
         
         return nil

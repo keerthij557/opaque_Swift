@@ -11,7 +11,7 @@ public protocol opaque_MutableCollection: opaque_Collection
     mutating func opaque_MutableCollection_setElements(_: Any, within _: Any) -> Void?
 }
 
-extension opaque_MutableCollection where Self: MutableCollection, Self.SubSequence: opaque_Sequence
+extension opaque_MutableCollection where Self: MutableCollection
 {    
     public mutating func opaque_MutableCollection_setElements(_ elements: Any, within indices: Any) -> Void?
     {
