@@ -10,8 +10,8 @@ public protocol opaque_Strideable: opaque_Comparable
 {
     static var opaque_Strideable_Stride: Any.Type { get }
     
-    func opaque_Strideable_distance(to other: Any) -> opaque_SignedNumber?
-    func opaque_Strideable_advanced(by n: Any) -> Self?
+    func opaque_Strideable_distance(to _: Any) -> opaque_SignedNumber?
+    func opaque_Strideable_advanced(by _: Any) -> Self?
 }
 
 extension opaque_Strideable where Self: Strideable
@@ -27,7 +27,7 @@ extension opaque_Strideable where Self: Strideable
     }
 }
 
-extension opaque_SignedNumber where Self: Strideable, Self.Stride: opaque_SignedNumber
+extension opaque_Strideable where Self: Strideable, Self.Stride: opaque_SignedNumber
 {
     public func opaque_Strideable_distance(to other: Any) -> opaque_SignedNumber?
     {

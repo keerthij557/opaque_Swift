@@ -31,6 +31,11 @@ extension Guess
         fatalError("unexpectedly found nil while unwrapping an Optional value", file: file, line: line)
     }
     
+    public mutating func forcetype<T, U>(file: StaticString = #file, line: UInt = #line, _ f: ((inout T) -> U)) -> U
+    {
+        return forcetype(T.self, file: file, line: line, f)
+    }
+    
     public mutating func forcetype<T, U>(_: T.Type = T.self, file: StaticString = #file, line: UInt = #line, _ f: ((inout T) -> U)) -> U
     {
         var `self` = forcetype(T.self)

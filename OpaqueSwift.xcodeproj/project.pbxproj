@@ -87,6 +87,7 @@
 		D43D27BE1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */; };
 		D43D27BF1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */; };
 		D43D27C01C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */; };
+		D445CC8A1DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */; };
 		D447620F1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */; };
 		D44762101C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */; };
 		D44762111C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */; };
@@ -202,6 +203,7 @@
 		D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IteratorProtocol.swift"; sourceTree = "<group>"; };
 		D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift.opaque_IteratorProtocol.swift"; sourceTree = "<group>"; };
 		D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift.opaque_Sequence.swift"; sourceTree = "<group>"; };
+		D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_UnsignedInteger.swift; sourceTree = "<group>"; };
 		D447620E1C525D0100F1F811 /* Swift+Swift.opaque_Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Hashable.swift"; sourceTree = "<group>"; };
 		D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SignedNumber.swift; sourceTree = "<group>"; };
 		D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_SignedNumber.swift"; sourceTree = "<group>"; };
@@ -528,6 +530,7 @@
 				D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */,
 				D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */,
 				D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */,
+				D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -817,6 +820,7 @@
 				D408E2291D38F9B1008D51DA /* Swift+Swift.opaque_Comparable.swift in Sources */,
 				D408E2241D38F781008D51DA /* Swift.-*>.swift in Sources */,
 				D40C700D1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
+				D445CC8A1DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift in Sources */,
 				D408E2471D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */,
 				D4D1E20E1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D4608C6C1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift in Sources */,
@@ -1096,7 +1100,7 @@
 				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -1116,7 +1120,7 @@
 				PRODUCT_NAME = OpaqueSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -1138,8 +1142,8 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
 		};
@@ -1161,8 +1165,8 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
@@ -1183,8 +1187,8 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -1205,8 +1209,8 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -1224,12 +1228,12 @@
 				INFOPLIST_FILE = "Targets/Framework (macOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.framework.$(PRODUCT_NAME)";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -1247,12 +1251,12 @@
 				INFOPLIST_FILE = "Targets/Framework (macOS)/Supporting Files/Bundle Resources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vmanot.framework.$(PRODUCT_NAME)";
 				PRODUCT_NAME = OpaqueSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
