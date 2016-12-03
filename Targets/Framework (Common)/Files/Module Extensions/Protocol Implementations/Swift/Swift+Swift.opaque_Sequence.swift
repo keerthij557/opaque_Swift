@@ -28,7 +28,7 @@ extension LazySequence: opaque_Sequence
 {
     public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     {
-        return makeIterator() as! opaque_IteratorProtocol
+        return makeIterator().iteratorOnly
     }
 }
 
@@ -51,6 +51,6 @@ extension Zip2Sequence: opaque_Sequence
 {
     public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     {
-        return makeIterator() as! opaque_IteratorProtocol
+        return makeIterator().iteratorOnly
     }
 }
