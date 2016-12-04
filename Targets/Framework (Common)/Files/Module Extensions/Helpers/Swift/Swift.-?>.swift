@@ -11,12 +11,7 @@ public prefix func -?> <T, U>(rhs: T) -> U?
     return rhs as? U
 }
 
-public prefix func -?> <T>(rhs: opaque_Sequence) -> AnySequence<T>?
-{
-    return rhs.opaque_Sequence_toAnySequence() as? AnySequence
-}
-
 public prefix func -?> <T, U>(rhs: T) -> AnySequence<U>?
 {
-    return (-?>rhs).flatMap(-?>)
+    return (rhs as? opaque_Sequence)?.opaque_Sequence_toAnySequence() as? AnySequence
 }
