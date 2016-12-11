@@ -17,13 +17,18 @@ extension AnyBidirectionalCollection: MutableForwarder
         
         set
         {
-            self = .forward(newValue)
+            self = AnyBidirectionalCollection(forwarding: newValue)!
         }
     }
     
-    public static func forward(_ forwarded: Forwarded) -> AnyBidirectionalCollection
+    public init?(forwarding forwarded: Forwarded)
     {
-        return -!>forwarded.opaque_Collection_toAnyBidirectionalCollection()
+        guard let _self = forwarded.opaque_Collection_toAnyBidirectionalCollection() as? AnyBidirectionalCollection else
+        {
+            return nil
+        }
+        
+        self = _self
     }
 }
 
@@ -40,13 +45,18 @@ extension AnyIterator: MutableForwarder
         
         set
         {
-            self = .forward(newValue)
+            self = AnyIterator(forwarding: newValue)!
         }
     }
     
-    public static func forward(_ forwarded: Forwarded) -> AnyIterator
+    public init?(forwarding forwarded: Forwarded)
     {
-        return -!>forwarded.opaque_IteratorProtocol_toAnyIterator()
+        guard let _self = forwarded.opaque_IteratorProtocol_toAnyIterator() as? AnyIterator else
+        {
+            return nil
+        }
+        
+        self = _self
     }
 }
 
@@ -63,13 +73,18 @@ extension AnyRandomAccessCollection: MutableForwarder
         
         set
         {
-            self = .forward(newValue)
+            self = AnyRandomAccessCollection(forwarding: newValue)!
         }
     }
     
-    public static func forward(_ forwarded: Forwarded) -> AnyRandomAccessCollection
+    public init?(forwarding forwarded: Forwarded)
     {
-        return -!>forwarded.opaque_Collection_toAnyRandomAccessCollection()
+        guard let _self = forwarded.opaque_Collection_toAnyRandomAccessCollection() as? AnyRandomAccessCollection else
+        {
+            return nil
+        }
+        
+        self = _self
     }
 }
 
@@ -86,12 +101,17 @@ extension AnySequence: MutableForwarder
         
         set
         {
-            self = .forward(newValue)
+            self = AnySequence(forwarding: newValue)!
         }
     }
     
-    public static func forward(_ forwarded: Forwarded) -> AnySequence
+    public init?(forwarding forwarded: Forwarded)
     {
-        return -!>forwarded.opaque_Sequence_toAnySequence()
+        guard let _self = forwarded.opaque_Sequence_toAnySequence() as? AnySequence else
+        {
+            return nil
+        }
+        
+        self = _self
     }
 }

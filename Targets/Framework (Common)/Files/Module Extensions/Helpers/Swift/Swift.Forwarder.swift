@@ -4,13 +4,13 @@
 
 import Swift
 
-public protocol Forwarder: CommonProtocol
+public protocol Forwarder: Common
 {
     associatedtype Forwarded
     
     var forwarded: Forwarded { get }
     
-    static func forward(_: Forwarded) -> Self
+    init?(forwarding _: Forwarded)
 }
 
 public protocol MutableForwarder: Forwarder

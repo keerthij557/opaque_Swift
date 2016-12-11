@@ -10,10 +10,3 @@ prefix operator -*>
 {
     return unsafeBitCast(rhs, to: U.self)
 }
-
-infix operator -*>: CastingPrecedence
-
-@_transparent public func -*> <T, U>(lhs: T, rhs: U.Type) -> U
-{
-    return unsafeBitCast(lhs, to: rhs)
-}

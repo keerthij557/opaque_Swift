@@ -4,7 +4,7 @@
 
 import Swift
 
-extension AnyBidirectionalCollection.Index: opaque_Comparable
+extension AnyIndex: opaque_Comparable
 {
     
 }

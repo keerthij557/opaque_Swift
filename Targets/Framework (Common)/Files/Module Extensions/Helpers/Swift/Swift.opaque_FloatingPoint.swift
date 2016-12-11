@@ -10,16 +10,16 @@ public protocol opaque_FloatingPoint: opaque_ExpressibleByIntegerLiteral, opaque
 {
     init()
     
-    init(_ value: UInt8)
-    init(_ value: Int8)
-    init(_ value: UInt16)
-    init(_ value: Int16)
-    init(_ value: UInt32)
-    init(_ value: Int32)
-    init(_ value: UInt64)
-    init(_ value: Int64)
-    init(_ value: UInt)
-    init(_ value: Int)
+    init(_: UInt8)
+    init(_: Int8)
+    init(_: UInt16)
+    init(_: Int16)
+    init(_: UInt32)
+    init(_: Int32)
+    init(_: UInt64)
+    init(_: Int64)
+    init(_: UInt)
+    init(_: Int)
     
     static var radix: Int { get }
     

@@ -13,5 +13,5 @@ public prefix func -?> <T, U>(rhs: T) -> U?
 
 public prefix func -?> <T, U>(rhs: T) -> AnySequence<U>?
 {
-    return (rhs as? opaque_Sequence)?.opaque_Sequence_toAnySequence() as? AnySequence
+    return AnySequence(opaque: rhs)
 }

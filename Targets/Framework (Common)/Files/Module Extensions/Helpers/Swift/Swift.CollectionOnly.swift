@@ -41,7 +41,7 @@ extension CollectionOnly: Collection2
         return value.endIndex
     }
     
-    subscript(_ index: Index) -> Iterator.Element
+    subscript(index: Index) -> Iterator.Element
     {
         return value[index]
     }
