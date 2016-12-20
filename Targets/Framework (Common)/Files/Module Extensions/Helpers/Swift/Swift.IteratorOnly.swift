@@ -4,17 +4,20 @@
 
 import Swift
 
-public struct IteratorOnly<T: IteratorProtocol>: IteratorProtocol2
+public struct IteratorOnly<T: IteratorProtocol>
 {
     public typealias Value = T
     
-    public private(set) var value: Value
+    public fileprivate(set) var value: Value
     
     public init(_ value: Value)
     {
         self.value = value
     }
-    
+}
+
+extension IteratorOnly: IteratorProtocol2
+{
     public mutating func next() -> Value.Element?
     {
         return value.next()
