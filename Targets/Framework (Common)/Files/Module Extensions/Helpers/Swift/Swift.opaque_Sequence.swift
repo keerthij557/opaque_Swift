@@ -6,7 +6,7 @@ import Swift
 
 public typealias Sequence2 = opaque_Sequence & Sequence
 
-public protocol opaque_Sequence: Common
+public protocol opaque_Sequence: BaseProtocol
 {
     static var opaque_Sequence_Iterator: Any.Type { get }
     static var opaque_Sequence_Iterator_Element: Any.Type { get }
@@ -50,13 +50,5 @@ extension opaque_Sequence where Self: Sequence, Self.Iterator: opaque_IteratorPr
     public func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     {
         return makeIterator()
-    }
-}
-
-extension Guess: Sequence
-{
-    public func makeIterator() -> AnyIterator<Any>
-    {
-        return forcetype(opaque_Sequence.self).opaque_Sequence_makeIterator().toOpaque()
     }
 }

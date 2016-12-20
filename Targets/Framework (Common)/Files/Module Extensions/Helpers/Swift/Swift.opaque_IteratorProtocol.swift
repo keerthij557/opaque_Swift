@@ -6,7 +6,7 @@ import Swift
 
 public typealias IteratorProtocol2 = opaque_IteratorProtocol & IteratorProtocol
 
-public protocol opaque_IteratorProtocol: Common
+public protocol opaque_IteratorProtocol: BaseProtocol
 {
     static var opaque_IteratorProtocol_Element: Any.Type { get }
     
@@ -38,20 +38,5 @@ extension opaque_IteratorProtocol where Self: IteratorProtocol
         var copyOfSelf = self
         
         return .init({ copyOfSelf.next() })
-    }
-}
-
-extension Guess: IteratorProtocol
-{
-    public mutating func next() -> Any?
-    {
-        var value = forcetype(opaque_IteratorProtocol.self)
-        
-        defer
-        {
-            some = value
-        }
-        
-        return value.opaque_IteratorProtocol_next()
     }
 }

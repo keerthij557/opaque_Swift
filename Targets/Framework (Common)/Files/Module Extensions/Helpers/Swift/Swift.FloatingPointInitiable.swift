@@ -5,14 +5,14 @@
 import CoreGraphics
 import Swift
 
-public protocol FloatInitiable
+public protocol FloatingPointInitiable
 {
     init(_: Float)
     init(_: Double)
     init(_: CGFloat)
 }
 
-extension FloatInitiable
+extension FloatingPointInitiable
 {
     @_transparent public init(_ value: CGFloat)
     {
@@ -20,7 +20,7 @@ extension FloatInitiable
     }
 }
 
-extension FloatInitiable where Self: ExpressibleByFloatLiteral
+extension FloatingPointInitiable where Self: ExpressibleByFloatLiteral
 {
     @_transparent public init(floatLiteral value: Float)
     {

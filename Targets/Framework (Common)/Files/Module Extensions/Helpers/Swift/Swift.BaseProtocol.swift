@@ -4,12 +4,12 @@
 
 import Swift
 
-public protocol Common
+public protocol BaseProtocol
 {
     
 }
 
-extension Common
+extension BaseProtocol
 {
     @_transparent public func applyingSelfOn<T>(_ f: ((Self) throws -> T)) rethrows -> Self
     {
@@ -31,7 +31,7 @@ extension Common
     }
 }
 
-extension Common
+extension BaseProtocol
 {
     public func printSelf()
     {
