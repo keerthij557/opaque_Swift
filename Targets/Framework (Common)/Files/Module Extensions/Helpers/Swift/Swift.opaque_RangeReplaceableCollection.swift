@@ -11,14 +11,14 @@ public protocol opaque_RangeReplaceableCollection: opaque_Collection
     init()
     
     mutating func opaque_RangeReplaceableCollection_reserveCapacity(_ n: Any) -> Void?
-    mutating func opaque_RangeReplaceableCollection_replaceSubrange(_ subRange: Any, with newElements: Any) -> Void?
+    mutating func opaque_RangeReplaceableCollection_replaceSubrange(_ subrange: Any, with newElements: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_append(_ x: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_append(contentsOf newElements: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_insert(_ newElement: Any, atIndex i: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_insert(contentsOf newElements: Any, at i: Any) -> Void?
     mutating func opaque_RangeReplaceableCollection_removeAtIndex(_ i: Any) -> Any?
     mutating func opaque_RangeReplaceableCollection_removeFirst() -> Any
-    mutating func opaque_RangeReplaceableCollection_removeRange(_ subRange: Any) -> Void?
+    mutating func opaque_RangeReplaceableCollection_removeRange(_ subrange: Any) -> Void?
 }
 
 extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollection
@@ -78,8 +78,8 @@ extension opaque_RangeReplaceableCollection where Self: RangeReplaceableCollecti
         return removeFirst()
     }
     
-    public mutating func opaque_RangeReplaceableCollection_removeRange(_ subRange: Any) -> Void?
+    public mutating func opaque_RangeReplaceableCollection_removeRange(_ subrange: Any) -> Void?
     {
-        return (subRange as? Range<Index>).map({ self.removeSubrange($0) })
+        return (subrange as? Range<Index>).map({ self.removeSubrange($0) })
     }
 }

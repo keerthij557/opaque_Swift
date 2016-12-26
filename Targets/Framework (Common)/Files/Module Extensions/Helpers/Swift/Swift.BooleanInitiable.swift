@@ -26,6 +26,8 @@ extension BooleanInitiable
     }
 }
 
+// MARK: - Protocol Implementations -
+
 extension BooleanInitiable where Self: ExpressibleByIntegerLiteral
 {
     @_transparent public init(_ value: Bool)

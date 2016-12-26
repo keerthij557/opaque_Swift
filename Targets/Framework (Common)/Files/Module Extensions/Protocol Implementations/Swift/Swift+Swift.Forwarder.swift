@@ -32,6 +32,34 @@ extension AnyBidirectionalCollection: MutableForwarder
     }
 }
 
+extension AnyCollection: MutableForwarder
+{
+    public typealias Forwarded = opaque_Collection
+    
+    public var forwarded: Forwarded
+    {
+        get
+        {
+            return self
+        }
+        
+        set
+        {
+            self = AnyCollection(forwarding: newValue)!
+        }
+    }
+    
+    public init?(forwarding forwarded: Forwarded)
+    {
+        guard let _self = forwarded.opaque_Collection_toAnyCollection() as? AnyCollection else
+        {
+            return nil
+        }
+        
+        self = _self
+    }
+}
+
 extension AnyIterator: MutableForwarder
 {
     public typealias Forwarded = opaque_IteratorProtocol

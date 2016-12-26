@@ -4,9 +4,14 @@
 
 import Swift
 
-// MARK: - Swift.opaque_Collection -
+// MARK: - opaque_Collection -
 
 extension AnyBidirectionalCollection: opaque_Collection
+{
+    
+}
+
+extension AnyCollection: opaque_Collection
 {
     
 }
@@ -21,7 +26,7 @@ extension Set: opaque_Collection
     
 }
 
-// MARK: - Swift.opaque_Collection & Swift.opaque_RandomAccessCollection -
+// MARK: - opaque_Collection & Swift.opaque_RandomAccessCollection -
 
 extension AnyRandomAccessCollection: opaque_Collection, opaque_RandomAccessCollection
 {
