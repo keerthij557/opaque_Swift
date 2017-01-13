@@ -22,8 +22,8 @@ public protocol opaque_IntegerArithmetic: opaque_Comparable
     func opaque_IntegerArithmetic_dividingBy(_ other: Any) -> Self?
     mutating func opaque_IntegerArithmetic_divideBy(_ other: Any) -> Void?
 
-    func opaque_IntegerArithmetic_modulo(_ other: Any) -> Self?
-    mutating func opaque_IntegerArithmetic_modulateBy(_ other: Any) -> Void?
+    func opaque_IntegerArithmetic_remainder(dividingBy other: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_formRemainder(dividingBy other: Any) -> Void?
 }
 
 extension opaque_IntegerArithmetic where Self: IntegerArithmetic
@@ -68,12 +68,12 @@ extension opaque_IntegerArithmetic where Self: IntegerArithmetic
         return (-?>other).map({ self /= $0 })
     }
 
-    public func opaque_IntegerArithmetic_modulo(_ other: Any) -> Self?
+    public func opaque_IntegerArithmetic_remainder(dividingBy other: Any) -> Self?
     {
         return (-?>other).map({ self % $0 })
     }
     
-    public mutating func opaque_IntegerArithmetic_modulateBy(_ other: Any) -> Void?
+    public mutating func opaque_IntegerArithmetic_formRemainder(dividingBy other: Any) -> Void?
     {
         return (-?>other).map({ self %= $0 })
     }

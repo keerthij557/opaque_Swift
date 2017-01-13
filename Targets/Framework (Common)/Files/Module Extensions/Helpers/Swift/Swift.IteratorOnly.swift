@@ -16,6 +16,8 @@ public struct IteratorOnly<T: IteratorProtocol>
     }
 }
 
+// MARK: - Protocol Implementations -
+
 extension IteratorOnly: IteratorProtocol2
 {
     public mutating func next() -> Value.Element?
@@ -23,6 +25,8 @@ extension IteratorOnly: IteratorProtocol2
         return value.next()
     }
 }
+
+// MARK: - Helpers - 
 
 extension IteratorProtocol
 {

@@ -59,10 +59,10 @@
 		D408E2481D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */; };
 		D408E2491D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */; };
 		D408E24A1D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */; };
-		D408E24C1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.BaseProtocol.swift */; };
-		D408E24D1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.BaseProtocol.swift */; };
-		D408E24E1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.BaseProtocol.swift */; };
-		D408E24F1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.BaseProtocol.swift */; };
+		D408E24C1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
+		D408E24D1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
+		D408E24E1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
+		D408E24F1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
 		D40C70081C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */; };
 		D40C70091C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */; };
 		D40C700A1C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */; };
@@ -231,7 +231,7 @@
 		D408E23C1D38FF67008D51DA /* Swift.opaque_ExpressibleByIntegerLiteral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_ExpressibleByIntegerLiteral.swift; sourceTree = "<group>"; };
 		D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SignedInteger.swift; sourceTree = "<group>"; };
 		D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.Zip2Sequence++.swift"; sourceTree = "<group>"; };
-		D408E24B1D390388008D51DA /* Swift.BaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.BaseProtocol.swift; sourceTree = "<group>"; };
+		D408E24B1D390388008D51DA /* Swift.Supported.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.Supported.swift; sourceTree = "<group>"; };
 		D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_IntegerArithmetic.swift; sourceTree = "<group>"; };
 		D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IntegerArithmetic.swift"; sourceTree = "<group>"; };
 		D40C70111C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Equatable.swift"; sourceTree = "<group>"; };
@@ -548,16 +548,14 @@
 			isa = PBXGroup;
 			children = (
 				D408E21E1D38F75C008D51DA /* Swift.-!>.swift */,
-				D408E2231D38F781008D51DA /* Swift.-*>.swift */,
 				D408E2191D38F757008D51DA /* Swift.-?>.swift */,
-				D408E24B1D390388008D51DA /* Swift.BaseProtocol.swift */,
+				D408E2231D38F781008D51DA /* Swift.-*>.swift */,
 				D418431C1DFDBB64008D6A93 /* Swift.BooleanInitiable.swift */,
 				D4C9145D1DF1C0BD0063F457 /* Swift.CollectionOnly.swift */,
 				D41843121DFDBAEE008D6A93 /* Swift.FloatingPointInitiable.swift */,
 				D4C9B9A21CB96B150023E9C2 /* Swift.Forwarder.swift */,
 				D418430D1DFDBAAE008D6A93 /* Swift.IntegerInitiable.swift */,
 				D402D5F11DF2C9E400D600C3 /* Swift.IteratorOnly.swift */,
-				D41843081DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift */,
 				D408E22D1D38FB68008D51DA /* Swift.opaque_AbsoluteValuable.swift */,
 				D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */,
 				D408E20F1D38F5D1008D51DA /* Swift.opaque_BidirectionalIndex.swift */,
@@ -580,6 +578,8 @@
 				D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */,
 				D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */,
 				D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */,
+				D408E24B1D390388008D51DA /* Swift.Supported.swift */,
+				D41843081DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -861,7 +861,7 @@
 				D43D27B81C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
 				D417BCEB1DF9F0D1002EE77D /* Swift.AnySequence++.swift in Sources */,
 				D4608C711C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
-				D408E24C1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */,
+				D408E24C1D390388008D51DA /* Swift.Supported.swift in Sources */,
 				D4D1E2131C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D40C70121C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D408E2421D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */,
@@ -921,7 +921,7 @@
 				D417BCEE1DF9F0D2002EE77D /* Swift.AnySequence++.swift in Sources */,
 				D43D27BB1C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
 				D4608C721C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
-				D408E24F1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */,
+				D408E24F1D390388008D51DA /* Swift.Supported.swift in Sources */,
 				D40C70131C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D42447101C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
 				D408E2451D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */,
@@ -980,7 +980,7 @@
 				D417BCED1DF9F0D2002EE77D /* Swift.AnySequence++.swift in Sources */,
 				D43D27BA1C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
 				D4608C731C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
-				D408E24E1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */,
+				D408E24E1D390388008D51DA /* Swift.Supported.swift in Sources */,
 				D40C70141C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D42447111C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
 				D408E2441D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */,
@@ -1039,7 +1039,7 @@
 				D417BCEC1DF9F0D1002EE77D /* Swift.AnySequence++.swift in Sources */,
 				D43D27B91C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
 				D4608C741C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
-				D408E24D1D390388008D51DA /* Swift.BaseProtocol.swift in Sources */,
+				D408E24D1D390388008D51DA /* Swift.Supported.swift in Sources */,
 				D40C70151C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D42447121C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
 				D408E2431D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */,

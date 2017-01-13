@@ -6,7 +6,7 @@ import Swift
 
 public typealias ExpressibleByIntegerLiteral2 = opaque_ExpressibleByIntegerLiteral & ExpressibleByIntegerLiteral
 
-public protocol opaque_ExpressibleByIntegerLiteral: BaseProtocol
+public protocol opaque_ExpressibleByIntegerLiteral: Supported
 {
     init(integerLiteral value: UInt8)
 }

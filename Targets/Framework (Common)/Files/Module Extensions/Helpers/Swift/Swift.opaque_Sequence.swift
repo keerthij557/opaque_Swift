@@ -6,7 +6,7 @@ import Swift
 
 public typealias Sequence2 = opaque_Sequence & Sequence
 
-public protocol opaque_Sequence: BaseProtocol
+public protocol opaque_Sequence: Supported
 {
     static var opaque_Sequence_Iterator: Any.Type { get }
     static var opaque_Sequence_Iterator_Element: Any.Type { get }

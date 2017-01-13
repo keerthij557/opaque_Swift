@@ -6,7 +6,7 @@ import Swift
 
 public typealias IteratorProtocol2 = opaque_IteratorProtocol & IteratorProtocol
 
-public protocol opaque_IteratorProtocol: BaseProtocol
+public protocol opaque_IteratorProtocol: Supported
 {
     static var opaque_IteratorProtocol_Element: Any.Type { get }
     

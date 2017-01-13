@@ -4,7 +4,7 @@
 
 import Swift
 
-public protocol Forwarder: BaseProtocol
+public protocol Forwarder: Supported
 {
     associatedtype Forwarded
     

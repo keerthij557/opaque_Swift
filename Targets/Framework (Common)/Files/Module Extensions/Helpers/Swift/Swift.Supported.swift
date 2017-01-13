@@ -4,12 +4,14 @@
 
 import Swift
 
-public protocol BaseProtocol
+public protocol Supported
 {
-    
+
 }
 
-extension BaseProtocol
+// MARK: - Extensions -
+
+extension Supported
 {
     @_transparent public func applyingSelfOn<T>(_ f: ((Self) throws -> T)) rethrows -> Self
     {
@@ -31,7 +33,7 @@ extension BaseProtocol
     }
 }
 
-extension BaseProtocol
+extension Supported
 {
     public func printSelf()
     {
