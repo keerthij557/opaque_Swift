@@ -14,8 +14,8 @@ public protocol opaque_Collection: opaque_Sequence
     var opaque_Collection_startIndex: Any { get }
     var opaque_Collection_endIndex: Any { get }
     
-    func opaque_Collection_elementAtPosition(_ position: Any) -> Any?
-    func opaque_Collection_elementsWithinBounds(_ bounds: Any) -> Any?
+    func opaque_Collection_element(atPosition _: Any) -> Any?
+    func opaque_Collection_elements(withinBounds _: Any) -> Any?
     
     func opaque_Collection_index(after i: Any) -> Any?
     func opaque_Collection_formIndex(after i: inout Any) -> Void?
@@ -52,14 +52,14 @@ extension opaque_Collection where Self: Collection
         return endIndex
     }
     
-    public func opaque_Collection_elementAtPosition(_ position: Any) -> Any?
+    public func opaque_Collection_element(atPosition position: Any) -> Any?
     {
-        return (-?>position).map({ self[$0] }).toOpaque()
+        return (-?>position).map({ self[$0 as Index] }).toOpaque()
     }
     
-    public func opaque_Collection_elementsWithinBounds(_ bounds: Any) -> Any?
+    public func opaque_Collection_elements(withinBounds bounds: Any) -> Any?
     {
-        return (-?>bounds).map({ self[$0] })
+        return (-?>bounds).map({ self[$0 as Range<Index>] })
     }
 
     public func opaque_Collection_index(after i: Any) -> Any?
