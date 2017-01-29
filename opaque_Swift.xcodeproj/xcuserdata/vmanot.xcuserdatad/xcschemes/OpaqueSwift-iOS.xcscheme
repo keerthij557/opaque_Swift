@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46C150F1C4FAD4E006641D5"
-               BuildableName = "OpaqueSwift.framework"
-               BlueprintName = "OpaqueSwift-macOS"
-               ReferencedContainer = "container:OpaqueSwift.xcodeproj">
+               BlueprintIdentifier = "D46C14CC1C4FAC62006641D5"
+               BuildableName = "opaque_Swift.framework"
+               BlueprintName = "opaque_Swift-iOS"
+               ReferencedContainer = "container:opaque_Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46C150F1C4FAD4E006641D5"
-            BuildableName = "OpaqueSwift.framework"
-            BlueprintName = "OpaqueSwift-macOS"
-            ReferencedContainer = "container:OpaqueSwift.xcodeproj">
+            BlueprintIdentifier = "D46C14CC1C4FAC62006641D5"
+            BuildableName = "opaque_Swift.framework"
+            BlueprintName = "opaque_Swift-iOS"
+            ReferencedContainer = "container:opaque_Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46C150F1C4FAD4E006641D5"
-            BuildableName = "OpaqueSwift.framework"
-            BlueprintName = "OpaqueSwift-macOS"
-            ReferencedContainer = "container:OpaqueSwift.xcodeproj">
+            BlueprintIdentifier = "D46C14CC1C4FAC62006641D5"
+            BuildableName = "opaque_Swift.framework"
+            BlueprintName = "opaque_Swift-iOS"
+            ReferencedContainer = "container:opaque_Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
