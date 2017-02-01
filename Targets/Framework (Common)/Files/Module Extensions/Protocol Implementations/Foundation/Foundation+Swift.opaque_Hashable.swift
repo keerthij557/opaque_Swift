@@ -20,7 +20,6 @@ extension Date: opaque_Hashable
     
 }
 
-@available(OSX 10.12, *)
 extension DateInterval: opaque_Hashable
 {
     

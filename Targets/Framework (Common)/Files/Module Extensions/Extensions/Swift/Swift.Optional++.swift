@@ -14,7 +14,7 @@ extension Optional
 
 extension Optional
 {
-    @_transparent public func toOpaque() -> Any?
+    @_transparent public func opaque() -> Any?
     {
         return flatMap((Any?).init)
     }
