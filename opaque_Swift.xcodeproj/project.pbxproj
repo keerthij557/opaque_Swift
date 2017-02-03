@@ -95,6 +95,14 @@
 		D42447351C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
 		D42447361C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
 		D42447371C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
+		D42F4E4A1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */; };
+		D42F4E4B1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */; };
+		D42F4E4C1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */; };
+		D42F4E4D1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */; };
+		D42F4E4F1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E4E1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift */; };
+		D42F4E501E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E4E1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift */; };
+		D42F4E511E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E4E1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift */; };
+		D42F4E521E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E4E1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift */; };
 		D43D27B81C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */; };
 		D43D27B91C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */; };
 		D43D27BA1C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */; };
@@ -248,6 +256,8 @@
 		D424470E1C5248B2007B9992 /* Swift.Optional++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.Optional++.swift"; sourceTree = "<group>"; };
 		D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_MutableCollection.swift; sourceTree = "<group>"; };
 		D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IteratorProtocol.swift"; sourceTree = "<group>"; };
+		D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Optional.swift; sourceTree = "<group>"; };
+		D42F4E4E1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Optional.swift"; sourceTree = "<group>"; };
 		D43D27B71C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift.opaque_IteratorProtocol.swift"; sourceTree = "<group>"; };
 		D43D27BC1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Swift.opaque_Sequence.swift"; sourceTree = "<group>"; };
 		D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_UnsignedInteger.swift; sourceTree = "<group>"; };
@@ -590,6 +600,7 @@
 				D4EB79EF1E3A0E4100BFE5BF /* Swift.OpaqueValueWrapper.swift */,
 				D408E24B1D390388008D51DA /* Swift.Supported.swift */,
 				D41843081DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift */,
+				D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -634,6 +645,7 @@
 				D4D1E75D1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift */,
 				D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */,
 				D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */,
+				D42F4E4E1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift */,
 				D4AA346A1E3E897C0037751C /* Swift+Swift.opaque_RandomAccessCollection.swift */,
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */,
@@ -869,6 +881,7 @@
 				D468E65F1C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E21F1D38F75C008D51DA /* Swift.-!>.swift in Sources */,
 				D4D1E1F91C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
+				D42F4E4A1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D408E20B1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
 				D43D27B81C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
 				D417BCEB1DF9F0D1002EE77D /* Swift.AnySequence++.swift in Sources */,
@@ -896,6 +909,7 @@
 				D4C9145E1DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BD1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D41843091DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
+				D42F4E4F1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E66E1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD41DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2331D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,
@@ -930,6 +944,7 @@
 				D4D1E1FA1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6601C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E2221D38F75C008D51DA /* Swift.-!>.swift in Sources */,
+				D42F4E4D1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D4D1E2141C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D408E20E1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
 				D417BCEE1DF9F0D2002EE77D /* Swift.AnySequence++.swift in Sources */,
@@ -957,6 +972,7 @@
 				D4C914611DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27C01C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D418430C1DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
+				D42F4E521E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E66F1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD71DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2361D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,
@@ -991,6 +1007,7 @@
 				D4D1E1FB1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6611C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E2211D38F75C008D51DA /* Swift.-!>.swift in Sources */,
+				D42F4E4C1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D4D1E2151C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D408E20D1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
 				D417BCED1DF9F0D2002EE77D /* Swift.AnySequence++.swift in Sources */,
@@ -1018,6 +1035,7 @@
 				D4C914601DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BF1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D418430B1DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
+				D42F4E511E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E6701C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD61DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2351D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,
@@ -1052,6 +1070,7 @@
 				D4D1E1FC1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6621C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E2201D38F75C008D51DA /* Swift.-!>.swift in Sources */,
+				D42F4E4B1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D4D1E2161C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D408E20C1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
 				D417BCEC1DF9F0D1002EE77D /* Swift.AnySequence++.swift in Sources */,
@@ -1079,6 +1098,7 @@
 				D4C9145F1DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BE1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
 				D418430A1DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
+				D42F4E501E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E6711C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD51DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
 				D408E2341D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift in Sources */,

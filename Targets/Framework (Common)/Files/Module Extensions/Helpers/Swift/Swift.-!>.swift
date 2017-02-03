@@ -8,7 +8,7 @@ prefix operator -!>
 
 public prefix func -!> <T, U>(rhs: T) -> U
 {
-    return rhs as! U
+    return (-?>rhs as U?) ?? (rhs as! U)
 }
 
 public prefix func -!> <T, U>(rhs: T?) -> U
