@@ -588,6 +588,7 @@
 				D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */,
 				D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */,
 				D4DF8D971E3B36D300FB71DC /* Swift.opaque_MutableRawRepresentable.swift */,
+				D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */,
 				D402D5EC1DF2C7A800D600C3 /* Swift.opaque_RandomAccessCollection.swift */,
 				D408E2321D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift */,
 				D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */,
@@ -600,7 +601,6 @@
 				D4EB79EF1E3A0E4100BFE5BF /* Swift.OpaqueValueWrapper.swift */,
 				D408E24B1D390388008D51DA /* Swift.Supported.swift */,
 				D41843081DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift */,
-				D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

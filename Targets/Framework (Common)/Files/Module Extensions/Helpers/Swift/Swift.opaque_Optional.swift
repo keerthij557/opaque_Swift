@@ -19,7 +19,7 @@ extension opaque_Optional
     {
         var result = opaque_Optional_wrapped
         
-        if let value = result.opaque_Optional_wrapped, let _value = (value as? opaque_Optional)
+        if let value = result, let _value = (value as? opaque_Optional)
         {
             result = _value.opaque_Optional_flattening()
         }
