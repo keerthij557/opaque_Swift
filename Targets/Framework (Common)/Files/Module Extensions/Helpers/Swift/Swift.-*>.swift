@@ -10,8 +10,3 @@ prefix operator -*>
 {
     return unsafeBitCast(rhs, to: U.self)
 }
-
-@_transparent public func withoutActuallyEscaping<T, U>(_ f: ((T) -> U)) -> ((T) -> U)
-{
-    return -*>f
-}
