@@ -10,7 +10,7 @@ public struct IteratorOnly<T: IteratorProtocol>
     
     public fileprivate(set) var value: Value
     
-    public init(_ value: Value)
+    @_transparent public init(_ value: Value)
     {
         self.value = value
     }
@@ -20,7 +20,7 @@ public struct IteratorOnly<T: IteratorProtocol>
 
 extension IteratorOnly: IteratorProtocol2
 {
-    public mutating func next() -> Value.Element?
+    @_transparent public mutating func next() -> Value.Element?
     {
         return value.next()
     }
@@ -30,7 +30,7 @@ extension IteratorOnly: IteratorProtocol2
 
 extension IteratorProtocol
 {
-    public var iteratorOnly: IteratorOnly<Self>
+    @_transparent public var iteratorOnly: IteratorOnly<Self>
     {
         return .init(self)
     }

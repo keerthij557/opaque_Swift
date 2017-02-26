@@ -26,8 +26,8 @@ public protocol opaque_Collection: opaque_Sequence
     func opaque() -> AnySequence<(Any, Any)>
     
     func opaque_Collection_toAnyCollection() -> Any
-    func opaque_Collection_toAnyBidirectionalCollection() -> Any?
-    func opaque_Collection_toAnyRandomAccessCollection() -> Any?
+    func opaque_Collection_toAnyBidirectionalCollectionUsingFauxRandomAccessCollection() -> Any
+    func opaque_Collection_toAnyRandomAccessCollectionUsingFauxRandomAccessCollection() -> Any
 }
 
 extension opaque_Collection where Self: Collection
@@ -91,13 +91,13 @@ extension opaque_Collection where Self: Collection
         return AnyCollection(CollectionOnly(self))
     }
     
-    public func opaque_Collection_toAnyBidirectionalCollection() -> Any?
+    public func opaque_Collection_toAnyBidirectionalCollectionUsingFauxRandomAccessCollection() -> Any
     {
-        return AnyBidirectionalCollection(AnyCollection(CollectionOnly(self)))
+        return AnyBidirectionalCollection(FauxRandomAccessCollection(self))
     }
     
-    public func opaque_Collection_toAnyRandomAccessCollection() -> Any?
+    public func opaque_Collection_toAnyRandomAccessCollectionUsingFauxRandomAccessCollection() -> Any
     {
-        return AnyRandomAccessCollection(AnyCollection(CollectionOnly(self)))
+        return AnyRandomAccessCollection(FauxRandomAccessCollection(self))
     }
 }

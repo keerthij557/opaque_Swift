@@ -10,7 +10,7 @@ internal struct CollectionOnly<C: Collection>
     
     var value: Value
     
-    init(_ value: Value)
+    @_transparent init(_ value: Value)
     {
         self.value = value
     }
@@ -20,7 +20,7 @@ extension CollectionOnly: Sequence2
 {
     typealias Iterator = Value.Iterator
     
-    func makeIterator() -> Iterator
+    @_transparent func makeIterator() -> Iterator
     {
         return value.makeIterator()
     }
@@ -31,22 +31,25 @@ extension CollectionOnly: Collection2
     typealias Index = Value.Index
     typealias IndexDistance = Value.IndexDistance
     
-    var startIndex: Index
+    @_transparent var startIndex: Index
     {
         return value.startIndex
     }
     
-    var endIndex: Index
+    @_transparent var endIndex: Index
     {
         return value.endIndex
     }
     
     subscript(index: Index) -> Iterator.Element
     {
-        return value[index]
+        @_transparent get
+        {
+            return value[index]
+        }
     }
     
-    func index(after index: Index) -> Index
+    @_transparent func index(after index: Index) -> Index
     {
         return value.index(index, offsetBy: 1)
     }

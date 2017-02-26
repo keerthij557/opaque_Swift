@@ -23,7 +23,7 @@ extension AnyBidirectionalCollection: MutableForwarder
     
     public init?(forwarding forwarded: Forwarded)
     {
-        guard let _self = forwarded.opaque_Collection_toAnyBidirectionalCollection() as? AnyBidirectionalCollection else
+        guard let _self = forwarded.opaque_Collection_toAnyBidirectionalCollectionUsingFauxRandomAccessCollection() as? AnyBidirectionalCollection else
         {
             return nil
         }
@@ -107,7 +107,7 @@ extension AnyRandomAccessCollection: MutableForwarder
     
     public init?(forwarding forwarded: Forwarded)
     {
-        guard let _self = forwarded.opaque_Collection_toAnyRandomAccessCollection() as? AnyRandomAccessCollection else
+        guard let _self = forwarded.opaque_Collection_toAnyRandomAccessCollectionUsingFauxRandomAccessCollection() as? AnyRandomAccessCollection else
         {
             return nil
         }

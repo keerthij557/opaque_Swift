@@ -10,20 +10,20 @@ public protocol opaque_IntegerArithmetic: opaque_Comparable
 {
     func toIntMax() -> IntMax
 
-    func opaque_IntegerArithmetic_adding(_ other: Any) -> Self?
-    mutating func opaque_IntegerArithmetic_add(_ other: Any) -> Void?
+    func opaque_IntegerArithmetic_adding(_: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_add(_: Any) -> Void?
     
-    func opaque_IntegerArithmetic_subtracting(_ other: Any) -> Self?
-    mutating func opaque_IntegerArithmetic_subtract(_ other: Any) -> Void?
+    func opaque_IntegerArithmetic_subtracting(_: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_subtract(_: Any) -> Void?
 
-    func opaque_IntegerArithmetic_multiplyingBy(_ other: Any) -> Self?
-    mutating func opaque_IntegerArithmetic_multiplyBy(_ other: Any) -> Void?
+    func opaque_IntegerArithmetic_multiplyingBy(_: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_multiplyBy(_: Any) -> Void?
 
-    func opaque_IntegerArithmetic_dividingBy(_ other: Any) -> Self?
-    mutating func opaque_IntegerArithmetic_divideBy(_ other: Any) -> Void?
+    func opaque_IntegerArithmetic_dividingBy(_: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_divideBy(_: Any) -> Void?
 
-    func opaque_IntegerArithmetic_remainder(dividingBy other: Any) -> Self?
-    mutating func opaque_IntegerArithmetic_formRemainder(dividingBy other: Any) -> Void?
+    func opaque_IntegerArithmetic_remainder(dividingBy _: Any) -> Self?
+    mutating func opaque_IntegerArithmetic_formRemainder(dividingBy _: Any) -> Void?
 }
 
 extension opaque_IntegerArithmetic where Self: IntegerArithmetic
