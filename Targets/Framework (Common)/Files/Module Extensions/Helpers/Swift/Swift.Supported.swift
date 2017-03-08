@@ -13,6 +13,15 @@ public protocol Supported
 
 extension Supported
 {
+    @_transparent public func applyingOnSelf<T>(_ f: ((inout Self) throws -> T)) rethrows -> Self
+    {
+        var result = self
+        
+        _ = try f(&result)
+        
+        return result
+    }
+
     @_transparent public func applyingSelfOn<T>(_ f: ((Self) throws -> T)) rethrows -> Self
     {
         _ = try f(self)
