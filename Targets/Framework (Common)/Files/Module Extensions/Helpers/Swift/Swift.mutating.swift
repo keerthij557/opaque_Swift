@@ -4,8 +4,6 @@
 
 import Swift
 
-// MARK: - Swift.mutating - 
-
 @_transparent public func mutating<T>(_ f: (@escaping (T) -> T)) -> ((inout T) -> Void)
 {
     func g(_ x: inout T)
@@ -67,8 +65,6 @@ import Swift
     
     return g
 }
-
-// MARK: - Swift.nonMutating -
 
 @_transparent public func nonMutating<T, U, V>(_ f: (@escaping (inout T, U) -> V)) -> ((T, U) -> (T, V))
 {

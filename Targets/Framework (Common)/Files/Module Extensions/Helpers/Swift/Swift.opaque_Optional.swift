@@ -34,7 +34,7 @@ extension opaque_Optional
 
 extension Sequence
 {
-    public func nilIfEmpty() -> Self?
+    @_transparent public func nilIfEmpty() -> Self?
     {
         return first(where: { _ in true }).map({ _ in self })
     }
