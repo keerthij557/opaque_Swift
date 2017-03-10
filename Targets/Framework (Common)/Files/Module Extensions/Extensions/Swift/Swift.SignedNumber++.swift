@@ -4,7 +4,7 @@
 
 import Swift
 
-extension Swift.SignedNumber where Self: Initiable
+extension SignedNumber where Self: Initiable
 {
     @_transparent public static func abs(_ value: Self) -> Self
     {

@@ -4,7 +4,7 @@
 
 import Swift
 
-extension Swift.SignedInteger
+extension SignedInteger
 {
     @_transparent public mutating func advance(by distance: Int)
     {
