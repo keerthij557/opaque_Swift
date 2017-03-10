@@ -4,7 +4,17 @@
 
 import Swift
 
+extension Bool: Error
+{
+    
+}
+
 extension Optional: Error
+{
+    
+}
+
+extension String: Error
 {
     
 }

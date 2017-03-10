@@ -59,14 +59,6 @@ import Swift
     fatalError(String(describing: error), file: file, line: line)
 }
 
-extension Bool: Error
-{
-    
-}
-extension String: Error
-{
-    
-}
 extension Boolean where Self: Error
 {
     public func throwSelfIfFalse() throws
@@ -82,7 +74,7 @@ extension Collection
 {
     public func fatallyAssertIndexAsValidSubscriptArgument(_ index: Index)
     {
-        if index >= startIndex && index < endIndex
+        if (startIndex == endIndex) || (index < startIndex && index >= endIndex)
         {
             fatalError("Index out of range")
         }
@@ -90,7 +82,10 @@ extension Collection
     
     public func fatallyAssertCollectionIsNotEmpty()
     {
-        _ = isEmpty ?> fatalError("Collection is empty")
+        if isEmpty
+        {
+            fatalError("Collection is empty")
+        }
     }
 }
 
