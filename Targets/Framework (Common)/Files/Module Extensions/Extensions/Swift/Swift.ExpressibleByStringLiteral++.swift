@@ -6,12 +6,12 @@ import Swift
 
 extension ExpressibleByStringLiteral where StringLiteralType == String
 {
-    public init(unicodeScalarLiteral value: String)
+    public init(unicodeScalarLiteral value: StringLiteralType)
     {
         self.init(stringLiteral: value)
     }
 
-    public init(extendedGraphemeClusterLiteral value: String)
+    public init(extendedGraphemeClusterLiteral value: StringLiteralType)
     {
         self.init(stringLiteral: value)
     }
