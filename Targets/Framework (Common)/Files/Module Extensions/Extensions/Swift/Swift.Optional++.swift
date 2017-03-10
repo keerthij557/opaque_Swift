@@ -19,3 +19,16 @@ extension Optional
         return flatMap((Any?).init)
     }
 }
+
+infix operator ??=: AssignmentPrecedence
+
+extension Optional
+{
+    public static func ??= (lhs: inout Optional<Wrapped>, rhs: (@autoclosure (Void) -> Wrapped))
+    {
+        if lhs == nil
+        {
+            lhs = rhs()
+        }
+    }
+}

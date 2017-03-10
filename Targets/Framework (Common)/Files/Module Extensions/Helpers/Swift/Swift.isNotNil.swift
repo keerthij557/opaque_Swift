@@ -4,24 +4,6 @@
 
 import Swift
 
-extension opaque_Optional
-{
-    internal var isNotNil: Bool
-    {
-        return opaque_Optional_wrapped == nil
-    }
-}
-
-infix operator ??=: AssignmentPrecedence
-
-public func ??= <T>(lhs: inout T?, rhs: (@autoclosure (Void) -> T))
-{
-    if lhs == nil
-    {
-        lhs = rhs()
-    }
-}
-
 @_transparent public func isNotNil<T: opaque_Optional>(_ x: T) -> Bool
 {
     return x.isNotNil

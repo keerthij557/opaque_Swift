@@ -6,6 +6,8 @@ import Swift
 
 public protocol opaque_Optional
 {
+    var isNotNil: Bool { get }
+
     var opaque_Optional_wrapped: Any? { get }
     
     mutating func opaque_Optional_set(wrapped: Any?) -> Void?

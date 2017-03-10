@@ -339,10 +339,10 @@
 		D4F591EB1E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591E91E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift */; };
 		D4F591EC1E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591E91E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift */; };
 		D4F591ED1E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591E91E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift */; };
-		D4F591EF1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift */; };
-		D4F591F01E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift */; };
-		D4F591F11E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift */; };
-		D4F591F21E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift */; };
+		D4F591EF1E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.isNotNil.swift */; };
+		D4F591F01E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.isNotNil.swift */; };
+		D4F591F11E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.isNotNil.swift */; };
+		D4F591F21E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591EE1E72EDAD00C9A9CE /* Swift.isNotNil.swift */; };
 		D4F591F41E72F12D00C9A9CE /* Swift+Swift.Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591F31E72F12D00C9A9CE /* Swift+Swift.Countable.swift */; };
 		D4F591F51E72F12D00C9A9CE /* Swift+Swift.Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591F31E72F12D00C9A9CE /* Swift+Swift.Countable.swift */; };
 		D4F591F61E72F12D00C9A9CE /* Swift+Swift.Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F591F31E72F12D00C9A9CE /* Swift+Swift.Countable.swift */; };
@@ -545,7 +545,7 @@
 		D4F591DF1E72ED1700C9A9CE /* Swift+Swift.Boolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Swift+Swift.Boolean.swift"; path = "../../Helpers/Swift/Swift+Swift.Boolean.swift"; sourceTree = "<group>"; };
 		D4F591E41E72ED6500C9A9CE /* Swift+Swift.Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.Error.swift"; sourceTree = "<group>"; };
 		D4F591E91E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.ExpressibleByNilLiteral++.swift"; sourceTree = "<group>"; };
-		D4F591EE1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.OptionalProtocol+.swift"; sourceTree = "<group>"; };
+		D4F591EE1E72EDAD00C9A9CE /* Swift.isNotNil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.isNotNil.swift; sourceTree = "<group>"; };
 		D4F591F31E72F12D00C9A9CE /* Swift+Swift.Countable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.Countable.swift"; sourceTree = "<group>"; };
 		D4F591F81E72F1A700C9A9CE /* Swift.AnyObject+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.AnyObject+.swift"; sourceTree = "<group>"; };
 		D4F591FD1E72F1C900C9A9CE /* Swift.CustomDebugStringConvertible++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.CustomDebugStringConvertible++.swift"; sourceTree = "<group>"; };
@@ -884,6 +884,7 @@
 				D4F592611E72F6B400C9A9CE /* Swift.Initiable.swift */,
 				D4F592431E72F56300C9A9CE /* Swift.IntegerInitiable.swift */,
 				D4F591681E72EC6700C9A9CE /* Swift.is32Bit.swift */,
+				D4F591EE1E72EDAD00C9A9CE /* Swift.isNotNil.swift */,
 				D402D5F11DF2C9E400D600C3 /* Swift.IteratorOnly.swift */,
 				D4F591691E72EC6700C9A9CE /* Swift.mutating.swift */,
 				D4F592491E72F5E400C9A9CE /* Swift.NumberInitiable.swift */,
@@ -915,7 +916,6 @@
 				D4F5916B1E72EC6700C9A9CE /* Swift.opaque.swift */,
 				D4EB79EF1E3A0E4100BFE5BF /* Swift.OpaqueValueWrapper.swift */,
 				D4F5916C1E72EC6700C9A9CE /* Swift.optional.swift */,
-				D4F591EE1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift */,
 				D4F5916D1E72EC6700C9A9CE /* Swift.pipe.swift */,
 				D4F5916E1E72EC6700C9A9CE /* Swift.recursive.swift */,
 				D4F5916F1E72EC6700C9A9CE /* Swift.reorder.swift */,
@@ -1194,7 +1194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F591EF1E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */,
+				D4F591EF1E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */,
 				D408E2101D38F5D1008D51DA /* Swift.opaque_BidirectionalIndex.swift in Sources */,
 				D4F5925D1E72F69400C9A9CE /* Swift.CustomStringConvertible+.swift in Sources */,
 				D49C36F31D550CF900B38EF9 /* Foundation+Swift.opaque_Hashable.swift in Sources */,
@@ -1312,7 +1312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F591F21E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */,
+				D4F591F21E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */,
 				D408E2131D38F5D1008D51DA /* Swift.opaque_BidirectionalIndex.swift in Sources */,
 				D4F592601E72F69400C9A9CE /* Swift.CustomStringConvertible+.swift in Sources */,
 				D49C36F61D550CF900B38EF9 /* Foundation+Swift.opaque_Hashable.swift in Sources */,
@@ -1430,7 +1430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F591F11E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */,
+				D4F591F11E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */,
 				D408E2121D38F5D1008D51DA /* Swift.opaque_BidirectionalIndex.swift in Sources */,
 				D4F5925F1E72F69400C9A9CE /* Swift.CustomStringConvertible+.swift in Sources */,
 				D49C36F51D550CF900B38EF9 /* Foundation+Swift.opaque_Hashable.swift in Sources */,
@@ -1548,7 +1548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F591F01E72EDAD00C9A9CE /* Swift.OptionalProtocol+.swift in Sources */,
+				D4F591F01E72EDAD00C9A9CE /* Swift.isNotNil.swift in Sources */,
 				D408E2111D38F5D1008D51DA /* Swift.opaque_BidirectionalIndex.swift in Sources */,
 				D4F5925E1E72F69400C9A9CE /* Swift.CustomStringConvertible+.swift in Sources */,
 				D49C36F41D550CF900B38EF9 /* Foundation+Swift.opaque_Hashable.swift in Sources */,
