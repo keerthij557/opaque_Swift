@@ -11,6 +11,8 @@ public protocol Boolean
 
 // MARK: - Extensions -
 
+infix operator ?>: LogicalConjunctionPrecedence
+
 extension Boolean
 {
     @_transparent public func then<T>(_ value: (@autoclosure (Void) throws -> T)) rethrows -> T?

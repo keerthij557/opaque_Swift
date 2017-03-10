@@ -11,7 +11,7 @@ import Swift
 
 @_transparent public func silent<T>(_ x: (@autoclosure @escaping (Void) throws -> T?)) -> ((Void) -> T?)
 {
-    return { (try? x()).guaranteedValue }
+    return { (try? x()) ?? nil }
 }
 
 @_transparent public func silent<T, U>(_ f: (@escaping (T) throws -> U)) -> ((T) -> U?)
@@ -21,7 +21,7 @@ import Swift
 
 @_transparent public func silent<T, U>(_ f: (@escaping (T) throws -> U?)) -> ((T) -> U?)
 {
-    return { (try? f($0)).guaranteedValue }
+    return { (try? f($0)) ?? nil }
 }
 
 @_transparent public func silence<T>(_ x: (@autoclosure @escaping (Void) throws -> T)) -> T?
@@ -59,6 +59,14 @@ import Swift
     fatalError(String(describing: error), file: file, line: line)
 }
 
+extension Bool: Error
+{
+    
+}
+extension String: Error
+{
+    
+}
 extension Boolean where Self: Error
 {
     public func throwSelfIfFalse() throws
@@ -74,7 +82,10 @@ extension Collection
 {
     public func fatallyAssertIndexAsValidSubscriptArgument(_ index: Index)
     {
-        _ = contains(index) ||> fatalError("Index out of range")
+        if index >= startIndex && index < endIndex
+        {
+            fatalError("Index out of range")
+        }
     }
     
     public func fatallyAssertCollectionIsNotEmpty()
@@ -87,7 +98,7 @@ extension Optional
 {
     @_transparent public func orFatallyThrow(_ message: (@autoclosure (Void) -> String), file: StaticString = #file, line: UInt = #line) -> Wrapped
     {
-        if let wrapped = wrapped
+        if let wrapped = self
         {
             return wrapped
         }
@@ -110,7 +121,7 @@ extension Optional
     
     @_transparent public func unwrap() throws -> Wrapped
     {
-        guard let wrapped = wrapped else
+        guard let wrapped = self else
         {
             throw Optional<Wrapped>.none
         }

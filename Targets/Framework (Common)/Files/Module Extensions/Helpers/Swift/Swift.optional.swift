@@ -26,7 +26,7 @@ import Swift
 
 @_transparent public func optional<T, U>(_ f: (@escaping (T) -> U?)) -> ((T?) -> U?)
 {
-    return { $0.map(f).guaranteedValue }
+    return { $0.flatMap(f) }
 }
 
 @_transparent public func optional<T, U, V>(_ f: (@escaping (T, U) -> V)) -> ((T?, U?) -> V?)
