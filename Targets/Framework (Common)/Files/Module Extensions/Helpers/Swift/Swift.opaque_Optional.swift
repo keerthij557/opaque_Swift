@@ -32,6 +32,14 @@ extension opaque_Optional
 
 // MARK: - Helpers -
 
+extension Sequence
+{
+    public func nilIfEmpty() -> Self?
+    {
+        return first(where: { _ in true }).map({ _ in self })
+    }
+}
+
 @_transparent public func flattenOptionalIfNecessary(_ x: inout Any)
 {
     guard let result = x as? opaque_Optional else
