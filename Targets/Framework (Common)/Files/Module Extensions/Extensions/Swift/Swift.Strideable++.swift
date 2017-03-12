@@ -15,10 +15,7 @@ extension Strideable
     {
         advance(by: 1)
     }
-}
 
-extension Strideable
-{
     @_transparent public func successor() -> Self
     {
         return advanced(by: 1)
