@@ -48,5 +48,9 @@ extension Zip2Sequence
         return .init(lazy.map({ (($0.0 as Any), ($0.1 as Any)) }))
     }
     
-    public init(opaque:)
+    public init?(opaque: OpaqueRepresentation)
+    {
+        return nil
+    }
 }
+ 

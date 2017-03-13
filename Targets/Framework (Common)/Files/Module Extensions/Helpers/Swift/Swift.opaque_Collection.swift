@@ -14,6 +14,8 @@ public protocol opaque_Collection: opaque_Sequence
     var opaque_Collection_startIndex: Any { get }
     var opaque_Collection_endIndex: Any { get }
     
+    var opaque: AnySequence<(Any, Any)> { get }
+
     func opaque_Collection_element(atPosition _: Any) -> Any?
     func opaque_Collection_elements(withinBounds _: Any) -> Any?
     
@@ -23,7 +25,6 @@ public protocol opaque_Collection: opaque_Sequence
     var isEmpty: Bool { get }
     
     func underestimateCount() -> Int
-    func toOpaque() -> AnySequence<(Any, Any)>
     
     func opaque_Collection_toAnyCollection() -> Any
     func opaque_Collection_toAnyBidirectionalCollectionUsingFauxRandomAccessCollection() -> Any
@@ -50,6 +51,11 @@ extension opaque_Collection where Self: Collection
     public var opaque_Collection_endIndex: Any
     {
         return endIndex
+    }
+    
+    public var opaque: AnySequence<(Any, Any)>
+    {
+        return zip(indices, CollectionOnly(self).indices.lazy.map({ self[$0] })).opaque
     }
     
     public func opaque_Collection_element(atPosition position: Any) -> Any?
@@ -81,11 +87,6 @@ extension opaque_Collection where Self: Collection
         return ()
     }
 
-    public func toOpaque() -> AnySequence<(Any, Any)>
-    {
-        return zip(indices, CollectionOnly(self).indices.lazy.map({ self[$0] })).toOpaque()
-    }
-    
     public func opaque_Collection_toAnyCollection() -> Any
     {
         return AnyCollection(CollectionOnly(self))
