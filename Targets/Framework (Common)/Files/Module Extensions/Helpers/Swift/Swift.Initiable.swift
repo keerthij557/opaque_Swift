@@ -4,7 +4,7 @@
 
 import Swift
 
-public protocol Initiable: Supported
+public protocol Initiable: AnyProtocol
 {
     init()
 }
@@ -14,7 +14,7 @@ public protocol InitiableExpressibleByNilLiteral: ExpressibleByNilLiteral, Initi
     
 }
 
-public protocol SelfInitiable: Supported
+public protocol SelfInitiable: AnyProtocol
 {
     init(_: Self)
 }

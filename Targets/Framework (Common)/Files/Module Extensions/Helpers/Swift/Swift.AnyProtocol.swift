@@ -4,14 +4,14 @@
 
 import Swift
 
-public protocol Supported
+public protocol AnyProtocol
 {
 
 }
 
 // MARK: - Extensions -
 
-extension Supported
+extension AnyProtocol
 {
     @_transparent public init?(_optional _self: Self?)
     {
@@ -24,7 +24,7 @@ extension Supported
     }
 }
 
-extension Supported
+extension AnyProtocol
 {
     @_transparent public func applyingOnSelf<T>(_ f: ((inout Self) throws -> T)) rethrows -> Self
     {
@@ -50,7 +50,7 @@ extension Supported
     }
 }
 
-extension Supported
+extension AnyProtocol
 {
     @_transparent public func mapSelf<T>(_ f: ((Self) throws -> T)) rethrows -> T
     {
@@ -58,7 +58,7 @@ extension Supported
     }
 }
 
-extension Supported
+extension AnyProtocol
 {
     public func printSelf()
     {

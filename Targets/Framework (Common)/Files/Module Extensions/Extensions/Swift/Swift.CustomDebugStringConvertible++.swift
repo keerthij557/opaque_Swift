@@ -6,54 +6,48 @@ import Swift
 
 extension CustomDebugStringConvertible
 {
+    private func describe(label: String?, value: Any) -> String
+    {
+        if let label = label
+        {
+            if value is String
+            {
+                return "\(label): \"\(value)\""
+            }
+                
+            else
+            {
+                return "\(label): \(value)"
+            }
+        }
+            
+        else
+        {
+            return "\(value)"
+        }
+    }
+    
     public var debugDescription: String
     {
         let mirror = Mirror(reflecting: self)
         
-        var mirrorChildren = Array(mirror.children)
+        var children = Array(mirror.children)
         var superclassMirror = mirror.superclassMirror
         
         repeat
         {
-            if let superclassMirrorChildren = superclassMirror?.children
+            if let superclassChildren = superclassMirror?.children
             {
-                mirrorChildren += superclassMirrorChildren
+                children += superclassChildren
             }
             
             superclassMirror = superclassMirror?.superclassMirror
         }
         
-        while superclassMirror != nil; let components = mirrorChildren.map
-        {
-            (label: String?, value: Any) -> String in
-            
-            if let label = label
-            {
-                if value is String
-                {
-                    return "\(label): \"\(value)\""
-                }
-                    
-                else
-                {
-                    return "\(label): \(value)"
-                }
-            }
-                
-            else
-            {
-                return "\(value)"
-            }
-        }
+        while superclassMirror != nil
         
-        if components.count > 0
-        {
-            return "\(mirror.subjectType)(\(components.joined(separator: ", ")))"
-        }
+        let components = children.map(describe)
         
-        else
-        {
-            return "\(type(of: self))"
-        }
+        return components.isEmpty ? "\(type(of: self))" : "\(mirror.subjectType)(\(components.joined(separator: ", ")))"
     }
 }

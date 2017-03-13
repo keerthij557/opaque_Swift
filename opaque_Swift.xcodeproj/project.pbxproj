@@ -55,10 +55,10 @@
 		D408E2431D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */; };
 		D408E2441D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */; };
 		D408E2451D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */; };
-		D408E24C1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
-		D408E24D1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
-		D408E24E1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
-		D408E24F1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
+		D408E24C1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.AnyProtocol.swift */; };
+		D408E24D1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.AnyProtocol.swift */; };
+		D408E24E1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.AnyProtocol.swift */; };
+		D408E24F1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.AnyProtocol.swift */; };
 		D40C70081C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */; };
 		D40C70091C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */; };
 		D40C700A1C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */; };
@@ -502,7 +502,7 @@
 		D408E2321D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_RandomAccessIndex.swift; sourceTree = "<group>"; };
 		D408E23C1D38FF67008D51DA /* Swift.opaque_ExpressibleByIntegerLiteral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_ExpressibleByIntegerLiteral.swift; sourceTree = "<group>"; };
 		D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SignedInteger.swift; sourceTree = "<group>"; };
-		D408E24B1D390388008D51DA /* Swift.Supported.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.Supported.swift; sourceTree = "<group>"; };
+		D408E24B1D390388008D51DA /* Swift.AnyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.AnyProtocol.swift; sourceTree = "<group>"; };
 		D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_IntegerArithmetic.swift; sourceTree = "<group>"; };
 		D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IntegerArithmetic.swift"; sourceTree = "<group>"; };
 		D40C70111C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Equatable.swift"; sourceTree = "<group>"; };
@@ -902,6 +902,7 @@
 				D408E2191D38F757008D51DA /* Swift.-?>.swift */,
 				D408E2231D38F781008D51DA /* Swift.-*>.swift */,
 				D4F591F81E72F1A700C9A9CE /* Swift.AnyObject+.swift */,
+				D408E24B1D390388008D51DA /* Swift.AnyProtocol.swift */,
 				D4F592481E72F5E400C9A9CE /* Swift.ApproximatelyEquatable.swift */,
 				D4F5915E1E72EC6700C9A9CE /* Swift.bind.swift */,
 				D4F591D51E72ED0E00C9A9CE /* Swift.Boolean.swift */,
@@ -966,7 +967,6 @@
 				D4F5916E1E72EC6700C9A9CE /* Swift.recursive.swift */,
 				D4F5916F1E72EC6700C9A9CE /* Swift.reorder.swift */,
 				D4F592701E72F7B800C9A9CE /* Swift.Static.swift */,
-				D408E24B1D390388008D51DA /* Swift.Supported.swift */,
 				D4F591C61E72ECEA00C9A9CE /* Swift.type.swift */,
 				D41843081DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift */,
 				D4F591701E72EC6700C9A9CE /* Swift.variadic.swift */,
@@ -1294,7 +1294,7 @@
 				D4F5924A1E72F5E400C9A9CE /* Swift.ApproximatelyEquatable.swift in Sources */,
 				D4F592621E72F6B400C9A9CE /* Swift.Initiable.swift in Sources */,
 				D4F592721E72F7B800C9A9CE /* Swift.Static.swift in Sources */,
-				D408E24C1D390388008D51DA /* Swift.Supported.swift in Sources */,
+				D408E24C1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */,
 				D4AA346B1E3E897C0037751C /* Swift+Swift.opaque_RandomAccessCollection.swift in Sources */,
 				D4EA4C4D1E76A773001550F9 /* Swift+Swift.OpaqueViewable.swift in Sources */,
 				D4F591991E72EC6700C9A9CE /* Swift.is32Bit.swift in Sources */,
@@ -1427,7 +1427,7 @@
 				D4F5919C1E72EC6700C9A9CE /* Swift.is32Bit.swift in Sources */,
 				D4F591DE1E72ED1000C9A9CE /* Swift.BooleanInitiable.swift in Sources */,
 				D4F591881E72EC6700C9A9CE /* Swift.curry.swift in Sources */,
-				D408E24F1D390388008D51DA /* Swift.Supported.swift in Sources */,
+				D408E24F1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */,
 				D4EA4C411E768AE6001550F9 /* Swift.OpaqueRepresentable.swift in Sources */,
 				D40C70131C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D4EA4C371E767F87001550F9 /* Swift.NaiveOpaqueConvertible.swift in Sources */,
@@ -1554,7 +1554,7 @@
 				D4F5919B1E72EC6700C9A9CE /* Swift.is32Bit.swift in Sources */,
 				D4F591DD1E72ED1000C9A9CE /* Swift.BooleanInitiable.swift in Sources */,
 				D4F591871E72EC6700C9A9CE /* Swift.curry.swift in Sources */,
-				D408E24E1D390388008D51DA /* Swift.Supported.swift in Sources */,
+				D408E24E1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */,
 				D4EA4C401E768AE6001550F9 /* Swift.OpaqueRepresentable.swift in Sources */,
 				D40C70141C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D4EA4C361E767F87001550F9 /* Swift.NaiveOpaqueConvertible.swift in Sources */,
@@ -1681,7 +1681,7 @@
 				D4F5919A1E72EC6700C9A9CE /* Swift.is32Bit.swift in Sources */,
 				D4F591DC1E72ED1000C9A9CE /* Swift.BooleanInitiable.swift in Sources */,
 				D4F591861E72EC6700C9A9CE /* Swift.curry.swift in Sources */,
-				D408E24D1D390388008D51DA /* Swift.Supported.swift in Sources */,
+				D408E24D1D390388008D51DA /* Swift.AnyProtocol.swift in Sources */,
 				D4EA4C3F1E768AE6001550F9 /* Swift.OpaqueRepresentable.swift in Sources */,
 				D40C70151C89E72100CB104B /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D4EA4C351E767F87001550F9 /* Swift.NaiveOpaqueConvertible.swift in Sources */,

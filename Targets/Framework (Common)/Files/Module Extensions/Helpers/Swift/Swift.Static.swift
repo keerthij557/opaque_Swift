@@ -4,7 +4,7 @@
 
 import Swift
 
-public protocol Static: Supported
+public protocol Static: AnyProtocol
 {
     
 }

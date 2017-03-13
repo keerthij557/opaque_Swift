@@ -6,7 +6,7 @@ import Swift
 
 public typealias Equatable2 = opaque_Equatable & Equatable
 
-public protocol opaque_Equatable: Supported
+public protocol opaque_Equatable: AnyProtocol
 {
     func opaque_Equatable_isEqual(to other: Any) -> Bool?
 }

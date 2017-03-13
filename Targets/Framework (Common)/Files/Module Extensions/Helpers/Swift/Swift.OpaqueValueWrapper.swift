@@ -4,7 +4,7 @@
 
 import Swift
 
-public protocol opaque_OpaqueValueWrapper: Supported
+public protocol opaque_OpaqueValueWrapper: AnyProtocol
 {
     var opaque_opaqueValue: Any { get }
     

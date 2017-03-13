@@ -6,7 +6,7 @@ import Swift
 
 public typealias RawRepresentable2 = opaque_RawRepresentable & RawRepresentable
 
-public protocol opaque_RawRepresentable: Supported
+public protocol opaque_RawRepresentable: AnyProtocol
 {
     var opaque_RawRepresentable_rawValue: Any { get }
     
