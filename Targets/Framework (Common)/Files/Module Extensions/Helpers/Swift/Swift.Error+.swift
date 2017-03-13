@@ -104,12 +104,17 @@ extension Optional
         }
     }
     
-    @_transparent public func orFatallyThrowFunctionFailureError(function: StaticString = #function, file: StaticString = #file, line: UInt = #line) -> Wrapped
+    @_transparent public func orFatallyThrowFunctionFailureError(_ function: StaticString = #function, file: StaticString = #file, line: UInt = #line) -> Wrapped
     {
         return orFatallyThrow(String(describing: function) + " failure", file: file, line: line)
     }
     
-    @_transparent public func forceUnwrap(file: StaticString = #file, line: UInt = #line) -> Wrapped
+    @_transparent public func orFatallyThrowUnimplementedError(_ function: StaticString = #function, file: StaticString = #file, line: UInt = #line) -> Wrapped
+    {
+        return unimplemented(function, file: file, line: line)
+    }
+
+    @_transparent public func forceUnwrap(_ file: StaticString = #file, line: UInt = #line) -> Wrapped
     {
         return orFatallyThrow("unexpectedly found nil while unwrapping an Optional value", file: file, line: line)
     }
