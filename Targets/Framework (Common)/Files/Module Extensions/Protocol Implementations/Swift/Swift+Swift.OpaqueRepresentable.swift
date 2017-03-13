@@ -21,36 +21,16 @@ extension AnySequence: OpaqueRepresentable
 
 extension Optional: OpaqueRepresentable
 {
-    public typealias OpaqueRepresentation = Optional<Any>
+    public typealias OpaqueRepresentation = opaque_Optional
     
     public var opaqueRepresentation: OpaqueRepresentation
     {
-        return flatMap((Any?).init)
+        return self
     }
 
     public init?(opaque: OpaqueRepresentation)
     {
-        guard let _self = Optional<_Self>((-?>opaque as _Self)) else
-        {
-            return nil
-        }
-        
-        self = _self
-    }
-}
-
-extension Zip2Sequence
-{
-    public typealias OpaqueRepresentation = AnySequence<(Any, Any)>
-    
-    public var opaqueRepresentation: OpaqueRepresentation
-    {
-        return .init(lazy.map({ (($0.0 as Any), ($0.1 as Any)) }))
-    }
-    
-    public init?(opaque: OpaqueRepresentation)
-    {
-        return nil
+        unimplemented() // self.init(_optional: -?>opaque)
     }
 }
  

@@ -56,12 +56,12 @@ extension opaque_Collection where Self: Collection
     
     public var opaqueRepresentation: AnySequence<(Any, Any)>
     {
-        return zip(indices, CollectionOnly(self).indices.lazy.map({ self[$0] })).opaqueRepresentation
+        return zip(indices, CollectionOnly(self).indices.lazy.map({ self[$0] })).opaqueView
     }
     
     public func opaque_Collection_element(atPosition position: Any) -> Any?
     {
-        return (-?>position).map({ self[$0 as Index] }).opaqueRepresentation
+        return (-?>position).map({ self[$0 as Index] }).opaqueView
     }
     
     public func opaque_Collection_elements(withinBounds bounds: Any) -> Any?
