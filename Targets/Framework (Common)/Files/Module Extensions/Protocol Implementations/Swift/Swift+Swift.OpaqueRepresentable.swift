@@ -13,7 +13,7 @@ extension AnyBidirectionalCollection: OpaqueRepresentable
         return self
     }
     
-    public init?(opaque: OpaqueRepresentation)
+    public init?(opaqueRepresentation opaque: OpaqueRepresentation)
     {
         self.init(_optional: -?>opaque.opaque_BidirectionalCollection_toAnyBidirectionalCollection())
     }
@@ -28,7 +28,7 @@ extension AnyCollection: OpaqueRepresentable
         return self
     }
     
-    public init?(opaque: OpaqueRepresentation)
+    public init?(opaqueRepresentation opaque: OpaqueRepresentation)
     {
         self.init(_optional: -?>opaque.opaque_Collection_toAnyCollection())
     }
@@ -43,7 +43,7 @@ extension AnyRandomAccessCollection: OpaqueRepresentable
         return self
     }
     
-    public init?(opaque: OpaqueRepresentation)
+    public init?(opaqueRepresentation opaque: OpaqueRepresentation)
     {
         self.init(_optional: -?>opaque.opaque_RandomAccessCollection_toAnyRandomAccessCollection())
     }
@@ -58,7 +58,7 @@ extension AnySequence: OpaqueRepresentable
         return self
     }
     
-    public init?(opaque: OpaqueRepresentation)
+    public init?(opaqueRepresentation opaque: OpaqueRepresentation)
     {
         self.init(_optional: -?>opaque.opaque_Sequence_toAnySequence())
     }
@@ -73,7 +73,7 @@ extension Optional: OpaqueRepresentable
         return self
     }
 
-    public init?(opaque: OpaqueRepresentation)
+    public init?(opaqueRepresentation opaque: OpaqueRepresentation)
     {
         guard let _self = opaque as? Wrapped else
         {

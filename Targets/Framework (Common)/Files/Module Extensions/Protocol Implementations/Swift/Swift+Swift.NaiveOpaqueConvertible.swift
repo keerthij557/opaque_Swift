@@ -4,6 +4,19 @@
 
 import Swift
 
+extension AnySequence: NaiveOpaqueConvertible
+{
+    public var naiveOpaque: Any
+    {
+        return self
+    }
+    
+    public init?(naiveOpaque opaque: Any)
+    {
+        self.init(opaqueRepresentation: opaque)
+    }
+}
+
 extension Optional: NaiveOpaqueConvertible
 {
     public var naiveOpaque: Any
