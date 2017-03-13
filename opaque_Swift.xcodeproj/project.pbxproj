@@ -55,10 +55,6 @@
 		D408E2431D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */; };
 		D408E2441D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */; };
 		D408E2451D39014A008D51DA /* Swift.opaque_SignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */; };
-		D408E2471D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */; };
-		D408E2481D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */; };
-		D408E2491D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */; };
-		D408E24A1D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */; };
 		D408E24C1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
 		D408E24D1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
 		D408E24E1D390388008D51DA /* Swift.Supported.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408E24B1D390388008D51DA /* Swift.Supported.swift */; };
@@ -498,7 +494,6 @@
 		D408E2321D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_RandomAccessIndex.swift; sourceTree = "<group>"; };
 		D408E23C1D38FF67008D51DA /* Swift.opaque_ExpressibleByIntegerLiteral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_ExpressibleByIntegerLiteral.swift; sourceTree = "<group>"; };
 		D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SignedInteger.swift; sourceTree = "<group>"; };
-		D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.Zip2Sequence++.swift"; sourceTree = "<group>"; };
 		D408E24B1D390388008D51DA /* Swift.Supported.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.Supported.swift; sourceTree = "<group>"; };
 		D40C70071C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_IntegerArithmetic.swift; sourceTree = "<group>"; };
 		D40C700C1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IntegerArithmetic.swift"; sourceTree = "<group>"; };
@@ -671,7 +666,6 @@
 				D4F592661E72F6C200C9A9CE /* Swift.SignedNumber++.swift */,
 				D4F592001E72F1C900C9A9CE /* Swift.Strideable++.swift */,
 				D4F592011E72F1C900C9A9CE /* Swift.Unmanaged++.swift */,
-				D408E2461D390318008D51DA /* Swift.Zip2Sequence++.swift */,
 				D4F592021E72F1C900C9A9CE /* Swift++.swift */,
 			);
 			path = Swift;
@@ -1010,6 +1004,7 @@
 				D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */,
 				D4F592251E72F2E100C9A9CE /* Swift+Swift.ForwardIndex.swift */,
 				D4F5926B1E72F72400C9A9CE /* Swift+Swift.Initiable.swift */,
+				D4EA4C381E76804F001550F9 /* Swift+Swift.NaiveOpaqueConvertible.swift */,
 				D4F7F0A31E3E3FC5005EFCE4 /* Swift+Swift.opaque_BidirectionalCollection.swift */,
 				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */,
 				D408E2281D38F9B1008D51DA /* Swift+Swift.opaque_Comparable.swift */,
@@ -1024,10 +1019,9 @@
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */,
 				D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */,
+				D4EA4C421E768B3B001550F9 /* Swift+Swift.OpaqueRepresentable.swift */,
 				D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */,
 				D4F592711E72F7B800C9A9CE /* Swift+Swift.Static.swift */,
-				D4EA4C381E76804F001550F9 /* Swift+Swift.NaiveOpaqueConvertible.swift */,
-				D4EA4C421E768B3B001550F9 /* Swift+Swift.OpaqueRepresentable.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -1316,7 +1310,6 @@
 				D445CC8A1DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift in Sources */,
 				D4DF8D981E3B36D300FB71DC /* Swift.opaque_MutableRawRepresentable.swift in Sources */,
 				D4301C001E72FECA000C3BED /* Swift+Swift.ExpressibleByNilLiteral.swift in Sources */,
-				D408E2471D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */,
 				D4F592671E72F6C200C9A9CE /* Swift.SignedNumber++.swift in Sources */,
 				D4D1E20E1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D4F591AD1E72EC6700C9A9CE /* Swift.pipe.swift in Sources */,
@@ -1442,7 +1435,6 @@
 				D40C700E1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
 				D4DF8D9B1E3B36D300FB71DC /* Swift.opaque_MutableRawRepresentable.swift in Sources */,
 				D4301C031E72FECA000C3BED /* Swift+Swift.ExpressibleByNilLiteral.swift in Sources */,
-				D408E24A1D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */,
 				D4F5926A1E72F6C200C9A9CE /* Swift.SignedNumber++.swift in Sources */,
 				D4D1E20F1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D4F591B01E72EC6700C9A9CE /* Swift.pipe.swift in Sources */,
@@ -1568,7 +1560,6 @@
 				D40C700F1C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
 				D4DF8D9A1E3B36D300FB71DC /* Swift.opaque_MutableRawRepresentable.swift in Sources */,
 				D4301C021E72FECA000C3BED /* Swift+Swift.ExpressibleByNilLiteral.swift in Sources */,
-				D408E2491D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */,
 				D4F592691E72F6C200C9A9CE /* Swift.SignedNumber++.swift in Sources */,
 				D4D1E2101C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D4F591AF1E72EC6700C9A9CE /* Swift.pipe.swift in Sources */,
@@ -1694,7 +1685,6 @@
 				D40C70101C89D5EE00CB104B /* Swift+Swift.opaque_IntegerArithmetic.swift in Sources */,
 				D4DF8D991E3B36D300FB71DC /* Swift.opaque_MutableRawRepresentable.swift in Sources */,
 				D4301C011E72FECA000C3BED /* Swift+Swift.ExpressibleByNilLiteral.swift in Sources */,
-				D408E2481D390318008D51DA /* Swift.Zip2Sequence++.swift in Sources */,
 				D4F592681E72F6C200C9A9CE /* Swift.SignedNumber++.swift in Sources */,
 				D4D1E2111C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D4F591AE1E72EC6700C9A9CE /* Swift.pipe.swift in Sources */,

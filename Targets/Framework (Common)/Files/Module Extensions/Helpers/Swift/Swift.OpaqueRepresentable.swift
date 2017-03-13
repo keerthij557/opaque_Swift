@@ -10,5 +10,18 @@ public protocol OpaqueRepresentable
     
     var opaque: OpaqueRepresentation { get }
     
-    init(opaque: OpaqueRepresentation)
+    init?(opaque: OpaqueRepresentation)
+}
+
+extension OpaqueRepresentable
+{
+    public init?<T>(opaque: T)
+    {
+        guard let opaque = opaque as? OpaqueRepresentation else
+        {
+            return nil
+        }
+        
+        self.init(opaque: opaque)
+    }
 }

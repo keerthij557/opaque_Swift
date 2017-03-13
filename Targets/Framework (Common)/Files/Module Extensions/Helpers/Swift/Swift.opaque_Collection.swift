@@ -54,7 +54,7 @@ extension opaque_Collection where Self: Collection
     
     public func opaque_Collection_element(atPosition position: Any) -> Any?
     {
-        return (-?>position).map({ self[$0 as Index] }).toOpaque()
+        return (-?>position).map({ self[$0 as Index] }).opaque
     }
     
     public func opaque_Collection_elements(withinBounds bounds: Any) -> Any?

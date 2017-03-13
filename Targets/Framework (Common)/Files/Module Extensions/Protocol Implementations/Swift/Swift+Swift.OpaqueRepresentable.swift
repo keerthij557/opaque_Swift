@@ -4,10 +4,30 @@
 
 import Swift
 
-extension Optional
+extension AnySequence: OpaqueRepresentable
 {
-    public typealias OpaqueRepresentation = Any?
+    public typealias OpaqueRepresentation = opaque_Sequence
     
+    public var opaque: OpaqueRepresentation
+    {
+        return self
+    }
+    
+    public init?(opaque: OpaqueRepresentation)
+    {
+        self.init(_optional: -?>opaque.opaque_Sequence_toAnySequence())
+    }
+}
+
+extension Optional: OpaqueRepresentable
+{
+    public typealias OpaqueRepresentation = Optional<Any>
+    
+    public var opaque: OpaqueRepresentation
+    {
+        return flatMap((Any?).init)
+    }
+
     public init?(opaque: OpaqueRepresentation)
     {
         guard let _self = Optional<_Self>((-?>opaque as _Self)) else
@@ -17,9 +37,16 @@ extension Optional
         
         self = _self
     }
+}
+
+extension Zip2Sequence
+{
+    public typealias OpaqueRepresentation = AnySequence<(Any, Any)>
     
     public var opaque: OpaqueRepresentation
     {
-        return flatMap((Any?).init)
+        return .init(lazy.map({ (($0.0 as Any), ($0.1 as Any)) }))
     }
+    
+    public init(opaque:)
 }

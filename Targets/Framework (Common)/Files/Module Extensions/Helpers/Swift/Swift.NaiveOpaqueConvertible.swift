@@ -6,7 +6,7 @@ import Swift
 
 public protocol NaiveOpaqueConvertible
 {
+    var naiveOpaque: Any { get }
+    
     init?(naiveOpaque: Any)
-
-    func toNaiveOpaque() -> Any
 }
