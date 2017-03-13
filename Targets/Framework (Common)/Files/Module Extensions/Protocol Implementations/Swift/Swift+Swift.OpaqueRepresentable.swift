@@ -4,9 +4,9 @@
 
 import Swift
 
-extension AnySequence: OpaqueRepresentable
+extension AnyBidirectionalCollection: OpaqueRepresentable
 {
-    public typealias OpaqueRepresentation = opaque_Sequence
+    public typealias OpaqueRepresentation = opaque_BidirectionalCollection
     
     public var opaqueRepresentation: OpaqueRepresentation
     {
@@ -15,7 +15,7 @@ extension AnySequence: OpaqueRepresentable
     
     public init?(opaque: OpaqueRepresentation)
     {
-        self.init(_optional: -?>opaque.opaque_Sequence_toAnySequence())
+        self.init(_optional: -?>opaque.opaque_BidirectionalCollection_toAnyBidirectionalCollection())
     }
 }
 
@@ -34,9 +34,9 @@ extension AnyCollection: OpaqueRepresentable
     }
 }
 
-extension AnyBidirectionalCollection: OpaqueRepresentable
+extension AnyRandomAccessCollection: OpaqueRepresentable
 {
-    public typealias OpaqueRepresentation = opaque_BidirectionalCollection
+    public typealias OpaqueRepresentation = opaque_RandomAccessCollection
     
     public var opaqueRepresentation: OpaqueRepresentation
     {
@@ -45,7 +45,22 @@ extension AnyBidirectionalCollection: OpaqueRepresentable
     
     public init?(opaque: OpaqueRepresentation)
     {
-        self.init(_optional: -?>opaque.opaque_Collection_toAnyCollection())
+        self.init(_optional: -?>opaque.opaque_RandomAccessCollection_toAnyRandomAccessCollection())
+    }
+}
+
+extension AnySequence: OpaqueRepresentable
+{
+    public typealias OpaqueRepresentation = opaque_Sequence
+    
+    public var opaqueRepresentation: OpaqueRepresentation
+    {
+        return self
+    }
+    
+    public init?(opaque: OpaqueRepresentation)
+    {
+        self.init(_optional: -?>opaque.opaque_Sequence_toAnySequence())
     }
 }
 

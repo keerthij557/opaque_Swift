@@ -3,3 +3,8 @@
 //
 
 import Swift
+
+extension AnyBidirectionalCollection: opaque_BidirectionalCollection
+{
+    
+}
