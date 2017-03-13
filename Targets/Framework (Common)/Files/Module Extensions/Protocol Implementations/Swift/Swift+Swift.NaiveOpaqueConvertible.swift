@@ -17,6 +17,21 @@ extension AnySequence
     }
 }
 
+extension Optional
+{
+    public typealias OpaqueRepresentation = Any?
+    
+    public init?(opaque: OpaqueRepresentation)
+    {
+        self.init(naiveOpaque: opaque as Any)
+    }
+    
+    public func toOpaque() -> OpaqueRepresentation
+    {
+        return flatMap((Any?).init)
+    }
+}
+
 extension Optional: NaiveOpaqueConvertible
 {
     public init?(naiveOpaque opaque: Any)
@@ -32,10 +47,5 @@ extension Optional: NaiveOpaqueConvertible
     public func toNaiveOpaque() -> Any
     {
         return toOpaque() as Any
-    }
-
-    public func toOpaque() -> Any?
-    {
-        return flatMap((Any?).init)
     }
 }
