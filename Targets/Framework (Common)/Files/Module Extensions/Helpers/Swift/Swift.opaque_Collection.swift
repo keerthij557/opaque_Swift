@@ -19,7 +19,7 @@ public protocol opaque_Collection: opaque_Sequence
     var opaque_Collection_startIndex: Any { get }
     var opaque_Collection_endIndex: Any { get }
     
-    var opaque: AnySequence<(Any, Any)> { get }
+    var opaqueRepresentation: AnySequence<(Any, Any)> { get }
 
     func opaque_Collection_element(atPosition _: Any) -> Any?
     func opaque_Collection_elements(withinBounds _: Any) -> Any?
@@ -54,14 +54,14 @@ extension opaque_Collection where Self: Collection
         return endIndex
     }
     
-    public var opaque: AnySequence<(Any, Any)>
+    public var opaqueRepresentation: AnySequence<(Any, Any)>
     {
-        return zip(indices, CollectionOnly(self).indices.lazy.map({ self[$0] })).opaque
+        return zip(indices, CollectionOnly(self).indices.lazy.map({ self[$0] })).opaqueRepresentation
     }
     
     public func opaque_Collection_element(atPosition position: Any) -> Any?
     {
-        return (-?>position).map({ self[$0 as Index] }).opaque
+        return (-?>position).map({ self[$0 as Index] }).opaqueRepresentation
     }
     
     public func opaque_Collection_elements(withinBounds bounds: Any) -> Any?
@@ -71,21 +71,12 @@ extension opaque_Collection where Self: Collection
 
     public func opaque_Collection_index(after i: Any) -> Any?
     {
-        return (-?>i).map(index(after:))
+        return opaque(index(after:))(i)
     }
     
     public func opaque_Collection_formIndex(after i: inout Any) -> Void?
     {
-        guard var _i = i as? Index else
-        {
-            return nil
-        }
-        
-        formIndex(after: &_i)
-        
-        i = _i
-        
-        return ()
+        return opaque(formIndex)(&i)
     }
 
     public func opaque_Collection_toAnyCollection() -> Any

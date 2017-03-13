@@ -8,7 +8,7 @@ public protocol OpaqueRepresentable
 {
     associatedtype OpaqueRepresentation
     
-    var opaque: OpaqueRepresentation { get }
+    var opaqueRepresentation: OpaqueRepresentation { get }
     
     init?(opaque: OpaqueRepresentation)
 }

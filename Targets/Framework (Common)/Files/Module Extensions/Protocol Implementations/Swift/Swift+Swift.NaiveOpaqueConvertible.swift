@@ -8,7 +8,7 @@ extension Optional: NaiveOpaqueConvertible
 {
     public var naiveOpaque: Any
     {
-        return opaque as Any
+        return opaqueRepresentation as Any
     }
 
     public init?(naiveOpaque opaque: Any)

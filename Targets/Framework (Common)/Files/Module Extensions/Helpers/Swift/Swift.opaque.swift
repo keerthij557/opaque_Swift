@@ -49,6 +49,21 @@ import Swift
     return { optional(f)($0 as? T, $1 as? U, $2 as? V, $3 as? W, $4 as? X, $5 as? Y) }
 }
 
+@_transparent public func opaque<T>(_ f: (@escaping (inout T) -> Void)) -> ((inout Any) -> Void?)
+{
+    func g(_ x: inout Any) -> Void?
+    {
+        guard var x = x as? T else
+        {
+            return nil
+        }
+        
+        return f(&x)
+    }
+    
+    return g
+}
+
 @_transparent public func transparent<T>(_ t: Any.Type) -> T.Type
 {
     return t as! T.Type

@@ -8,7 +8,7 @@ extension AnySequence: OpaqueRepresentable
 {
     public typealias OpaqueRepresentation = opaque_Sequence
     
-    public var opaque: OpaqueRepresentation
+    public var opaqueRepresentation: OpaqueRepresentation
     {
         return self
     }
@@ -23,7 +23,7 @@ extension Optional: OpaqueRepresentable
 {
     public typealias OpaqueRepresentation = Optional<Any>
     
-    public var opaque: OpaqueRepresentation
+    public var opaqueRepresentation: OpaqueRepresentation
     {
         return flatMap((Any?).init)
     }
@@ -43,7 +43,7 @@ extension Zip2Sequence
 {
     public typealias OpaqueRepresentation = AnySequence<(Any, Any)>
     
-    public var opaque: OpaqueRepresentation
+    public var opaqueRepresentation: OpaqueRepresentation
     {
         return .init(lazy.map({ (($0.0 as Any), ($0.1 as Any)) }))
     }

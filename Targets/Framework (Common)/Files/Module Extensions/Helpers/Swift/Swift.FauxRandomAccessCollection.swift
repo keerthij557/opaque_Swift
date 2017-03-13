@@ -70,3 +70,21 @@ extension FauxRandomAccessCollection: RandomAccessCollection2
         return index.advanced(by: -1)
     }
 }
+
+// MARK: - Helpers - 
+
+extension Collection
+{
+    public var fauxRandomAccessView: FauxRandomAccessCollection<Self>
+    {
+        get
+        {
+            return .init(self)
+        }
+        
+        set
+        {
+            self = newValue.value
+        }
+    }
+}
