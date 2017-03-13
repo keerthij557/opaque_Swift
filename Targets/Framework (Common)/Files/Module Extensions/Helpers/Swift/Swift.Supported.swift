@@ -13,6 +13,19 @@ public protocol Supported
 
 extension Supported
 {
+    @_transparent public init?(_optional _self: Self?)
+    {
+        guard let _self = _self else
+        {
+            return nil
+        }
+        
+        self = _self
+    }
+}
+
+extension Supported
+{
     @_transparent public func applyingOnSelf<T>(_ f: ((inout Self) throws -> T)) rethrows -> Self
     {
         var result = self
@@ -35,7 +48,10 @@ extension Supported
         
         return self
     }
-    
+}
+
+extension Supported
+{
     @_transparent public func mapSelf<T>(_ f: ((Self) throws -> T)) rethrows -> T
     {
         return try f(self)

@@ -991,11 +991,9 @@
 				D4301BF01E72FECA000C3BED /* Swift+Swift.ExpressibleByFloatLiteral.swift */,
 				D4301BF11E72FECA000C3BED /* Swift+Swift.ExpressibleByIntegerLiteral.swift */,
 				D4301BF21E72FECA000C3BED /* Swift+Swift.ExpressibleByNilLiteral.swift */,
-				D4F592251E72F2E100C9A9CE /* Swift+Swift.ForwardIndex.swift */,
 				D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */,
+				D4F592251E72F2E100C9A9CE /* Swift+Swift.ForwardIndex.swift */,
 				D4F5926B1E72F72400C9A9CE /* Swift+Swift.Initiable.swift */,
-				D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */,
-				D4F592711E72F7B800C9A9CE /* Swift+Swift.Static.swift */,
 				D4F7F0A31E3E3FC5005EFCE4 /* Swift+Swift.opaque_BidirectionalCollection.swift */,
 				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */,
 				D408E2281D38F9B1008D51DA /* Swift+Swift.opaque_Comparable.swift */,
@@ -1010,6 +1008,8 @@
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */,
 				D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */,
+				D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */,
+				D4F592711E72F7B800C9A9CE /* Swift+Swift.Static.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

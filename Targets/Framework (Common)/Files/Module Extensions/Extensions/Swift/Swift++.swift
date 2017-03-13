@@ -4,6 +4,11 @@
 
 import Swift
 
+extension AnySequence
+{
+    public typealias _Self = AnySequence
+}
+
 extension Array
 {
     public typealias _Self = Array
