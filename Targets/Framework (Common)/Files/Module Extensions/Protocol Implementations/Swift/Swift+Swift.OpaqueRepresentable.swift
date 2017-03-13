@@ -19,6 +19,36 @@ extension AnySequence: OpaqueRepresentable
     }
 }
 
+extension AnyCollection: OpaqueRepresentable
+{
+    public typealias OpaqueRepresentation = opaque_Collection
+    
+    public var opaqueRepresentation: OpaqueRepresentation
+    {
+        return self
+    }
+    
+    public init?(opaque: OpaqueRepresentation)
+    {
+        self.init(_optional: -?>opaque.opaque_Collection_toAnyCollection())
+    }
+}
+
+extension AnyBidirectionalCollection: OpaqueRepresentable
+{
+    public typealias OpaqueRepresentation = opaque_BidirectionalCollection
+    
+    public var opaqueRepresentation: OpaqueRepresentation
+    {
+        return self
+    }
+    
+    public init?(opaque: OpaqueRepresentation)
+    {
+        self.init(_optional: -?>opaque.opaque_Collection_toAnyCollection())
+    }
+}
+
 extension Optional: OpaqueRepresentable
 {
     public typealias OpaqueRepresentation = opaque_Optional
