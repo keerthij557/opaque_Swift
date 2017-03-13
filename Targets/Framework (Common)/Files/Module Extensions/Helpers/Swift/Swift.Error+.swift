@@ -111,7 +111,7 @@ extension Optional
     
     @_transparent public func orFatallyThrowUnimplementedError(_ function: StaticString = #function, file: StaticString = #file, line: UInt = #line) -> Wrapped
     {
-        return unimplemented(function, file: file, line: line)
+        return orFatallyThrow("\(function) unimplemented", file: file, line: line)
     }
 
     @_transparent public func forceUnwrap(_ file: StaticString = #file, line: UInt = #line) -> Wrapped
