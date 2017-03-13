@@ -4,6 +4,8 @@
 
 import Swift
 
+infix operator ??=: AssignmentPrecedence
+
 extension Optional
 {
     @_transparent public func castMap<T, U>(_ transform: ((T) -> U)) -> U?
@@ -11,8 +13,6 @@ extension Optional
         return (-?>self).map(transform)
     }
 }
-
-infix operator ??=: AssignmentPrecedence
 
 extension Optional
 {
