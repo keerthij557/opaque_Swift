@@ -6,7 +6,14 @@ import Swift
 
 public typealias Collection2 = opaque_Collection & Collection
 
-public protocol opaque_Collection: opaque_Sequence
+public protocol opaque_already_Collection
+{
+    var isEmpty: Bool { get }
+    
+    func underestimateCount() -> Int
+}
+
+public protocol opaque_Collection: opaque_already_Collection, opaque_Sequence
 {
     static var opaque_Collection__Element: Any.Type { get }
     static var opaque_Collection_Index: Any.Type { get }
@@ -21,10 +28,6 @@ public protocol opaque_Collection: opaque_Sequence
     
     func opaque_Collection_index(after i: Any) -> Any?
     func opaque_Collection_formIndex(after i: inout Any) -> Void?
-
-    var isEmpty: Bool { get }
-    
-    func underestimateCount() -> Int
     
     func opaque_Collection_toAnyCollection() -> Any
     func opaque_Collection_toAnyBidirectionalCollectionUsingFauxRandomAccessCollection() -> Any
