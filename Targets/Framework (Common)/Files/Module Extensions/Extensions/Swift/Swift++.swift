@@ -19,6 +19,11 @@ extension Dictionary
     public typealias _Self = Dictionary
 }
 
+extension Optional
+{
+    public typealias _Self = Optional
+}
+
 extension Set
 {
     public typealias _Self = Set

@@ -14,7 +14,7 @@ public protocol opaque_Sequence: Supported
     func opaque_Sequence_makeIterator() -> opaque_IteratorProtocol
     func opaque_Sequence_toAnySequence() -> Any
     
-    func opaque() -> AnySequence<Any>
+    func toOpaque() -> AnySequence<Any>
 }
 
 extension opaque_Sequence where Self: Sequence
@@ -39,7 +39,7 @@ extension opaque_Sequence where Self: Sequence
         return AnySequence({ self.makeIterator() })
     }
     
-    public func opaque() -> AnySequence<Any>
+    public func toOpaque() -> AnySequence<Any>
     {
         return AnySequence(lazy.map({ $0 }))
     }

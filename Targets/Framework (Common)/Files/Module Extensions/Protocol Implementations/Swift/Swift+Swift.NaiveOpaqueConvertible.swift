@@ -4,14 +4,37 @@
 
 import Swift
 
-extension Optional
+extension AnySequence
 {
-    @_transparent init?(opaque: Any)
+    public init?<T>(opaque: T)
     {
-        self.init(_optional: -?>opaque)
+        self.init(_optional: -?>(-?>opaque as opaque_Sequence?)?.opaque_Sequence_toAnySequence())
     }
     
-    @_transparent public func opaque() -> Any?
+    public init?(opaque: opaque_Sequence)
+    {
+        self.init(_optional: -?>opaque.opaque_Sequence_toAnySequence())
+    }
+}
+
+extension Optional: NaiveOpaqueConvertible
+{
+    public init?(naiveOpaque opaque: Any)
+    {
+        guard let _self = Optional<_Self>((-?>opaque as _Self)) else
+        {
+            return nil
+        }
+
+        self = _self
+    }
+    
+    public func toNaiveOpaque() -> Any
+    {
+        return toOpaque() as Any
+    }
+
+    public func toOpaque() -> Any?
     {
         return flatMap((Any?).init)
     }

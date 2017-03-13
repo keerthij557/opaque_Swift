@@ -13,7 +13,7 @@ public protocol opaque_IteratorProtocol: Supported
     mutating func opaque_IteratorProtocol_next() -> Any?
     
     func opaque_IteratorProtocol_toAnyIterator() -> Any
-    func opaque() -> AnyIterator<Any>
+    func toOpaque() -> AnyIterator<Any>
 }
 
 extension opaque_IteratorProtocol where Self: IteratorProtocol
@@ -33,7 +33,7 @@ extension opaque_IteratorProtocol where Self: IteratorProtocol
         return AnyIterator(self)
     }
     
-    public func opaque() -> AnyIterator<Any>
+    public func toOpaque() -> AnyIterator<Any>
     {
         var copyOfSelf = self
         
