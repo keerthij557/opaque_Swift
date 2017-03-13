@@ -81,16 +81,16 @@ extension opaque_Collection where Self: Collection
 
     public func opaque_Collection_toAnyCollection() -> Any
     {
-        return AnyCollection(CollectionOnly(self))
+        return AnyCollection(fauxRandomAccessView)
     }
     
     public func opaque_Collection_toAnyBidirectionalCollectionUsingFauxRandomAccessCollection() -> Any
     {
-        return AnyBidirectionalCollection(FauxRandomAccessCollection(self))
+        return AnyBidirectionalCollection(fauxRandomAccessView)
     }
     
     public func opaque_Collection_toAnyRandomAccessCollectionUsingFauxRandomAccessCollection() -> Any
     {
-        return AnyRandomAccessCollection(FauxRandomAccessCollection(self))
+        return AnyRandomAccessCollection(fauxRandomAccessView)
     }
 }
