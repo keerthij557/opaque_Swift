@@ -17,7 +17,7 @@ extension CustomDebugStringConvertible
         {
             if let superclassMirrorChildren = superclassMirror?.children
             {
-                mirrorChildren.append(contentsOf: superclassMirrorChildren)
+                mirrorChildren += superclassMirrorChildren
             }
             
             superclassMirror = superclassMirror?.superclassMirror
