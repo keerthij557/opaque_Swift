@@ -6,9 +6,9 @@ import Swift
 
 extension Optional: opaque_Optional
 {
-    public var isNotNil: Bool
+    public var isNil: Bool
     {
-        return self != nil
+        return self == nil
     }
 
     public var opaque_Optional_wrapped: Any?

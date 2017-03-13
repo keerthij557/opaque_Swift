@@ -4,9 +4,9 @@
 
 import Swift
 
-public protocol opaque_Optional
+public protocol opaque_Optional: AnyProtocol
 {
-    var isNotNil: Bool { get }
+    var isNil: Bool { get }
 
     var opaque_Optional_wrapped: Any? { get }
     
@@ -17,6 +17,11 @@ public protocol opaque_Optional
 
 extension opaque_Optional
 {
+    public var isNotNil: Bool
+    {
+        return !isNil
+    }
+    
     public func opaque_Optional_flattening() -> Any?
     {
         var result = opaque_Optional_wrapped
