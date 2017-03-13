@@ -30,7 +30,21 @@ extension Optional: OpaqueRepresentable
 
     public init?(opaque: OpaqueRepresentation)
     {
-        unimplemented() // self.init(_optional: -?>opaque)
+        guard let _self = opaque as? Wrapped else
+        {
+            if opaque is _Self.Type
+            {
+                self = nil
+                
+                return
+            }
+                
+            else
+            {
+                return nil
+            }
+        }
+        
+        self = _self
     }
 }
- 

@@ -10,9 +10,7 @@ extension AnySequence: OpaqueViewable
     
     public var opaqueView: OpaqueView
     {
-        let x = lazy.map({ $0 as Any })
-        
-        return AnySequence(x)
+        return AnySequence<Any>(lazy.map({ $0 as Any }))
     }
 }
 
