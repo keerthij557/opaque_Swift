@@ -12,14 +12,6 @@ extension Optional
     }
 }
 
-extension Optional
-{
-    @_transparent public func opaque() -> Any?
-    {
-        return flatMap((Any?).init)
-    }
-}
-
 infix operator ??=: AssignmentPrecedence
 
 extension Optional
