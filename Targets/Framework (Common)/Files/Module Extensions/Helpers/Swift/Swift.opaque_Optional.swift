@@ -52,5 +52,13 @@ extension Sequence
         return
     }
     
-    x = result.opaque_Optional_flattening() as Any
+    if let value = result.opaque_Optional_flattening()
+    {
+        x = value
+    }
+    
+    else
+    {
+        x = Optional<Any>.none
+    }
 }
