@@ -62,3 +62,5 @@ extension Sequence
         x = Optional<Any>.none
     }
 }
+
+@_transparent public func 
