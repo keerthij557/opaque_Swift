@@ -33,6 +33,16 @@ extension opaque_Optional
         
         return result
     }
+    
+    public func opaque_Optional_valueOrNil() -> Any
+    {
+        guard let value = opaque_Optional_flattening() else
+        {
+            return Optional<Any>.none
+        }
+        
+        return value
+    }
 }
 
 // MARK: - Helpers -
@@ -44,23 +54,3 @@ extension Sequence
         return first(where: { _ in true }).map({ _ in self })
     }
 }
-
-@_transparent public func flattenOptionalIfNecessary(_ x: inout Any)
-{
-    guard let result = x as? opaque_Optional else
-    {
-        return
-    }
-    
-    if let value = result.opaque_Optional_flattening()
-    {
-        x = value
-    }
-    
-    else
-    {
-        x = Optional<Any>.none
-    }
-}
-
-@_transparent public func 
