@@ -6,6 +6,8 @@ import Swift
 
 public protocol opaque_Optional: AnyProtocol
 {
+    static var opaque_Optional_Wrapped: Any.Type { get }
+    
     var isNil: Bool { get }
 
     var opaque_Optional_wrapped: Any? { get }
