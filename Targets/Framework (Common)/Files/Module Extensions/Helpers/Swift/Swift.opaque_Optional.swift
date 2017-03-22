@@ -40,7 +40,7 @@ extension opaque_Optional
     {
         guard let value = opaque_Optional_flattening() else
         {
-            return Optional<Any>.none
+            return Optional<Any>.none as Any
         }
         
         return value
