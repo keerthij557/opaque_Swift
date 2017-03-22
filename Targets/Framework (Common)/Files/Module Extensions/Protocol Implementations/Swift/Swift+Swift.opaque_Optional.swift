@@ -6,16 +6,16 @@ import Swift
 
 extension ImplicitlyUnwrappedOptional: opaque_Optional
 {
-    public var optionalValue: Optional<Wrapped>
+    private var optionalValue: Optional<Wrapped>
     {
         get
         {
-            return Optional(self)
+            return -*>self
         }
         
         set
         {
-            self = newValue
+            self = -*>newValue
         }
     }
     
@@ -26,17 +26,17 @@ extension ImplicitlyUnwrappedOptional: opaque_Optional
     
     public var isNil: Bool
     {
-        return Optional(self).isNil
+        return optionalValue.isNil
     }
     
     public var opaque_Optional_wrapped: Any?
     {
-        return Optional(self).opaque_Optional_wrapped
+        return optionalValue.opaque_Optional_wrapped
     }
     
     public mutating func opaque_Optional_set(wrapped: Any?) -> Void?
     {
-        return (-?>wrapped).map({ self = $0 })
+        return optionalValue.opaque_Optional_set(wrapped: wrapped)
     }
 }
 
