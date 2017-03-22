@@ -89,6 +89,11 @@ import Swift
     return x
 }
 
+@_transparent public func compulsory<T, U>(_ x: (T?, U?)) -> (T, U)!
+{
+    return compound(x.0, x.1)
+}
+
 @_transparent public func compulsory<T, U>(_ f: (@escaping (T?) -> U)) -> ((T) -> U)
 {
     return { f($0) }
