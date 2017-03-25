@@ -49,7 +49,7 @@ public func unavailable<T, U>(_: T) -> U
 
 public func unimplemented(_ function: String = #function, file: StaticString = #file, line: UInt = #line) -> Never
 {
-    fatalError(function, file: file, line: line)
+    fatalError("\(function) unimplemented", file: file, line: line)
 }
  
 public func unimplemented<T>(_ function: String = #function, file: StaticString = #file, line: UInt = #line) -> T
