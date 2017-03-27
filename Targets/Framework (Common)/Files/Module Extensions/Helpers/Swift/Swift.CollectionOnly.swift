@@ -4,11 +4,11 @@
 
 import Swift
 
-internal struct CollectionOnly<C: Collection>
+public struct CollectionOnly<C: Collection>
 {
-    typealias Value = C
+    public typealias Value = C
     
-    var value: Value
+    public let value: Value
     
     @_transparent init(_ value: Value)
     {
@@ -18,9 +18,9 @@ internal struct CollectionOnly<C: Collection>
 
 extension CollectionOnly: Sequence2
 {
-    typealias Iterator = Value.Iterator
+    public typealias Iterator = Value.Iterator
     
-    @_transparent func makeIterator() -> Iterator
+    @_transparent public func makeIterator() -> Iterator
     {
         return value.makeIterator()
     }
@@ -28,20 +28,20 @@ extension CollectionOnly: Sequence2
 
 extension CollectionOnly: Collection2
 {
-    typealias Index = Value.Index
-    typealias IndexDistance = Value.IndexDistance
+    public typealias Index = Value.Index
+    public typealias IndexDistance = Value.IndexDistance
     
-    @_transparent var startIndex: Index
+    @_transparent public var startIndex: Index
     {
         return value.startIndex
     }
     
-    @_transparent var endIndex: Index
+    @_transparent public var endIndex: Index
     {
         return value.endIndex
     }
     
-    subscript(index: Index) -> Iterator.Element
+    public subscript(index: Index) -> Iterator.Element
     {
         @_transparent get
         {
@@ -49,8 +49,18 @@ extension CollectionOnly: Collection2
         }
     }
     
-    @_transparent func index(after index: Index) -> Index
+    @_transparent public func index(after index: Index) -> Index
     {
         return value.index(index, offsetBy: 1)
+    }
+}
+
+// MARK: - Helpers -
+
+extension Collection
+{
+    public var collectionOnly: CollectionOnly<Self>
+    {
+        return .init(self)
     }
 }
