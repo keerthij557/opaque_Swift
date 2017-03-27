@@ -4,9 +4,9 @@
 
 import Swift
 
-public protocol NaiveOpaqueConvertible
+public protocol AnyConvertible
 {
-    var naiveOpaque: Any { get }
+    var anyValue: Any { get }
     
-    init?(naiveOpaque: Any)
+    init?(anyValue: Any)
 }

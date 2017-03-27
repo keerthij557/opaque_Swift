@@ -4,27 +4,27 @@
 
 import Swift
 
-extension AnySequence: NaiveOpaqueConvertible
+extension AnySequence: AnyConvertible
 {
-    public var naiveOpaque: Any
+    public var anyValue: Any
     {
         return self
     }
     
-    public init?(naiveOpaque opaque: Any)
+    public init?(anyValue opaque: Any)
     {
         self.init(opaqueRepresentation: opaque)
     }
 }
 
-extension Optional: NaiveOpaqueConvertible
+extension Optional: AnyConvertible
 {
-    public var naiveOpaque: Any
+    public var anyValue: Any
     {
         return opaqueRepresentation as Any
     }
 
-    public init?(naiveOpaque opaque: Any)
+    public init?(anyValue opaque: Any)
     {
         guard let _self = Optional<_Self>((-?>opaque as _Self)) else
         {

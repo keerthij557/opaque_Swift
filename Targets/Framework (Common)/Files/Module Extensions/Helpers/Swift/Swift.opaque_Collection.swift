@@ -71,12 +71,26 @@ extension opaque_Collection where Self: Collection
 
     public func opaque_Collection_index(after i: Any) -> Any?
     {
-        return opaque(index(after:))(i)
+        guard let i = i as? Index else
+        {
+            return nil
+        }
+        
+        return index(after: i)
     }
     
     public func opaque_Collection_formIndex(after i: inout Any) -> Void?
     {
-        return opaque(formIndex)(&i)
+        guard var _i = i as? Index else
+        {
+            return nil
+        }
+        
+        formIndex(after: &_i)
+        
+        i = _i
+        
+        return ()
     }
 
     public func opaque_Collection_toAnyCollection() -> Any
