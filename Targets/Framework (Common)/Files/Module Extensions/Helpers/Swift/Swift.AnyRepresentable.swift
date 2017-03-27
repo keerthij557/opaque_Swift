@@ -4,7 +4,7 @@
 
 import Swift
 
-public protocol AnyConvertible
+public protocol AnyRepresentable
 {
     var anyValue: Any { get }
     

@@ -4,7 +4,7 @@
 
 import Swift
 
-extension AnySequence: AnyConvertible
+extension AnySequence: AnyRepresentable
 {
     public var anyValue: Any
     {
@@ -17,7 +17,7 @@ extension AnySequence: AnyConvertible
     }
 }
 
-extension Optional: AnyConvertible
+extension Optional: AnyRepresentable
 {
     public var anyValue: Any
     {
