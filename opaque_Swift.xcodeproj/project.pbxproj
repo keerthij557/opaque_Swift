@@ -668,20 +668,20 @@
 		D42447231C5248D3007B9992 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				D4F592021E72F1C900C9A9CE /* Swift++.swift */,
 				D4F591FD1E72F1C900C9A9CE /* Swift.CustomDebugStringConvertible++.swift */,
 				D4F591E91E72ED9900C9A9CE /* Swift.ExpressibleByNilLiteral++.swift */,
 				D4F5922A1E72F3AF00C9A9CE /* Swift.ExpressibleByStringLiteral++.swift */,
 				D4F5922B1E72F3AF00C9A9CE /* Swift.IteratorOverOne++.swift */,
 				D4F5922C1E72F3AF00C9A9CE /* Swift.JoinSequence++.swift */,
-				D4F591FE1E72F1C900C9A9CE /* Swift.OptionSet++.swift */,
 				D424470E1C5248B2007B9992 /* Swift.Optional++.swift */,
+				D4F591FE1E72F1C900C9A9CE /* Swift.OptionSet++.swift */,
 				D4F592391E72F40A00C9A9CE /* Swift.Range++.swift */,
 				D4F591FF1E72F1C900C9A9CE /* Swift.RawRepresentable++.swift */,
 				D4F5923E1E72F41300C9A9CE /* Swift.SignedInteger++.swift */,
 				D4F592661E72F6C200C9A9CE /* Swift.SignedNumber++.swift */,
 				D4F592001E72F1C900C9A9CE /* Swift.Strideable++.swift */,
 				D4F592011E72F1C900C9A9CE /* Swift.Unmanaged++.swift */,
+				D4F592021E72F1C900C9A9CE /* Swift++.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
