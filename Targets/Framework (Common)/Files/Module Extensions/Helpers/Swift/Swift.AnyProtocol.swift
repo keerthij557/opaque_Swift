@@ -6,7 +6,7 @@ import Swift
 
 public protocol AnyProtocol
 {
-
+    typealias _Self = Self
 }
 
 // MARK: - Extensions -
