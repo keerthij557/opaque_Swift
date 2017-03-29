@@ -6,10 +6,15 @@ import Swift
 
 public protocol AnyProtocol
 {
-    typealias _Self = Self
+
 }
 
 // MARK: - Extensions -
+
+extension AnyProtocol
+{
+    public typealias _Self = Self
+}
 
 extension AnyProtocol
 {
