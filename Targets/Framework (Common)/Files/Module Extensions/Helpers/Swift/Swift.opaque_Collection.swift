@@ -55,7 +55,7 @@ extension opaque_Collection where Self: Collection
     
     public var opaqueRepresentation: AnySequence<(Any, Any)>
     {
-        return zip(indices, indices.lazy.map({ self[-*>$0 as Index] })).opaqueView
+        return Swift.zip(indices, indices.lazy.map({ self[-*>$0 as Index] })).opaqueView
     }
     
     public func opaque_Collection_element(atPosition position: Any) -> Any?
