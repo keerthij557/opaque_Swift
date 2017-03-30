@@ -641,13 +641,14 @@
 			isa = PBXGroup;
 			children = (
 				D408E21E1D38F75C008D51DA /* Swift.-!>.swift */,
-				D408E2231D38F781008D51DA /* Swift.-*>.swift */,
 				D408E2191D38F757008D51DA /* Swift.-?>.swift */,
+				D408E2231D38F781008D51DA /* Swift.-*>.swift */,
 				D408E24B1D390388008D51DA /* Swift.AnyProtocol.swift */,
 				D4EA4C331E767F87001550F9 /* Swift.AnyRepresentable.swift */,
 				D4F591D51E72ED0E00C9A9CE /* Swift.Boolean.swift */,
 				D4F591DA1E72ED1000C9A9CE /* Swift.BooleanInitiable.swift */,
 				D4C9145D1DF1C0BD0063F457 /* Swift.CollectionOnly.swift */,
+				D44C3AA01E8D0567003F5260 /* Swift.FailableOpaqueValueWrapper.swift */,
 				D436D53E1E6090F900C496A8 /* Swift.FauxRandomAccessCollection.swift */,
 				D436D5431E60985B00C496A8 /* Swift.FauxRandomAccessIndex.swift */,
 				D4F592571E72F62700C9A9CE /* Swift.FloatingPointInitiable.swift */,
@@ -656,10 +657,6 @@
 				D4F592431E72F56300C9A9CE /* Swift.IntegerInitiable.swift */,
 				D402D5F11DF2C9E400D600C3 /* Swift.IteratorOnly.swift */,
 				D4F592491E72F5E400C9A9CE /* Swift.NumberInitiable.swift */,
-				D4EA4C3D1E768AE6001550F9 /* Swift.OpaqueRepresentable.swift */,
-				D4EB79EF1E3A0E4100BFE5BF /* Swift.OpaqueValueWrapper.swift */,
-				D4EA4C471E76A73D001550F9 /* Swift.OpaqueViewable.swift */,
-				D41843081DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift */,
 				D408E22D1D38FB68008D51DA /* Swift.opaque_AbsoluteValuable.swift */,
 				D4F08CD31DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift */,
 				D408E20F1D38F5D1008D51DA /* Swift.opaque_BidirectionalIndex.swift */,
@@ -685,7 +682,10 @@
 				D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */,
 				D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */,
 				D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */,
-				D44C3AA01E8D0567003F5260 /* Swift.FailableOpaqueValueWrapper.swift */,
+				D4EA4C3D1E768AE6001550F9 /* Swift.OpaqueRepresentable.swift */,
+				D4EB79EF1E3A0E4100BFE5BF /* Swift.OpaqueValueWrapper.swift */,
+				D4EA4C471E76A73D001550F9 /* Swift.OpaqueViewable.swift */,
+				D41843081DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -723,9 +723,6 @@
 				D4EA4C381E76804F001550F9 /* Swift+Swift.AnyRepresentable.swift */,
 				D4F591DF1E72ED1700C9A9CE /* Swift+Swift.Boolean.swift */,
 				D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */,
-				D4EA4C421E768B3B001550F9 /* Swift+Swift.OpaqueRepresentable.swift */,
-				D4EA4C4C1E76A773001550F9 /* Swift+Swift.OpaqueViewable.swift */,
-				D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */,
 				D4F7F0A31E3E3FC5005EFCE4 /* Swift+Swift.opaque_BidirectionalCollection.swift */,
 				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */,
 				D408E2281D38F9B1008D51DA /* Swift+Swift.opaque_Comparable.swift */,
@@ -740,6 +737,9 @@
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */,
 				D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */,
+				D4EA4C421E768B3B001550F9 /* Swift+Swift.OpaqueRepresentable.swift */,
+				D4EA4C4C1E76A773001550F9 /* Swift+Swift.OpaqueViewable.swift */,
+				D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

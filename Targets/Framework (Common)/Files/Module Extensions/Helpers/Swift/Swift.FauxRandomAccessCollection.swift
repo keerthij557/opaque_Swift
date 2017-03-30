@@ -16,15 +16,7 @@ public struct FauxRandomAccessCollection<C: Collection>
     }
 }
 
-extension FauxRandomAccessCollection: Sequence2
-{
-    public typealias Iterator = Value.Iterator
-    
-    @_transparent public func makeIterator() -> Iterator
-    {
-        return value.makeIterator()
-    }
-}
+// MARK: - Protocol Implementation -
 
 extension FauxRandomAccessCollection: RandomAccessCollection2
 {
@@ -68,6 +60,16 @@ extension FauxRandomAccessCollection: RandomAccessCollection2
     @_transparent public func index(before index: Index) -> Index
     {
         return index.advanced(by: -1)
+    }
+}
+
+extension FauxRandomAccessCollection: Sequence2
+{
+    public typealias Iterator = Value.Iterator
+    
+    @_transparent public func makeIterator() -> Iterator
+    {
+        return value.makeIterator()
     }
 }
 

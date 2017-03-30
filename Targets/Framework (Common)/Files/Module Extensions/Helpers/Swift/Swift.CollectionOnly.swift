@@ -16,15 +16,7 @@ internal struct _CollectionOnly<C: Collection>
     }
 }
 
-extension _CollectionOnly: Sequence2
-{
-    typealias Iterator = Value.Iterator
-    
-    @_transparent func makeIterator() -> Iterator
-    {
-        return value.makeIterator()
-    }
-}
+// MARK: - Protocol Implementations -
 
 extension _CollectionOnly: Collection2
 {
@@ -52,5 +44,15 @@ extension _CollectionOnly: Collection2
     @_transparent func index(after index: Index) -> Index
     {
         return value.index(index, offsetBy: 1)
+    }
+}
+
+extension _CollectionOnly: Sequence2
+{
+    typealias Iterator = Value.Iterator
+    
+    @_transparent func makeIterator() -> Iterator
+    {
+        return value.makeIterator()
     }
 }

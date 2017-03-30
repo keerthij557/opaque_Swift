@@ -24,7 +24,7 @@ extension opaque_OpaqueValueWrapper where Self: OpaqueValueWrapper
     }
 }
 
-public protocol OpaqueValueWrapper: opaque_OpaqueValueWrapper
+public protocol OpaqueValueWrapper: opaque_OpaqueValueWrapper, FailableOpaqueValueWrapper
 {
     associatedtype OpaqueValue
     
