@@ -12,7 +12,6 @@ public protocol opaque_Collection: opaque_Sequence
     
     func underestimateCount() -> Int
 
-    
     static var opaque_Collection__Element: Any.Type { get }
     static var opaque_Collection_Index: Any.Type { get }
     
