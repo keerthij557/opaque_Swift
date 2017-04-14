@@ -87,6 +87,34 @@
 		D42447351C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
 		D42447361C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
 		D42447371C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */; };
+		D42AFE871EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE861EA0F5940008179A /* Swift.opaque_SetProtocol.swift */; };
+		D42AFE881EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE861EA0F5940008179A /* Swift.opaque_SetProtocol.swift */; };
+		D42AFE891EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE861EA0F5940008179A /* Swift.opaque_SetProtocol.swift */; };
+		D42AFE8A1EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE861EA0F5940008179A /* Swift.opaque_SetProtocol.swift */; };
+		D42AFE8C1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE8B1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift */; };
+		D42AFE8D1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE8B1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift */; };
+		D42AFE8E1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE8B1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift */; };
+		D42AFE8F1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE8B1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift */; };
+		D42AFE911EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE901EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift */; };
+		D42AFE921EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE901EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift */; };
+		D42AFE931EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE901EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift */; };
+		D42AFE941EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE901EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift */; };
+		D42AFE961EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE951EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift */; };
+		D42AFE971EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE951EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift */; };
+		D42AFE981EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE951EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift */; };
+		D42AFE991EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE951EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift */; };
+		D42AFE9B1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9A1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift */; };
+		D42AFE9C1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9A1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift */; };
+		D42AFE9D1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9A1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift */; };
+		D42AFE9E1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9A1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift */; };
+		D42AFEA01EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9F1EA0F7450008179A /* Swift.opaque_ResizableSequence.swift */; };
+		D42AFEA11EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9F1EA0F7450008179A /* Swift.opaque_ResizableSequence.swift */; };
+		D42AFEA21EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9F1EA0F7450008179A /* Swift.opaque_ResizableSequence.swift */; };
+		D42AFEA31EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFE9F1EA0F7450008179A /* Swift.opaque_ResizableSequence.swift */; };
+		D42AFEAA1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFEA91EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift */; };
+		D42AFEAB1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFEA91EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift */; };
+		D42AFEAC1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFEA91EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift */; };
+		D42AFEAD1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42AFEA91EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift */; };
 		D42F4E4A1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */; };
 		D42F4E4B1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */; };
 		D42F4E4C1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */; };
@@ -314,6 +342,13 @@
 		D424470E1C5248B2007B9992 /* Swift.Optional++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift.Optional++.swift"; sourceTree = "<group>"; };
 		D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_MutableCollection.swift; sourceTree = "<group>"; };
 		D42447331C525277007B9992 /* Swift+Swift.opaque_IteratorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_IteratorProtocol.swift"; sourceTree = "<group>"; };
+		D42AFE861EA0F5940008179A /* Swift.opaque_SetProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SetProtocol.swift; sourceTree = "<group>"; };
+		D42AFE8B1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_MutableSequence.swift; sourceTree = "<group>"; };
+		D42AFE901EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_DestructivelyMutableSequence.swift; sourceTree = "<group>"; };
+		D42AFE951EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SequenceInitiableSequence.swift; sourceTree = "<group>"; };
+		D42AFE9A1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_ExtensibleSequence.swift; sourceTree = "<group>"; };
+		D42AFE9F1EA0F7450008179A /* Swift.opaque_ResizableSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_ResizableSequence.swift; sourceTree = "<group>"; };
+		D42AFEA91EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_SignedOrUnsigned.swift; sourceTree = "<group>"; };
 		D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_Optional.swift; sourceTree = "<group>"; };
 		D42F4E4E1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.opaque_Optional.swift"; sourceTree = "<group>"; };
 		D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Swift.SelfInitiable.swift"; sourceTree = "<group>"; };
@@ -662,8 +697,10 @@
 				D408E20F1D38F5D1008D51DA /* Swift.opaque_BidirectionalIndex.swift */,
 				D46C151E1C4FADB8006641D5 /* Swift.opaque_Collection.swift */,
 				D46C151F1C4FADB8006641D5 /* Swift.opaque_Comparable.swift */,
+				D42AFE901EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift */,
 				D46C15201C4FADB8006641D5 /* Swift.opaque_Equatable.swift */,
 				D408E23C1D38FF67008D51DA /* Swift.opaque_ExpressibleByIntegerLiteral.swift */,
+				D42AFE9A1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift */,
 				D468E65E1C8A068C00553390 /* Swift.opaque_FloatingPoint.swift */,
 				D408E20A1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift */,
 				D46C15221C4FADB8006641D5 /* Swift.opaque_Hashable.swift */,
@@ -672,14 +709,19 @@
 				D46C15211C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift */,
 				D42447141C5248C3007B9992 /* Swift.opaque_MutableCollection.swift */,
 				D4DF8D971E3B36D300FB71DC /* Swift.opaque_MutableRawRepresentable.swift */,
+				D42AFE8B1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift */,
 				D42F4E491E447AA70079E389 /* Swift.opaque_Optional.swift */,
 				D402D5EC1DF2C7A800D600C3 /* Swift.opaque_RandomAccessCollection.swift */,
 				D408E2321D38FC71008D51DA /* Swift.opaque_RandomAccessIndex.swift */,
 				D4D1E1F81C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift */,
 				D4DF8D921E3B362000FB71DC /* Swift.opaque_RawRepresentable.swift */,
+				D42AFE9F1EA0F7450008179A /* Swift.opaque_ResizableSequence.swift */,
 				D46C15371C4FADC4006641D5 /* Swift.opaque_Sequence.swift */,
+				D42AFE951EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift */,
+				D42AFE861EA0F5940008179A /* Swift.opaque_SetProtocol.swift */,
 				D408E2411D39014A008D51DA /* Swift.opaque_SignedInteger.swift */,
 				D4608C6B1C8BF80800A443BD /* Swift.opaque_SignedNumber.swift */,
+				D42AFEA91EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift */,
 				D468E6681C8A077200553390 /* Swift.opaque_Strideable.swift */,
 				D445CC891DF18FB3006019BF /* Swift.opaque_UnsignedInteger.swift */,
 				D4EA4C3D1E768AE6001550F9 /* Swift.OpaqueRepresentable.swift */,
@@ -723,6 +765,9 @@
 				D4EA4C381E76804F001550F9 /* Swift+Swift.AnyRepresentable.swift */,
 				D4F591DF1E72ED1700C9A9CE /* Swift+Swift.Boolean.swift */,
 				D4C9B9A71CB96D570023E9C2 /* Swift+Swift.Forwarder.swift */,
+				D4EA4C421E768B3B001550F9 /* Swift+Swift.OpaqueRepresentable.swift */,
+				D4EA4C4C1E76A773001550F9 /* Swift+Swift.OpaqueViewable.swift */,
+				D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */,
 				D4F7F0A31E3E3FC5005EFCE4 /* Swift+Swift.opaque_BidirectionalCollection.swift */,
 				D4D1E2121C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift */,
 				D408E2281D38F9B1008D51DA /* Swift+Swift.opaque_Comparable.swift */,
@@ -737,9 +782,6 @@
 				D4D1E20D1C4FBB110038BCD5 /* Swift+Swift.opaque_RangeReplaceableCollection.swift */,
 				D4D1E1EE1C4FB22E0038BCD5 /* Swift+Swift.opaque_Sequence.swift */,
 				D4608C701C8BF8D200A443BD /* Swift+Swift.opaque_SignedNumber.swift */,
-				D4EA4C421E768B3B001550F9 /* Swift+Swift.OpaqueRepresentable.swift */,
-				D4EA4C4C1E76A773001550F9 /* Swift+Swift.OpaqueViewable.swift */,
-				D4301BE61E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -967,13 +1009,18 @@
 				D424470F1C5248B2007B9992 /* Swift.Optional++.swift in Sources */,
 				D4D1E75E1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
 				D424471A1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
+				D42AFE9B1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */,
 				D46C152F1C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
 				D46C15271C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
+				D42AFE961EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */,
 				D4301BE71E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift in Sources */,
 				D46C152B1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
+				D42AFEAA1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */,
 				D468E65F1C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E21F1D38F75C008D51DA /* Swift.-!>.swift in Sources */,
 				D4D1E1F91C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
+				D42AFEA01EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */,
+				D42AFE871EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */,
 				D42F4E4A1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D408E20B1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
 				D43D27B81C9AC76A00DE9256 /* Foundation+Swift.opaque_IteratorProtocol.swift in Sources */,
@@ -1009,8 +1056,10 @@
 				D40C70081C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */,
 				D4C9145E1DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BD1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D42AFE8C1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */,
 				D41843091DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
 				D4F592581E72F62700C9A9CE /* Swift.FloatingPointInitiable.swift in Sources */,
+				D42AFE911EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */,
 				D42F4E4F1E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E66E1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD41DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
@@ -1045,13 +1094,18 @@
 				D445CC8D1DF1915F006019BF /* Swift.opaque_UnsignedInteger.swift in Sources */,
 				D46C15301C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
 				D4D1E7611C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
+				D42AFE9E1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */,
 				D424471B1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
 				D46C15281C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
+				D42AFE991EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */,
 				D4301BEA1E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift in Sources */,
 				D46C152C1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
+				D42AFEAD1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */,
 				D4D1E1FA1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6601C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E2221D38F75C008D51DA /* Swift.-!>.swift in Sources */,
+				D42AFEA31EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */,
+				D42AFE8A1EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */,
 				D42F4E4D1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D4D1E2141C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D408E20E1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
@@ -1087,8 +1141,10 @@
 				D40C70091C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */,
 				D4C914611DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27C01C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D42AFE8F1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */,
 				D418430C1DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
 				D4F5925B1E72F62700C9A9CE /* Swift.FloatingPointInitiable.swift in Sources */,
+				D42AFE941EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */,
 				D42F4E521E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E66F1C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD71DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
@@ -1123,13 +1179,18 @@
 				D445CC8C1DF1915D006019BF /* Swift.opaque_UnsignedInteger.swift in Sources */,
 				D46C15311C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
 				D4D1E7601C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
+				D42AFE9D1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */,
 				D424471C1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
 				D46C15291C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
+				D42AFE981EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */,
 				D4301BE91E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift in Sources */,
 				D46C152D1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
+				D42AFEAC1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */,
 				D4D1E1FB1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6611C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E2211D38F75C008D51DA /* Swift.-!>.swift in Sources */,
+				D42AFEA21EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */,
+				D42AFE891EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */,
 				D42F4E4C1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D4D1E2151C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D408E20D1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
@@ -1165,8 +1226,10 @@
 				D40C700A1C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */,
 				D4C914601DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BF1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D42AFE8E1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */,
 				D418430B1DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
 				D4F5925A1E72F62700C9A9CE /* Swift.FloatingPointInitiable.swift in Sources */,
+				D42AFE931EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */,
 				D42F4E511E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E6701C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD61DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
@@ -1201,13 +1264,18 @@
 				D46C15321C4FADB8006641D5 /* Swift.opaque_IteratorProtocol.swift in Sources */,
 				D4D1E75F1C9999E400A23F95 /* Swift+Swift.opaque_Integer.swift in Sources */,
 				D445CC8B1DF1915A006019BF /* Swift.opaque_UnsignedInteger.swift in Sources */,
+				D42AFE9C1EA0F6F30008179A /* Swift.opaque_ExtensibleSequence.swift in Sources */,
 				D424471D1C5248C3007B9992 /* Swift.opaque_MutableCollection.swift in Sources */,
 				D46C152A1C4FADB8006641D5 /* Swift.opaque_Comparable.swift in Sources */,
+				D42AFE971EA0F63A0008179A /* Swift.opaque_SequenceInitiableSequence.swift in Sources */,
 				D4301BE81E72FE24000C3BED /* Swift+Swift.SelfInitiable.swift in Sources */,
 				D46C152E1C4FADB8006641D5 /* Swift.opaque_Equatable.swift in Sources */,
+				D42AFEAB1EA0F8810008179A /* Swift.opaque_SignedOrUnsigned.swift in Sources */,
 				D4D1E1FC1C4FB3560038BCD5 /* Swift.opaque_RangeReplaceableCollection.swift in Sources */,
 				D468E6621C8A068C00553390 /* Swift.opaque_FloatingPoint.swift in Sources */,
 				D408E2201D38F75C008D51DA /* Swift.-!>.swift in Sources */,
+				D42AFEA11EA0F7450008179A /* Swift.opaque_ResizableSequence.swift in Sources */,
+				D42AFE881EA0F5940008179A /* Swift.opaque_SetProtocol.swift in Sources */,
 				D42F4E4B1E447AA70079E389 /* Swift.opaque_Optional.swift in Sources */,
 				D4D1E2161C4FBBD40038BCD5 /* Swift+Swift.opaque_Collection.swift in Sources */,
 				D408E20C1D38F5B4008D51DA /* Swift.opaque_ForwardIndex.swift in Sources */,
@@ -1243,8 +1311,10 @@
 				D40C700B1C89D43700CB104B /* Swift.opaque_IntegerArithmetic.swift in Sources */,
 				D4C9145F1DF1C0BD0063F457 /* Swift.CollectionOnly.swift in Sources */,
 				D43D27BE1C9AC78100DE9256 /* Foundation+Swift.opaque_Sequence.swift in Sources */,
+				D42AFE8D1EA0F5BA0008179A /* Swift.opaque_MutableSequence.swift in Sources */,
 				D418430A1DFDBA58008D6A93 /* Swift.UnsafeBufferPointerInitiable.swift in Sources */,
 				D4F592591E72F62700C9A9CE /* Swift.FloatingPointInitiable.swift in Sources */,
+				D42AFE921EA0F5D90008179A /* Swift.opaque_DestructivelyMutableSequence.swift in Sources */,
 				D42F4E501E447ADB0079E389 /* Swift+Swift.opaque_Optional.swift in Sources */,
 				D468E6711C8A085100553390 /* Swift+Swift.opaque_FloatingPoint.swift in Sources */,
 				D4F08CD51DF20F690060E663 /* Swift.opaque_BidirectionalCollection.swift in Sources */,
