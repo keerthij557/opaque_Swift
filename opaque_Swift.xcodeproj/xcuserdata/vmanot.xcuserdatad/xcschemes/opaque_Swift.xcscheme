@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D46C15021C4FAD3A006641D5"
+               BlueprintIdentifier = "D493C0831EDA12D2004317DD"
                BuildableName = "opaque_Swift.framework"
-               BlueprintName = "opaque_Swift-tvOS"
+               BlueprintName = "opaque_Swift"
                ReferencedContainer = "container:opaque_Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46C15021C4FAD3A006641D5"
+            BlueprintIdentifier = "D493C0831EDA12D2004317DD"
             BuildableName = "opaque_Swift.framework"
-            BlueprintName = "opaque_Swift-tvOS"
+            BlueprintName = "opaque_Swift"
             ReferencedContainer = "container:opaque_Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D46C15021C4FAD3A006641D5"
+            BlueprintIdentifier = "D493C0831EDA12D2004317DD"
             BuildableName = "opaque_Swift.framework"
-            BlueprintName = "opaque_Swift-tvOS"
+            BlueprintName = "opaque_Swift"
             ReferencedContainer = "container:opaque_Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

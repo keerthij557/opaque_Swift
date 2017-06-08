@@ -6,14 +6,14 @@ import Swift
 
 public protocol opaque_OpaqueValueWrapper: AnyProtocol
 {
-    var opaque_OpaqueValueWrapper: Any { get }
+    var opaque_OpaqueValueWrapper_opaqueValue: Any { get }
     
     static func opaque_OpaqueValueWrapper_init(opaqueValue: Any) -> opaque_OpaqueValueWrapper?
 }
 
 extension opaque_OpaqueValueWrapper where Self: OpaqueValueWrapper
 {
-    public var opaque_OpaqueValueWrapper: Any
+    public var opaque_OpaqueValueWrapper_opaqueValue: Any
     {
         return opaqueValue
     }

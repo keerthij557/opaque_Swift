@@ -12,6 +12,16 @@ extension Optional
     {
         return (-?>self).map(transform)
     }
+    
+    @_transparent public mutating func remove() -> Wrapped
+    {
+        defer
+        {
+            self = nil
+        }
+        
+        return self!
+    }
 }
 
 extension Optional

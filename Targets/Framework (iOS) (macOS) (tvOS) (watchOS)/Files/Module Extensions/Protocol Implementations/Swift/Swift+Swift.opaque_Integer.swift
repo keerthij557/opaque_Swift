@@ -4,8 +4,6 @@
 
 import Swift
 
-// MARK: - opaque_SignedInteger -
-
 extension Int: opaque_SignedInteger
 {
     
@@ -30,8 +28,6 @@ extension Int64: opaque_SignedInteger
 {
     
 }
-
-// MARK: - opaque_UnsignedInteger -
 
 extension UInt: opaque_UnsignedInteger
 {

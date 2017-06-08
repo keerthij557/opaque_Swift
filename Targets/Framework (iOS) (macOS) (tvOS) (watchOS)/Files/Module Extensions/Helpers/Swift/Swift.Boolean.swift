@@ -11,7 +11,7 @@ public protocol Boolean
 
 // MARK: - Extensions -
 
-infix operator ?>: LogicalConjunctionPrecedence
+infix operator &&>: LogicalConjunctionPrecedence
 
 extension Boolean
 {
@@ -20,7 +20,7 @@ extension Boolean
         return boolValue ? try value() : nil
     }
     
-    @discardableResult @_transparent public static func ?> <T>(lhs: Self, rhs: (@autoclosure (Void) throws -> T)) rethrows -> T?
+    @discardableResult @_transparent public static func &&> <T>(lhs: Self, rhs: (@autoclosure (Void) throws -> T)) rethrows -> T?
     {
         return try lhs.then(rhs())
     }
@@ -30,7 +30,7 @@ extension Boolean
         return boolValue ? try value() : nil
     }
     
-    @discardableResult @_transparent public static func ?> <T>(lhs: Self, rhs: (@autoclosure (Void) throws -> T?)) rethrows -> T?
+    @discardableResult @_transparent public static func &&> <T>(lhs: Self, rhs: (@autoclosure (Void) throws -> T?)) rethrows -> T?
     {
         return try lhs.then(rhs())
     }
