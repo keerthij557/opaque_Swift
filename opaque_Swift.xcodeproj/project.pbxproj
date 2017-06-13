@@ -119,6 +119,7 @@
 				<string>D493C1231EDA136D004317DD</string>
 				<string>D493C12E1EDA136D004317DD</string>
 				<string>D493C10B1EDA136D004317DD</string>
+				<string>D4B6AC9A1EEB73C10006AC3B</string>
 				<string>D493C0C31EDA1363004317DD</string>
 				<string>D493C1181EDA136D004317DD</string>
 				<string>D493C0C11EDA1363004317DD</string>
@@ -753,6 +754,7 @@
 				<string>D493C0F11EDA136D004317DD</string>
 				<string>D493C0F21EDA136D004317DD</string>
 				<string>D493C0F31EDA136D004317DD</string>
+				<string>D4B6AC991EEB73C10006AC3B</string>
 				<string>D493C0F41EDA136D004317DD</string>
 				<string>D493C0F51EDA136D004317DD</string>
 				<string>D493C0F61EDA136D004317DD</string>
@@ -2410,6 +2412,26 @@
 			<string>Framework (iOS) (macOS) (tvOS) (watchOS)</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D4B6AC991EEB73C10006AC3B</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Swift.opaque_OptionSet.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D4B6AC9A1EEB73C10006AC3B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4B6AC991EEB73C10006AC3B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
