@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D45C1E9A1F031ABD0066B718 /* Swift.opaque_ArithmeticOperatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45C1E991F031ABD0066B718 /* Swift.opaque_ArithmeticOperatable.swift */; };
 		D493C0891EDA12D2004317DD /* opaque_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = D493C0871EDA12D2004317DD /* opaque_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D493C09C1EDA1355004317DD /* Swift.Optional++.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493C09B1EDA1355004317DD /* Swift.Optional++.swift */; };
 		D493C0B11EDA1363004317DD /* Swift+Swift.AnyRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D493C09D1EDA1363004317DD /* Swift+Swift.AnyRepresentable.swift */; };
@@ -91,7 +90,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D45C1E991F031ABD0066B718 /* Swift.opaque_ArithmeticOperatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.opaque_ArithmeticOperatable.swift; sourceTree = "<group>"; };
 		D493C0841EDA12D2004317DD /* opaque_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = opaque_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D493C0871EDA12D2004317DD /* opaque_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opaque_Swift.h; sourceTree = "<group>"; };
 		D493C0881EDA12D2004317DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -282,7 +280,6 @@
 			isa = PBXGroup;
 			children = (
 				D493C0CD1EDA136D004317DD /* Swift.-!>.swift */,
-				D45C1E991F031ABD0066B718 /* Swift.opaque_ArithmeticOperatable.swift */,
 				D493C0CE1EDA136D004317DD /* Swift.-*>.swift */,
 				D493C0CF1EDA136D004317DD /* Swift.-?>.swift */,
 				D493C0D01EDA136D004317DD /* Swift.AnyProtocol.swift */,
@@ -492,7 +489,6 @@
 				D493C0C41EDA1363004317DD /* Swift+Swift.opaque_SignedNumber.swift in Sources */,
 				D493C0BA1EDA1363004317DD /* Swift+Swift.opaque_Equatable.swift in Sources */,
 				D493C1311EDA136D004317DD /* Swift.opaque_SetProtocol.swift in Sources */,
-				D45C1E9A1F031ABD0066B718 /* Swift.opaque_ArithmeticOperatable.swift in Sources */,
 				D493C1301EDA136D004317DD /* Swift.opaque_SequenceInitiableSequence.swift in Sources */,
 				D493C1331EDA136D004317DD /* Swift.opaque_SignedNumber.swift in Sources */,
 				D493C1131EDA136D004317DD /* Swift.OpaqueRepresentable.swift in Sources */,
